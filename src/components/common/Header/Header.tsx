@@ -16,8 +16,13 @@ import {
 
 const NORMAL_LINKS = [
   {
+    name: "How Does It Work?",
+    href: "#how-does-it-work",
+    classNames: [styles.LinkText],
+  },
+  {
     name: "STABLE Stablecoins",
-    href: "/app/stablecoins",
+    href: "/app/bonds",
     classNames: [styles.LinkText],
   },
   {
