@@ -1,6 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
+
+// components
+import WhyUseStable from "@/components/section/WhyUseStable/WhyUseStable";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,13 +18,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="sidelined-image-container">
-        <img
-          src="/images/sidelined-image.svg"
-          alt="sidelined-image"
-          className="sidelined-image"
-        />
-      </div>
+      <main>
+        <div className="sidelined-image-container">
+          <img
+            src="/images/sidelined-image.svg"
+            alt="sidelined-image"
+            className="sidelined-image"
+          />
+        </div>
+        <WhyUseStable />
+      </main>
     </>
   );
 }
