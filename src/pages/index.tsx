@@ -16,6 +16,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="sidelined-image-container">
+        <img
+          src="/images/sidelined-image.svg"
+          alt="sidelined-image"
+          className="sidelined-image"
+        />
+      </div>
     </>
   );
 }
