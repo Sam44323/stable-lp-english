@@ -10,6 +10,18 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  background: linear-gradient(
+    205.23deg,
+    #1680bf 0%,
+    #1e5c9b 32.63%,
+    #1a4484 100%
+  );
+  min-height: 100vh !important;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
 a {
   color: inherit;
   text-decoration: none !important;
@@ -17,7 +29,6 @@ a {
 
 .sidelined-image-container {
   width: 100%;
-  background-color: saddlebrown;
   .sidelined-image {
     position: absolute;
     top: 0;
