@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import classNames from "classnames";
 import styles from "./WhyUseStable.module.scss";
 
 const IMAGE_CONTENT = [
@@ -7,6 +8,12 @@ const IMAGE_CONTENT = [
   "/images/fantom-icon.svg",
   "/images/polygon-icon.svg",
   "/images/avalanche-icon.svg",
+];
+
+const REGULATION_IMAGE_CONTENT = [
+  "/images/kyc-image.svg",
+  "/images/cft-image.svg",
+  "/images/aml-image.svg",
 ];
 
 const WhyUseStable: React.FC = () => {
@@ -30,7 +37,12 @@ const WhyUseStable: React.FC = () => {
           />
         </div>
       </section>
-      <section className={styles.MultiChainContainer}>
+      <section
+        className={classNames(
+          styles.CommonContainerStyles,
+          styles.MultiChainContainer
+        )}
+      >
         <div className={styles.Data}>
           <h1>We are multichain!</h1>
           <p>
@@ -50,7 +62,12 @@ const WhyUseStable: React.FC = () => {
           className={styles.CircleImage}
         />
       </section>
-      {/* <section className={styles.RegulatoryCompliances}>
+      <section
+        className={classNames(
+          styles.CommonContainerStyles,
+          styles.RegulatoryCompliances
+        )}
+      >
         <div className={styles.Data}>
           <h1>Regulatory Compliance</h1>
           <p>
@@ -60,14 +77,13 @@ const WhyUseStable: React.FC = () => {
             regulations in all jurisdiction we are operating in to ensure
             everything is legal and safe
           </p>
-          <div className={styles.ImageFlexContainer}></div>
+          <div className={styles.ImageFlexContainer}>
+            {REGULATION_IMAGE_CONTENT.map((image, index) => (
+              <img src={image} key={index} alt={image} />
+            ))}
+          </div>
         </div>
-        <img
-          src="/images/circle.svg"
-          alt="circle"
-          className={styles.CircleImage}
-        />
-      </section> */}
+      </section>
     </div>
   );
 };

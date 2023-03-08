@@ -54,10 +54,10 @@
       }
     }
   }
-  .MultiChainContainer {
+  .CommonContainerStyles {
     width: 85%;
     margin: 0 auto;
-    margin-top: 140px;
+    margin-top: 190px;
     display: flex;
     position: relative;
     div {
@@ -104,6 +104,31 @@
       right: 100px;
       @media (max-width: 1000px) {
         display: none;
+      }
+    }
+  }
+
+  .MultiChainContainer {
+    margin-top: 300px;
+  }
+
+  .RegulatoryCompliances {
+    margin-top: 190px;
+    .ImageFlexContainer {
+      justify-content: space-between;
+      max-width: 800px;
+      margin-top: 100px;
+      @media (max-width: 1000px) {
+        width: 100%;
+        max-width: none;
+      }
+      img {
+        height: 170px;
+        width: 170px;
+        @media (max-width: 1000px) {
+          height: 100px;
+          width: 100px;
+        }
       }
     }
   }
