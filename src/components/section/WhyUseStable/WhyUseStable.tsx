@@ -23,6 +23,17 @@ const WhyUseStable: React.FC = () => {
           />
         </div>
       </section>
+      <section className={styles.MultiChainContainer}>
+        <div className={styles.Data}>
+          <h1>We are multichain!</h1>
+          <p>
+            Stable tokens & staking pools are built to be multichain to offer
+            easy adoption and integration. Supported chains are Ethereum,
+            Polygon, Avalanche, Fantom and other EVM-compatible chains.
+          </p>
+          <div></div>
+        </div>
+      </section>
     </div>
   );
 };
