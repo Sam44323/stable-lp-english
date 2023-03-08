@@ -50,6 +50,24 @@ const WhyUseStable: React.FC = () => {
           className={styles.CircleImage}
         />
       </section>
+      {/* <section className={styles.RegulatoryCompliances}>
+        <div className={styles.Data}>
+          <h1>Regulatory Compliance</h1>
+          <p>
+            At Stable, we are maintaining world-class standardized compliance
+            measures for anti-money laundering (AML), countering the finance of
+            terrorism (CFT), sanctions, and know-your-customer (KYC) laws and
+            regulations in all jurisdiction we are operating in to ensure
+            everything is legal and safe
+          </p>
+          <div className={styles.ImageFlexContainer}></div>
+        </div>
+        <img
+          src="/images/circle.svg"
+          alt="circle"
+          className={styles.CircleImage}
+        />
+      </section> */}
     </div>
   );
 };
