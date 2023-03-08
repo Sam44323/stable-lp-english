@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 
 // components
 import WhyUseStable from "@/components/section/WhyUseStable/WhyUseStable";
+import StableCoins from "@/components/section/StableCoins/StableCoins";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function Home() {
           />
         </div>
         <WhyUseStable />
+        <StableCoins />
       </main>
     </>
   );
