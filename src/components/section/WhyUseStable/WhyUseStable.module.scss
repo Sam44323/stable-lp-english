@@ -1,11 +1,11 @@
 .CoreContainer {
   max-width: 1400px;
   margin: 0 auto;
+  color: #fff;
   .TopContainer {
     width: 85%;
     margin: 0 auto;
     margin-top: 300px;
-    color: #fff;
     @media (max-width: 1000px) {
       width: 100%;
       text-align: center;
@@ -33,10 +33,11 @@
         max-width: 600px;
         line-height: 30px;
         font-size: 19px;
+        font-weight: 300;
+        margin-top: 30px;
         @media (max-width: 1000px) {
           max-width: 95%;
           margin: 0 auto;
-          margin-top: 30px;
         }
       }
       .WhyUseImage {
@@ -50,6 +51,38 @@
           top: 30px;
         }
       }
+    }
+  }
+  .MultiChainContainer {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 190px;
+    div {
+      h1 {
+        font-size: 30px;
+        letter-spacing: 0.09rem;
+        font-weight: 500;
+        @media (max-width: 1000px) {
+          font-size: 34px;
+        }
+      }
+      p {
+        max-width: 600px;
+        line-height: 30px;
+        font-size: 19px;
+        font-weight: 300;
+        margin-top: 30px;
+        @media (max-width: 1000px) {
+          max-width: 95%;
+          margin: 0 auto;
+        }
+      }
+    }
+    .ImageFlexContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 400px;
     }
   }
 }

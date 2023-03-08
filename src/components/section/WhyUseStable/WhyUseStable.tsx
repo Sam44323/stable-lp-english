@@ -2,6 +2,13 @@ import React from "react";
 import Image from "next/image";
 import styles from "./WhyUseStable.module.scss";
 
+const IMAGE_CONTENT = [
+  "/images/ethereum-icon.svg",
+  "/images/fantom-icon.svg",
+  "/images/polygon-icon.svg",
+  "/images/avalanche-icon.svg",
+];
+
 const WhyUseStable: React.FC = () => {
   return (
     <div className={styles.CoreContainer}>
@@ -31,7 +38,11 @@ const WhyUseStable: React.FC = () => {
             easy adoption and integration. Supported chains are Ethereum,
             Polygon, Avalanche, Fantom and other EVM-compatible chains.
           </p>
-          <div></div>
+          <div className={styles.ImageFlexContainer}>
+            {IMAGE_CONTENT.map((image, index) => (
+              <img src={image} key={index} alt={image} />
+            ))}
+          </div>
         </div>
       </section>
     </div>
