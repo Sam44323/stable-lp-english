@@ -34,12 +34,12 @@ const NORMAL_LINKS = [
 
 const AUTH_LINKS = [
   {
-    name: "Sign In",
-    href: "/auth/signin",
+    name: "Whitepaper",
+    href: "https://stable-3.gitbook.io/whitepaper/",
     classNames: [styles.LinkText],
   },
   {
-    name: "Sign Up",
+    name: "STABLE App",
     href: "/auth/signup",
     classNames: [styles.LinkText, styles.AuthLinkBgButton],
   },
@@ -95,6 +95,7 @@ const Header: React.FC = () => {
                       <Link
                         href={item.href}
                         className={classnames([...item.classNames])}
+                        passHref
                       >
                         {item.name}
                       </Link>

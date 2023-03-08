@@ -1,10 +1,8 @@
 .CoreContainer {
-  max-width: 1400px;
+  max-width: 1350px;
   margin: 0 auto;
   color: #fff;
   .TopContainer {
-    width: 85%;
-    margin: 0 auto;
     margin-top: 300px;
     @media (max-width: 1000px) {
       width: 100%;
@@ -55,8 +53,6 @@
     }
   }
   .CommonContainerStyles {
-    width: 85%;
-    margin: 0 auto;
     margin-top: 190px;
     display: flex;
     position: relative;
