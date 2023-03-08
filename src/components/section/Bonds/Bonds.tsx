@@ -3,7 +3,7 @@ import styles from "./Bonds.module.scss";
 
 const Bonds: React.FC = () => {
   return (
-    <div className={styles.CoreContainer}>
+    <div className={styles.CoreContainer} id="bonds">
       <section className={styles.MainDataContainer}>
         <div>
           <h1>Bond mechanism</h1>

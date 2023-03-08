@@ -22,12 +22,12 @@ const NORMAL_LINKS = [
   },
   {
     name: "STABLE Stablecoins",
-    href: "/app/bonds",
+    href: "#stablecoins",
     classNames: [styles.LinkText],
   },
   {
     name: "STABLE Bonds",
-    href: "/app/bonds",
+    href: "#bonds",
     classNames: [styles.LinkText],
   },
 ];

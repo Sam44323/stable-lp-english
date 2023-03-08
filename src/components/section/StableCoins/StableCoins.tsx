@@ -3,7 +3,7 @@ import styles from "./StableCoins.module.scss";
 
 const StableCoins: React.FC = () => {
   return (
-    <div className={styles.CoreContainer}>
+    <div className={styles.CoreContainer} id="stablecoins">
       <section className={styles.MainDataContainer}>
         <div>
           <h1>Stablecoin mechanism</h1>
