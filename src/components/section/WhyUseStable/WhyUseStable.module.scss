@@ -57,6 +57,8 @@
     width: 85%;
     margin: 0 auto;
     margin-top: 190px;
+    display: flex;
+    position: relative;
     div {
       h1 {
         font-size: 30px;
@@ -84,6 +86,10 @@
       align-items: center;
       max-width: 490px;
       margin-top: 30px;
+    }
+    .CircleImage {
+      position: absolute;
+      right: 100px;
     }
   }
 }

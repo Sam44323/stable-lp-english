@@ -44,6 +44,11 @@ const WhyUseStable: React.FC = () => {
             ))}
           </div>
         </div>
+        <img
+          src="/images/circle.svg"
+          alt="circle"
+          className={styles.CircleImage}
+        />
       </section>
     </div>
   );
