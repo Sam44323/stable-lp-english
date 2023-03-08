@@ -4,8 +4,7 @@ import { Inter } from "next/font/google";
 // components
 import WhyUseStable from "@/components/section/WhyUseStable/WhyUseStable";
 import StableCoins from "@/components/section/StableCoins/StableCoins";
-
-const inter = Inter({ subsets: ["latin"] });
+import Bonds from "@/components/section/Bonds/Bonds";
 
 export default function Home() {
   return (
@@ -29,6 +28,7 @@ export default function Home() {
         </div>
         <WhyUseStable />
         <StableCoins />
+        <Bonds />
       </main>
     </>
   );
