@@ -1,0 +1,31 @@
+.CoreContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  .TopContainer {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 300px;
+    color: #fff;
+    h1 {
+      font-size: 49px;
+      letter-spacing: 0.09rem;
+      font-weight: 800;
+    }
+    div {
+      position: relative;
+      display: flex;
+      max-width: 1000px;
+      p {
+        max-width: 600px;
+        line-height: 30px;
+        font-size: 19px;
+      }
+      .WhyUseImage {
+        position: absolute;
+        right: 140px;
+        top: -80px;
+        z-index: -1;
+      }
+    }
+  }
+}
