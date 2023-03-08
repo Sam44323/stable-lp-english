@@ -20,7 +20,7 @@ const Bonds: React.FC = () => {
             on how much the bonds are worth.
           </p>
         </div>
-        <img src="/images/grouped-gear.svg" alt="grouped-gear" />
+        <img src="/images/straight-gear.svg" alt="straight-gear" />
       </section>
       <section className={styles.CommonContainerStyles}>
         <div className={styles.Data}>
@@ -34,6 +34,7 @@ const Bonds: React.FC = () => {
             There will be an unique staking contract for each treasury bond
             (3mo, 6mo, 1yr and etc...) and corporate-bonds
           </p>
+          <img src="/images/bond-image.svg" alt="bond-image" />
         </div>
       </section>
     </div>

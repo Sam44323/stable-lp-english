@@ -39,6 +39,8 @@
       }
     }
     img {
+      position: absolute;
+      right: 10px;
       @media (max-width: 1000px) {
         display: none;
       }
@@ -73,12 +75,15 @@
           text-align: center;
         }
       }
-    }
-    a {
-      color: #fff;
-      text-decoration: underline !important;
-      &:hover {
-        color: #bbb;
+
+      img {
+        margin-top: 30px;
+        @media (max-width: 1000px) {
+          height: 140px;
+          width: 140px;
+          margin: 0 auto;
+          display: block;
+        }
       }
     }
   }

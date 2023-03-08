@@ -22,7 +22,7 @@
     div {
       position: relative;
       display: flex;
-      max-width: 1000px;
+      // max-width: 1000px;
       @media (max-width: 1000px) {
         max-width: none;
         display: flex;
