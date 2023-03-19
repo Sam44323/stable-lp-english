@@ -1,38 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Stable Landing-Page
 
-## Getting Started
+![Yarn](https://img.shields.io/badge/-Yarn-333333?style=for-the-badge&logo=yarn&logoColor=61dbfb)
+![Git](https://img.shields.io/badge/-Git-333333?style=for-the-badge&logo=git&logoColor=61dbfb)
+![Next-JS](https://img.shields.io/badge/-NextJS-333333?style=for-the-badge&logo=next.js&logoColor=61dbfb)
+![SCSS](https://img.shields.io/badge/-SCSS-333333?style=for-the-badge&logo=sass&logoColor=61dbfb)
+![GOOGLE-ANALYTICS](https://img.shields.io/badge/-Google_analytics-333333?style=for-the-badge&logo=Google&logoColor=61dbfb)
+![FONTAWESOME](https://img.shields.io/badge/-FontAwesome-333333?style=for-the-badge&logo=font-awesome&logoColor=61dbfb)
+![Typescript](https://img.shields.io/badge/-Typescript-333333?style=for-the-badge&logo=typescript&logoColor=61dbfb)
 
-First, run the development server:
+**This very repo contains the code for stable-landing-page**
+
+---
+
+# **Tech-stack**
+
+### Prerequisites
+
+- git
+- yarn/npm
+
+### **Packages**
+
+---
+
+- **Typescript**
+- **Next-JS**
+- **SCSS**
+- **Google-Analytics**
+
+---
+
+## **Installation**
+
+**Cloning the repo**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/Stable-crypto/stable-landing-page/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Installing the dependencies**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**Starting the localhost-server**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Creating the build**
 
-## Learn More
+```bash
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+**Starting the build-version**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
