@@ -1,7 +1,28 @@
 .FooterContainer {
-  background: url("/images/footer-image.svg") repeat;
-  margin-top: 300px;
+  // background: url("/images/footer-image.svg") repeat;
+  // margin-top: 300px;
   @media (max-width: 1000px) {
     margin-top: 100px;
+  }
+  .TopContainer {
+    background: linear-gradient(
+      180deg,
+      #1680bf -60.8%,
+      #1e5c9b 40.95%,
+      #1a4484 138.7%
+    );
+    .Content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1329px;
+      margin: 0 auto;
+    }
+    div {
+      flex: 0.4;
+      display: flex;
+      justify-content: space-between;
+    }
   }
 }
