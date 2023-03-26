@@ -23,7 +23,10 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className={styles.BottomContainer}></section>
+      <section className={styles.BottomContainer}>
+        <section className={styles.LeftContainer}></section>
+        <section className={styles.RightContainer}></section>
+      </section>
     </div>
   );
 };
