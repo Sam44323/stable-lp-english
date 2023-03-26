@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Footer.module.scss";
+import { FOOTER_IMAGES } from "@/utils/constants";
 
 const Footer: React.FC = () => {
   return (
@@ -24,8 +25,16 @@ const Footer: React.FC = () => {
         </div>
       </section>
       <section className={styles.BottomContainer}>
-        <section className={styles.LeftContainer}></section>
-        <section className={styles.RightContainer}></section>
+        <div className={styles.Content}>
+          <section className={styles.LeftContainer}>
+            {FOOTER_IMAGES.map((image, index) => (
+              <a href={image.link} target="_blank" rel="noopener" key={index}>
+                <Image src={image.src} height={40} width={40} alt={image.alt} />
+              </a>
+            ))}
+          </section>
+          <section className={styles.RightContainer}></section>
+        </div>
       </section>
     </div>
   );

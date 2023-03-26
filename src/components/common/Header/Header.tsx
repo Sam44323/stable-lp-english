@@ -14,36 +14,7 @@ import {
   Container,
 } from "reactstrap";
 
-const NORMAL_LINKS = [
-  {
-    name: "How Does It Work?",
-    href: "#how-does-it-work",
-    classNames: [styles.LinkText],
-  },
-  {
-    name: "STABLE Stablecoins",
-    href: "#stablecoins",
-    classNames: [styles.LinkText],
-  },
-  {
-    name: "STABLE Bonds",
-    href: "#bonds",
-    classNames: [styles.LinkText],
-  },
-];
-
-const AUTH_LINKS = [
-  {
-    name: "Whitepaper",
-    href: "https://stable-3.gitbook.io/whitepaper/",
-    classNames: [styles.LinkText],
-  },
-  {
-    name: "STABLE App",
-    href: "/auth/signup",
-    classNames: [styles.LinkText, styles.AuthLinkBgButton],
-  },
-];
+import { NORMAL_LINKS, AUTH_LINKS } from "@/utils/constants";
 
 const Header: React.FC = () => {
   const [collapsed, setCollapsed] = React.useState(true);

@@ -3,18 +3,7 @@ import Image from "next/image";
 import classNames from "classnames";
 import styles from "./WhyUseStable.module.scss";
 
-const IMAGE_CONTENT = [
-  "/images/ethereum-icon.svg",
-  "/images/fantom-icon.svg",
-  "/images/polygon-icon.svg",
-  "/images/avalanche-icon.svg",
-];
-
-const REGULATION_IMAGE_CONTENT = [
-  "/images/kyc-image.svg",
-  "/images/cft-image.svg",
-  "/images/aml-image.svg",
-];
+import { IMAGE_CONTENT, REGULATION_IMAGE_CONTENT } from "@/utils/constants";
 
 const WhyUseStable: React.FC = () => {
   return (
