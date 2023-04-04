@@ -8,7 +8,7 @@ export const FOOTER_IMAGES = [
     name: "Linkedin",
   },
   {
-    link: "https://twitter.com/Stable_fi",
+    link: "https://twitter.com/StableFinanceCo",
     alt: "twitter-image",
     src: "/images/twitter-image.svg",
     name: "Twitter",
