@@ -60,7 +60,7 @@ const Header: React.FC = () => {
                   </NavItem>
                 ))}
                 <Container className={styles.AuthMobileContainer}>
-                  {AUTH_LINKS.map((item, index) => (
+                  {/* {AUTH_LINKS.map((item, index) => (
                     <NavItem className={styles.NavItemContainer} key={index}>
                       <Link
                         href={item.href}
@@ -70,7 +70,7 @@ const Header: React.FC = () => {
                         {item.name}
                       </Link>
                     </NavItem>
-                  ))}
+                  ))} */}
                 </Container>
               </Nav>
             </Collapse>
@@ -89,17 +89,6 @@ const Header: React.FC = () => {
         </section>
         <section className={styles.LinksContainer}>
           {NORMAL_LINKS.map((item, index) => (
-            <Link
-              key={index}
-              href={item.href}
-              className={classnames([...item.classNames])}
-            >
-              {item.name}
-            </Link>
-          ))}
-        </section>
-        <section className={styles.AuthLinkContainer}>
-          {AUTH_LINKS.map((item, index) => (
             <Link
               key={index}
               href={item.href}
