@@ -5,6 +5,8 @@ import Footer from "@/components/common/Footer/Footer";
 import Header from "@/components/common/Header/Header";
 import Script from "next/script";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -21,6 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
           gtag('config', 'G-XH1E4LH0QB');
         `}
       </Script>
+      <ToastContainer autoClose={false} theme="dark" position="top-center" />
       <Header />
       <Component {...pageProps} />
       <Footer />
