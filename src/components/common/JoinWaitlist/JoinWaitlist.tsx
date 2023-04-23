@@ -3,7 +3,6 @@ import { Modal } from "reactstrap";
 import styles from "./JoinWaitlist.module.scss";
 import axios from "../../../utils/axios";
 import { toast } from "react-toastify";
-import { BACKEND_URL } from "@/utils/constants";
 
 const JoinWaitlist = () => {
   const [showModal, setShowModal] = React.useState<boolean>(false);
