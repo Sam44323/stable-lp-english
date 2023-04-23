@@ -121,3 +121,5 @@ export const FOOTER_LINKS_C = [
     link: "",
   },
 ];
+
+export const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
