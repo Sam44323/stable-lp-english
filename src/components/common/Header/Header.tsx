@@ -13,7 +13,7 @@ import {
   Container,
 } from "reactstrap";
 
-import { NORMAL_LINKS } from "@/utils/constants";
+import { NORMAL_LINKS, AUTH_LINKS } from "@/utils/constants";
 
 const Header: React.FC = () => {
   const [collapsed, setCollapsed] = React.useState(true);
