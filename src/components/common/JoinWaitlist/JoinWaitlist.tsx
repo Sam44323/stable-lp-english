@@ -3,6 +3,7 @@ import { Modal } from "reactstrap";
 import styles from "./JoinWaitlist.module.scss";
 import axios from "../../../utils/axios";
 import { toast } from "react-toastify";
+import { BACKEND_URL } from "@/utils/constants";
 
 const JoinWaitlist = () => {
   const [showModal, setShowModal] = React.useState<boolean>(false);
@@ -18,17 +19,21 @@ const JoinWaitlist = () => {
     if (!email || !email.includes("@")) {
       return toast.error("Please enter a valid email address");
     }
+    toast.loading("Adding you to our waitlist...");
     try {
-      const response = await axios.post("/v1/waitlist", {
+      const response = await axios.post("/v1/user/waitlist", {
         email,
       });
       if (response.status === 200) {
+        toast.dismiss();
         toast.success("You have been added to our waitlist");
         setShowModal(false);
+        setEmail("");
       }
-    } catch (err) {
-      console.log(err);
-      toast.error("Something went wrong");
+    } catch (err: any) {
+      toast.dismiss();
+      setEmail("");
+      toast.error(err.message);
     }
   };
 
@@ -52,7 +57,9 @@ const JoinWaitlist = () => {
           <button onClick={handleJoinWaitlist}>Join</button>
         </section>
 
-        <p className={styles.NoThanksText}>No Thanks</p>
+        <p className={styles.NoThanksText} onClick={() => setShowModal(false)}>
+          No Thanks
+        </p>
       </div>
     </Modal>
   );
