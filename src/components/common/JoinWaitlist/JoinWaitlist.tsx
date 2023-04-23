@@ -4,8 +4,17 @@ import styles from "./JoinWaitlist.module.scss";
 import axios from "../../../utils/axios";
 
 const JoinWaitlist = () => {
+  const [showModal, setShowModal] = React.useState<boolean>(false);
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      document.body.style.overflow = "hidden";
+      setShowModal(true);
+    }, 3000);
+  }, []);
+
   return (
-    <Modal isOpen centered>
+    <Modal isOpen={showModal} centered toggle={() => setShowModal(false)}>
       <div className={styles.JoinWaitlistContainer}>
         <h1>join our testing</h1>
 
