@@ -4,6 +4,7 @@ import Head from "next/head";
 import WhyUseStable from "@/components/section/WhyUseStable/WhyUseStable";
 import StableCoins from "@/components/section/StableCoins/StableCoins";
 import Bonds from "@/components/section/Bonds/Bonds";
+import JoinWaitlist from "@/components/common/JoinWaitlist/JoinWaitlist";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
             className="sidelined-image"
           />
         </div>
+        <JoinWaitlist />
         <WhyUseStable />
         <StableCoins />
         <Bonds />

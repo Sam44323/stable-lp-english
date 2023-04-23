@@ -1,0 +1,82 @@
+.JoinWaitlistContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  font-family: "Inter", sans-serif;
+
+  h1 {
+    font-weight: 800;
+    color: #1680bf;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 0.08rem;
+  }
+  .DataContainer {
+    margin: 15px 0;
+    p {
+      color: grey;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      margin: 30px 0;
+      outline: none;
+      border: 1px solid #1680bf;
+      padding: 5px;
+      font-family: "Inter", sans-serif;
+      font-weight: 500;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    button {
+      background: linear-gradient(90deg, #1680bf 0%, #1e5c9b 51%, #1a4484 100%);
+      border-radius: 4px;
+      padding: 4px 0;
+      font-family: "Inter", sans-serif;
+      text-align: center;
+      color: #fff;
+      width: 40%;
+      outline: none;
+      border: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.08rem;
+
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        cursor: pointer;
+        background: linear-gradient(
+          90deg,
+          #1e5c9b 0%,
+          #1a4484 51%,
+          #1a4484 100%
+        );
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .NoThanksText {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+    text-decoration: underline;
+    line-height: 24px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      color: #1680bf;
+    }
+  }
+}
