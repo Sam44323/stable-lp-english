@@ -7,6 +7,10 @@ import Bonds from "@/components/section/Bonds/Bonds";
 import JoinWaitlist from "@/components/common/JoinWaitlist/JoinWaitlist";
 import React from "react";
 
+/**
+ * @todo: add support for meta-image support for images
+ */
+
 export default function Home() {
   return (
     <>
