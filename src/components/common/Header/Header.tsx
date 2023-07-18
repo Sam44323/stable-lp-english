@@ -46,7 +46,9 @@ const Header: React.FC = () => {
               </Link>
             ))}
           </div>
-          <div className="pill-btn">Get Started</div>
+          <div className="pill-btn hover:ease-in duration-100 hover:scale-105">
+            Get Started
+          </div>
         </div>
       </section>
       {/**
