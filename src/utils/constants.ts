@@ -1,5 +1,3 @@
-import styles from "../components/common/Header/Header.module.scss";
-
 export const FOOTER_IMAGES = [
   {
     link: "https://www.linkedin.com/company/stablefi/",
@@ -37,17 +35,14 @@ export const NORMAL_LINKS = [
   {
     name: "How Does It Work?",
     href: "#how-does-it-work",
-    classNames: [styles.LinkText],
   },
   {
     name: "STABLE Stablecoins",
     href: "#stablecoins",
-    classNames: [styles.LinkText],
   },
   {
     name: "STABLE Bonds",
     href: "#bonds",
-    classNames: [styles.LinkText],
   },
 ];
 
@@ -55,12 +50,10 @@ export const AUTH_LINKS = [
   {
     name: "Whitepaper",
     href: "https://stable-3.gitbook.io/whitepaper/",
-    classNames: [styles.LinkText],
   },
   {
     name: "STABLE App",
     href: "/auth/signup",
-    classNames: [styles.LinkText, styles.AuthLinkBgButton],
   },
 ];
 
