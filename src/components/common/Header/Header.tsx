@@ -1,4 +1,5 @@
 import React from "react";
+import { Work_Sans } from "next/font/google";
 import Image from "next/image";
 import classnames from "classnames";
 import Link from "next/link";
@@ -21,8 +22,17 @@ const Header: React.FC = () => {
 
   return (
     <div>
-      <img src="/images/logo/header-stable-icon.png" />
-      <section></section>
+      <img src="/images/logo/header-stable-icon.png" className="h-5" />
+      <section>
+        <Link
+          href="/"
+          className="
+          no-underline
+        "
+        >
+          Home
+        </Link>
+      </section>
     </div>
   );
 };
