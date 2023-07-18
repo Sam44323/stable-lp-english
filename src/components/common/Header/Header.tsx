@@ -24,12 +24,7 @@ const Header: React.FC = () => {
     <div>
       <img src="/images/logo/header-stable-icon.png" className="h-5" />
       <section>
-        <Link
-          href="/"
-          className="
-          no-underline
-        "
-        >
+        <Link href="/" className="no-underline text-link-inactive">
           Home
         </Link>
       </section>

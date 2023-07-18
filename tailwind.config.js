@@ -6,6 +6,15 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        link: {
+          inactive: "#130F49",
+          active: "#2128BD",
+        },
+      },
+    },
+  },
   plugins: [],
 };
