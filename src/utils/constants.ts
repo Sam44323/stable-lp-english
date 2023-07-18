@@ -57,6 +57,25 @@ export const AUTH_LINKS = [
   },
 ];
 
+export const HEADER_LINK = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "RWA",
+    href: "/rwa",
+  },
+  {
+    name: "Stablecoins",
+    href: "/stablecoins",
+  },
+  {
+    name: "veSTE",
+    href: "/veSTE",
+  },
+];
+
 export const IMAGE_CONTENT = [
   "/images/ethereum-icon.svg",
   "/images/fantom-icon.svg",
