@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
         <div className={styles.Content}>
           <section className={styles.LeftContainer}>
             {FOOTER_IMAGES.map((image, index) => (
-              <div className={styles.Links}>
+              <div className={styles.Links} key={index}>
                 <a href={image.link} target="_blank" rel="noopener" key={index}>
                   <Image
                     src={image.src}
