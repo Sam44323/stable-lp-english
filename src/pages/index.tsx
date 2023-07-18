@@ -24,17 +24,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="sidelined-image-container">
-          <img
-            src="/images/sidelined-image.svg"
-            alt="sidelined-image"
-            className="sidelined-image"
-          />
-        </div>
-        <JoinWaitlist />
+        {/* <JoinWaitlist />
         <WhyUseStable />
         <StableCoins />
-        <Bonds />
+        <Bonds /> */}
       </main>
     </>
   );
