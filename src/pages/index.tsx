@@ -1,10 +1,6 @@
 import Head from "next/head";
 
 // components
-import WhyUseStable from "@/components/section/WhyUseStable/WhyUseStable";
-import StableCoins from "@/components/section/StableCoins/StableCoins";
-import Bonds from "@/components/section/Bonds/Bonds";
-import JoinWaitlist from "@/components/common/JoinWaitlist/JoinWaitlist";
 import React from "react";
 
 /**
@@ -23,12 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        {/* <JoinWaitlist />
-        <WhyUseStable />
-        <StableCoins />
-        <Bonds /> */}
-      </main>
+      <main></main>
     </>
   );
 }
