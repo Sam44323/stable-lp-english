@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Navbar,
   NavbarBrand,
@@ -21,7 +22,7 @@ const Header: React.FC = () => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <div className="px-10 py-10 bg-white">
+    <div className="px-10 py-10 bg-white relative">
       {/**
        * @description: section for screen >= tablets
        */}
@@ -49,6 +50,13 @@ const Header: React.FC = () => {
           <div className="pill-btn hover:ease-in duration-100 hover:scale-105">
             Get Started
           </div>
+          <Image
+            src="/images/gradients/header-ellipse.png"
+            alt="header-ellipse"
+            height={700}
+            width={700}
+            className="absolute top-0 right-0 -z-[1]"
+          />
         </div>
       </section>
       {/**
