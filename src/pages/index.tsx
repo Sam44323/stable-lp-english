@@ -1,7 +1,8 @@
 import Head from "next/head";
+import React from "react";
 
 // components
-import React from "react";
+import Hero from "@/components/section/Hero/Hero";
 
 /**
  * @todo: add support for meta-image support for images
@@ -19,7 +20,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main></main>
+      <main>
+        <Hero />
+      </main>
     </>
   );
 }
