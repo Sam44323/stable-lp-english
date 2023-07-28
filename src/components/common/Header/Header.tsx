@@ -22,7 +22,7 @@ const Header: React.FC = () => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <div className="px-10 py-10 bg-white relative">
+    <div className="px-10 py-10 bg-transparent relative">
       {/**
        * @description: section for screen >= tablets
        */}
