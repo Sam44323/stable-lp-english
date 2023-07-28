@@ -12,7 +12,7 @@ import {
   Container,
 } from "reactstrap";
 
-import { NORMAL_LINKS, AUTH_LINKS, HEADER_LINK } from "@/utils/constants";
+import { HEADER_LINK } from "@/utils/constants";
 import classNames from "classnames";
 
 const Header: React.FC = () => {
