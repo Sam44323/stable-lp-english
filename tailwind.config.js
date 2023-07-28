@@ -28,6 +28,11 @@ module.exports = {
         78: "30.5rem",
         80: "40rem",
       },
+      fontFamily: {
+        "work-sans": ["Work Sans", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
+      },
     },
   },
   plugins: [],

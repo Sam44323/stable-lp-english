@@ -39,7 +39,7 @@ const Header: React.FC = () => {
                 key={index}
                 href={item.href}
                 className={classNames(
-                  "no-underline text-link-inactive font-900 hover:text-link-active",
+                  "no-underline text-link-inactive font-900 hover:text-link-active font-work-sans",
                   router.pathname === "/" ? "text-link-active" : ""
                 )}
               >
