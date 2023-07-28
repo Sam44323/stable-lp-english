@@ -11,6 +11,10 @@
     color: theme('colors.white');
     border-radius: theme('borderRadius.3xl');
     padding: theme('padding.2') theme('padding.4');
+    text-align: center;
+    width: fit-content;
+    font-family: theme('fontFamily.manrope');
+    font-weight: 400;
   }
 
   .pill-btn:hover{
@@ -25,6 +29,5 @@
   margin: 0;
   scroll-behavior: smooth !important;
   /* overflow-x: hidden; */
-  /* font-family: 'Work Sans', sans-serif; */
   font-weight: 900;
 }

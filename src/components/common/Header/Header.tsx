@@ -26,7 +26,7 @@ const Header: React.FC = () => {
       {/**
        * @description: section for screen >= tablets
        */}
-      <section className="sm:hidden md:flex flex-row justify-between align-middle">
+      <section className="sm:hidden md:flex flex-row justify-between align-middle max-w-6xl ml-auto mr-auto">
         <img src="/images/logo/header-stable-icon.png" className="h-7" />
         <div className="flex flex-row justify-between align-middle w-fit">
           <div
@@ -50,14 +50,14 @@ const Header: React.FC = () => {
           <div className="pill-btn hover:ease-in duration-100 hover:scale-105">
             Get Started
           </div>
-          <Image
-            src="/images/gradients/header-ellipse.png"
-            alt="header-ellipse"
-            height={700}
-            width={700}
-            className="absolute top-0 right-0 -z-[1]"
-          />
         </div>
+        <Image
+          src="/images/gradients/header-ellipse.png"
+          alt="header-ellipse"
+          height={700}
+          width={700}
+          className="absolute top-0 right-0 -z-[1]"
+        />
       </section>
       {/**
        * @description: section for mobile
