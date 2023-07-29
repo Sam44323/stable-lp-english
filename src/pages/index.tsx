@@ -4,6 +4,7 @@ import React from "react";
 // components
 import Hero from "@/components/section/Hero/Hero";
 import Acquire from "@/components/section/Acquire/Acquire";
+import Joinnow from "@/components/section/Joinnow/Joinnow";
 
 /**
  * @todo: add support for meta-image support for images
@@ -24,6 +25,7 @@ export default function Home() {
       <main>
         <Hero />
         <Acquire />
+        <Joinnow />
       </main>
     </>
   );
