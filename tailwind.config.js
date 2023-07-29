@@ -12,6 +12,9 @@ module.exports = {
           inactive: "#130F49",
           active: "#2128BD",
         },
+        grey: {
+          100: "#707484",
+        },
       },
       backgroundColor: {
         blue: {
