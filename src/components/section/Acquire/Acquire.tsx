@@ -12,6 +12,7 @@ const Acquire = () => {
           equals EUR. We offer three different ways to acquire our stablecoins:
         </p>
       </section>
+      <section></section>
     </div>
   );
 };
