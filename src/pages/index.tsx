@@ -3,6 +3,7 @@ import React from "react";
 
 // components
 import Hero from "@/components/section/Hero/Hero";
+import Acquire from "@/components/section/Acquire/Acquire";
 
 /**
  * @todo: add support for meta-image support for images
@@ -22,6 +23,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <Acquire />
       </main>
     </>
   );
