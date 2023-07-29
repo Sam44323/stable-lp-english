@@ -28,6 +28,11 @@
     width: 100vh;
      background-repeat: no-repeat;
   }
+
+  .icon-bg{
+    background-color: #ECEFFF;
+    padding: 10px;
+  }
 }
 
 * {
