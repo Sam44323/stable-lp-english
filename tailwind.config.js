@@ -17,6 +17,7 @@ module.exports = {
         },
         blue: {
           btn: "#130F49",
+          text: "#031250",
         },
       },
       backgroundColor: {
