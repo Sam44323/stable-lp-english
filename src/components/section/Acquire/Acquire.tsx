@@ -5,7 +5,9 @@ const Acquire = () => {
   return (
     <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-no-repeat bg-contain 2xl:bg-cover 2xl:pt-[5%]  mt-72 pt-36 mx-auto relative ">
       <section className="text-center font-roboto">
-        <h1 className="text-5xl font-500">Acquire Stablecoins now!</h1>
+        <h1 className="text-5xl font-500 text-blue-text">
+          Acquire Stablecoins now!
+        </h1>
         <p className="max-w-2xl mx-auto mt-6 font-300 font-manrope leading-7 text-grey-100">
           Our stablecoins are pegged at a fixed rate of 1:1 with a corresponding
           fiat currency. For instance, 1 StUSD equates to 1 USD, while 1 StEUR
@@ -57,7 +59,7 @@ const Acquire = () => {
         <img src="/images/macbook.png" className="h-[700] w-[1000]" />
       </section>
       <section className="text-center font-roboto mt-36">
-        <h1 className="text-5xl font-500">We are Multichain!</h1>
+        <h1 className="text-5xl font-500 text-blue-text">We are Multichain!</h1>
         <p className="max-w-5xl mx-auto mt-6 font-300 font-manrope leading-7 text-grey-100">
           Stables platform, tokens, and smart-contracts were intentionally
           designed to be multi-chain, allowing for effortless adoption and
@@ -70,7 +72,7 @@ const Acquire = () => {
         </p>
       </section>
       <section className="mt-16">
-        <h1 className="text-xl font-500 text-center font-roboto">
+        <h1 className="text-xl font-500 text-center font-roboto text-blue-text">
           Supported Chains
         </h1>
         <div className="flex flex-row justify-between max-w-7xl mx-auto mt-16">
