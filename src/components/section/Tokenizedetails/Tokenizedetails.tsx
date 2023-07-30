@@ -4,7 +4,7 @@ import Image from "next/image";
 const Tokenizedetails = () => {
   return (
     <>
-      <div>
+      <div className="relative">
         <div className="max-w-[700px] mx-auto text-left 2xl:-translate-x-80 -translate-x-48 mt-28">
           <h1 className="font-roboto text-blue-text text-4xl max-w-lg leading-[50px]">
             Tokenize your assets and get more control and flexibility over them.
@@ -18,7 +18,7 @@ const Tokenizedetails = () => {
             stablecoins and releasing of the corresponding funds from the cash
             reserve to purchase the selected asset.
           </p>
-          <div className="pill-btn  font-roboto tracking-wide font-500 text-white hover:ease-in duration-100 hover:scale-105 mt-6 flex align-middle">
+          <div className="pill-btn font-roboto tracking-wide font-500 text-white hover:ease-in duration-100 hover:scale-105 mt-6 flex align-middle">
             <p className="m-0 text-sm font-work-sans px-1 py-1">
               Find out more
             </p>
@@ -33,7 +33,7 @@ const Tokenizedetails = () => {
         </div>
         <img
           src="/images/shapes/ellipse-with-masks.png"
-          className="absolute right-0 -translate-y-[600px] -z-10"
+          className="absolute right-0 -translate-y-[700px] -z-10"
         />
       </div>
     </>
