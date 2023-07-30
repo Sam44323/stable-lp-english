@@ -42,22 +42,6 @@ const Joinnow = () => {
           className="absolute right-[160px] top-32 "
         />
       </div>
-      <div>
-        <div>
-          <h1>
-            Tokenize your assets and get more control and flexibility over them.
-          </h1>
-          <p>
-            The RWA tokenizing mechanism on the Stable platform is executed
-            through a dedicated smart-contract for each RWA. Participants may
-            use the dedicated Stable stablecoins (StUSD, StEUR, etc.) to
-            interact with a specific contract of their choice, representing a
-            particular asset in a specific region, leading to the burning of the
-            stablecoins and releasing of the corresponding funds from the cash
-            reserve to purchase the selected asset.
-          </p>
-        </div>
-      </div>
     </div>
   );
 };
