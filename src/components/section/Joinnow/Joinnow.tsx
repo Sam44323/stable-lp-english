@@ -7,6 +7,10 @@ const Joinnow = () => {
         src="/images/shapes/stacked-ellipse.png"
         className="absolute -left-4 md:max-h-[300px]"
       />
+      <img
+        src="/images/shapes/right-border-ellipse.png"
+        className="absolute right-0 md:max-h-[300px]"
+      />
     </div>
   );
 };
