@@ -17,6 +17,7 @@
     font-weight: 400;
   }
 
+
   .pill-btn:hover{
     background-color: theme('backgroundColor.blue.950');
     cursor: pointer;
@@ -38,6 +39,13 @@
 
   .gradient-blue-bg{
     background: var(--linear-blue, linear-gradient(122deg, #193BDA 0%, rgba(13, 54, 202, 0.58) 100%, rgba(10, 38, 136, 0.97) 100%));
+  }
+
+  .coin-bg{
+    background-color: theme("colors.white");
+    filter: drop-shadow(0px -5.44278621673584px 7.257048606872559px rgba(177, 192, 210, 0.11));
+    border-radius: 100%;
+    width: fit-content;
   }
 
 }

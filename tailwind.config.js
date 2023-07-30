@@ -15,6 +15,9 @@ module.exports = {
         grey: {
           100: "#707484",
         },
+        blue: {
+          btn: "#130F49",
+        },
       },
       backgroundColor: {
         blue: {
