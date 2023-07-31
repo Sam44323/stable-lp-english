@@ -162,8 +162,9 @@ export const FAQ_DATA = [
     ],
   },
   {
-    title: `What are the major regulations that Stable is complying with for smooth workings?",
-      description: "Stable legal structure will consist of multiple limited liability companies (LLCs) operating across various regions, including the European Union, EMEA, and APAC. Each LLC will be subject to independent regulation by local authorities, ensuring complete compliance in the creation and operation of native currency stablecoins and our tokenization service within their respective jurisdictions. This approach enables us to provide optimized compliance solutions tailored to each operating region, enhancing regulatory adherence.
+    title:
+      "What are the major regulations that Stable is complying with for smooth workings?",
+    description: `Stable legal structure will consist of multiple limited liability companies (LLCs) operating across various regions, including the European Union, EMEA, and APAC. Each LLC will be subject to independent regulation by local authorities, ensuring complete compliance in the creation and operation of native currency stablecoins and our tokenization service within their respective jurisdictions. This approach enables us to provide optimized compliance solutions tailored to each operating region, enhancing regulatory adherence.
 
       In alignment with the MiCA regulations, we are committed to operating in full compliance and obtaining an E-Money EMI License and Investment firm license. This positions us as one of the pioneering issuers of Stablecoin and Real World Asset (RWA) tokens in the European Union, further solidifying our commitment to regulatory compliance and establishing ourselves as a trusted participant in the market.
 `,
