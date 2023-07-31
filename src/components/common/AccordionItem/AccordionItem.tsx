@@ -38,7 +38,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
           }
           className={classNames(
             "mt-1 transition-all duration-100 ease-in-out",
-            active ? "mr-10 mb-1" : "mr-0"
+            active ? "mr-5 mb-1" : "mr-0"
           )}
         />
       </div>
