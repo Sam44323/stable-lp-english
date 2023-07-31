@@ -12,7 +12,7 @@ const FAQ = () => {
         src="/images/shapes/faq-ellipse.png"
         className="absolute left-0 -z-10"
       />
-      <h1 className="text-center mt-5 text-blue-text font-roboto tracking-wide font-500">
+      <h1 className="text-center mt-5 text-blue-text font-roboto tracking-wide font-500 mb-5">
         FAQ's
       </h1>
       <div className="max-w-[80vw] mx-auto">
