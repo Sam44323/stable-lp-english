@@ -43,10 +43,15 @@ module.exports = {
         78: "30.5rem",
         80: "40rem",
       },
+      boxShadow: {
+        "custom-card":
+          "0px 7.837248802185059px 20.899330139160156px 0px #D4E0F0",
+      },
       fontFamily: {
         "work-sans": ["Work Sans", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
+        "be-vietnam-pro": ["Be Vietnam Pro", "sans-serif"],
       },
     },
   },

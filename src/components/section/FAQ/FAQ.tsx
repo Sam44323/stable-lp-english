@@ -3,7 +3,8 @@ import AccordionItem from "@/components/common/AccordionItem/AccordionItem";
 import { FAQ_DATA } from "@/utils/constants";
 
 const FAQ = () => {
-  const activeAccordionData = React.useRef<number>(-1);
+  const [activeAccordionItem, setActiveAccordionItem] =
+    React.useState<number>(-1);
 
   return (
     <div className="mt-[400px] relative">
@@ -14,13 +15,19 @@ const FAQ = () => {
       <h1 className="text-center mt-5 text-blue-text font-roboto tracking-wide font-500">
         FAQ's
       </h1>
-      <div>
+      <div className="max-w-[80vw] mx-auto">
         {FAQ_DATA.map((item, index) => (
           <AccordionItem
             {...item}
             key={index}
-            active={activeAccordionData.current === index}
-            onClick={() => (activeAccordionData.current = index)}
+            active={activeAccordionItem === index}
+            onClick={() => {
+              if (activeAccordionItem === index) {
+                setActiveAccordionItem(-1);
+                return;
+              }
+              setActiveAccordionItem(index);
+            }}
           />
         ))}
       </div>
