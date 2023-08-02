@@ -63,13 +63,15 @@ const Header: React.FC = () => {
             Get Started
           </div>
         </div>
-        <Image
-          src="/images/gradients/header-ellipse.png"
-          alt="header-ellipse"
-          height={700}
-          width={700}
-          className="absolute top-0 right-0 -z-[1]"
-        />
+        {router.pathname === "/" && (
+          <Image
+            src="/images/gradients/header-ellipse.png"
+            alt="header-ellipse"
+            height={700}
+            width={700}
+            className="absolute top-0 right-0 -z-[1]"
+          />
+        )}
       </section>
       {/**
        * @description: section for mobile
