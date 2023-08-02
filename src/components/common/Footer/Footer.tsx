@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { TOP_FOOTER_LINK } from "@/utils/constants";
+import { FOOTER_IMAGES, TOP_FOOTER_LINK } from "@/utils/constants";
 import Link from "next/link";
 
 const Footer: React.FC = () => {
@@ -25,7 +25,28 @@ const Footer: React.FC = () => {
             ))}
           </div>
         </section>
-        <section></section>
+        <section>
+          <div>
+            <p className="text-white font-work-sans my-4 font-300 text-sm">
+              Be part of our community!
+            </p>
+            <div
+              className="flex flex-row justify-between max-w-[180px]
+            "
+            >
+              {FOOTER_IMAGES.map((item, index) => (
+                <Link
+                  href={item.link}
+                  key={index}
+                  className="hover:cursor-pointer hover:scale-110 hover:transition-all duration-100 ease-in-out"
+                >
+                  <Image src={item.src} height={30} width={30} alt={item.alt} />
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div></div>
+        </section>
       </div>
     </div>
   );

@@ -2,31 +2,31 @@ export const FOOTER_IMAGES = [
   {
     link: "https://www.linkedin.com/company/stablefi/",
     alt: "linkedin-image",
-    src: "/images/linkedin-image.svg",
+    src: "/images/logo/footer-linkedin.png",
     name: "Linkedin",
   },
   {
     link: "https://twitter.com/StableFinanceCo",
     alt: "twitter-image",
-    src: "/images/twitter-image.svg",
+    src: "/images/logo/footer-twitter.png",
     name: "Twitter",
   },
   {
     link: "https://medium.com/stable-finance",
     alt: "medium-image",
-    src: "/images/medium-image.svg",
+    src: "/images/logo/footer-medium.png",
     name: "Medium",
   },
   {
     link: "https://github.com/Stable-crypto",
     alt: "github-image",
-    src: "/images/github-image.svg",
+    src: "/images/logo/footer-github.png",
     name: "Github",
   },
   {
     link: "https://stable-3.gitbook.io/whitepaper/",
     alt: "gitbook-image",
-    src: "/images/gitbook-image.svg",
+    src: "/images/logo/footer-gitbook.png",
     name: "Gitbook",
   },
 ];
@@ -96,36 +96,6 @@ export const FOOTER_LINKS_A = [
   {
     name: "Tokenomics",
     link: "https://stable-3.gitbook.io/whitepaper/core-tokennomics",
-  },
-];
-
-export const FOOTER_LINKS_B = [
-  {
-    name: " Careers",
-    link: "",
-  },
-  {
-    name: "Blog",
-    link: "",
-  },
-  {
-    name: "Contact",
-    link: "",
-  },
-];
-
-export const FOOTER_LINKS_C = [
-  {
-    name: "Terms Of Use",
-    link: "",
-  },
-  {
-    name: "Privacy Policy",
-    link: "",
-  },
-  {
-    name: "Candidate Privacy",
-    link: "",
   },
 ];
 
