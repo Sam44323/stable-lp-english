@@ -1,11 +1,17 @@
 import React from "react";
 import Hero from "@/components/section/RWA-Page/Hero/Hero";
+import Head from "next/head";
 
 const RWA = () => {
   return (
-    <div>
-      <Hero />
-    </div>
+    <>
+      <Head>
+        <title>Stable | RWA</title>
+      </Head>
+      <div>
+        <Hero />
+      </div>
+    </>
   );
 };
 
