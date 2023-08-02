@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { FOOTER_IMAGES, TOP_FOOTER_LINK } from "@/utils/constants";
+import {
+  FOOTER_IMAGES,
+  FOOTER_LINKS_A,
+  FOOTER_LINKS_B,
+  FOOTER_LINKS_C,
+  TOP_FOOTER_LINK,
+} from "@/utils/constants";
 import Link from "next/link";
 
 const Footer: React.FC = () => {
@@ -25,13 +31,13 @@ const Footer: React.FC = () => {
             ))}
           </div>
         </section>
-        <section>
+        <section className="flex flex-row items-center justify-between">
           <div>
             <p className="text-white font-work-sans my-4 font-300 text-sm">
               Be part of our community!
             </p>
             <div
-              className="flex flex-row justify-between max-w-[180px]
+              className="flex flex-row justify-between min-w-[180px]
             "
             >
               {FOOTER_IMAGES.map((item, index) => (
@@ -45,25 +51,32 @@ const Footer: React.FC = () => {
               ))}
             </div>
           </div>
-          <div></div>
+          <div className="flex flex-row justify-between flex-[0.5] mt-10">
+            {[FOOTER_LINKS_A, FOOTER_LINKS_B, FOOTER_LINKS_C].map(
+              (item, index) => (
+                <div key={index} className="flex flex-col text-center">
+                  {item.map((link, index) => (
+                    <Link
+                      href={link.link}
+                      key={index}
+                      target="_blank"
+                      className="no-underline font-be-vietnam-pro font-300 text-white my-[10px] text-[12.5px] leading-6 hover:underline"
+                    >
+                      {link.name}
+                    </Link>
+                  ))}
+                </div>
+              )
+            )}
+          </div>
         </section>
+        <div className="bg-white h-[0.5px] mt-10 opacity-50"></div>
+        <p className="font-work-sans font-300 mt-7 text-white opacity-50 text-xs">
+          © Stable {new Date().getFullYear()}. All Right Reserved{" "}
+        </p>
       </div>
     </div>
   );
 };
 
 export default Footer;
-
-/**
- *   {[FOOTER_LINKS_A, FOOTER_LINKS_B, FOOTER_LINKS_C].map(
-              (item, index) => (
-                <div key={index} className={styles.FooterLinksContainer}>
-                  {item.map((link, index) => (
-                    <a href={link.link} key={index}>
-                      {link.name}
-                    </a>
-                  ))}
-                </div>
-              )
-            )}
- */

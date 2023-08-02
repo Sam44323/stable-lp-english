@@ -31,32 +31,6 @@ export const FOOTER_IMAGES = [
   },
 ];
 
-export const NORMAL_LINKS = [
-  {
-    name: "How Does It Work?",
-    href: "#how-does-it-work",
-  },
-  {
-    name: "STABLE Stablecoins",
-    href: "#stablecoins",
-  },
-  {
-    name: "STABLE Bonds",
-    href: "#bonds",
-  },
-];
-
-export const AUTH_LINKS = [
-  {
-    name: "Whitepaper",
-    href: "https://stable-3.gitbook.io/whitepaper/",
-  },
-  {
-    name: "STABLE App",
-    href: "/auth/signup",
-  },
-];
-
 export const HEADER_LINK = [
   {
     name: "Home",
@@ -96,6 +70,36 @@ export const FOOTER_LINKS_A = [
   {
     name: "Tokenomics",
     link: "https://stable-3.gitbook.io/whitepaper/core-tokennomics",
+  },
+];
+
+export const FOOTER_LINKS_B = [
+  {
+    name: "Careers",
+    link: "",
+  },
+  {
+    name: "Blog",
+    link: "",
+  },
+  {
+    name: "Contact",
+    link: "",
+  },
+];
+
+export const FOOTER_LINKS_C = [
+  {
+    name: "Term Of Use",
+    link: "",
+  },
+  {
+    name: "Privacy Policy",
+    link: "",
+  },
+  {
+    name: "Candidate Privacy",
+    link: "",
   },
 ];
 
