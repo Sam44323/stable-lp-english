@@ -34,18 +34,30 @@ const Header: React.FC = () => {
              mt-1.5 mr-5
           "
           >
-            {HEADER_LINK.map((item, index) => (
-              <Link
-                key={index}
-                href={item.href}
-                className={classNames(
-                  "no-underline text-link-inactive font-900 hover:text-link-active font-work-sans",
-                  router.pathname === "/" ? "text-link-active" : ""
-                )}
-              >
-                {item.name}
-              </Link>
-            ))}
+            {HEADER_LINK.map((item, index) => {
+              console.log(item.name, router.pathname === item.href);
+              return router.pathname === item.href ? (
+                <Link
+                  key={index}
+                  href={item.href}
+                  className={classNames(
+                    "no-underline text-link-active font-900 hover:text-link-active font-work-sans"
+                  )}
+                >
+                  {item.name}
+                </Link>
+              ) : (
+                <Link
+                  key={index}
+                  href={item.href}
+                  className={classNames(
+                    "no-underline text-link-inactive font-900 hover:text-link-active font-work-sans"
+                  )}
+                >
+                  {item.name}
+                </Link>
+              );
+            })}
           </div>
           <div className="pill-btn hover:ease-in duration-100 hover:scale-105">
             Get Started
