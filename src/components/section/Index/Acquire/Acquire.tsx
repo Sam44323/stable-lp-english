@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Supportedchains from "@/components/common/Supportedchains/Supportedchains";
 
 const Acquire = () => {
   return (
@@ -71,21 +71,7 @@ const Acquire = () => {
           start!
         </p>
       </section>
-      <section className="mt-16">
-        <h1 className="text-xl font-500 text-center font-roboto text-blue-text">
-          Supported Chains
-        </h1>
-        <div className="flex flex-row justify-between max-w-7xl mx-auto mt-16">
-          <img src="/images/chains/ethereum.png" alt="ethereum-chain" />
-          <img
-            src="/images/chains/polygon.png"
-            alt="polygon-chain"
-            width={200}
-          />
-          <img src="/images/chains/arbitrum.png" alt="arbitrum-chain" />
-          <img src="/images/chains/avalanche.png" alt="avalanche-chain" />
-        </div>
-      </section>
+      <Supportedchains />
     </div>
   );
 };
