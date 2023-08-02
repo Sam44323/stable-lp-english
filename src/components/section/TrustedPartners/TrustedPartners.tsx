@@ -2,7 +2,7 @@ import React from "react";
 
 const TrustedPartners = () => {
   return (
-    <div className="mt-36">
+    <div className="mt-36 pb-36 gradient–blue-bg">
       <h1 className="text-center mt-5 text-blue-text font-roboto tracking-wide font-500 mb-5">
         Trusted Partners
       </h1>

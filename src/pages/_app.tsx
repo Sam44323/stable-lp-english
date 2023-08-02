@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <ToastContainer autoClose={false} theme="dark" position="top-center" />
       <Header />
       <Component {...pageProps} />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
