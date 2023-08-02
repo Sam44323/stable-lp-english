@@ -3,7 +3,7 @@ import Supportedchains from "@/components/common/Supportedchains/Supportedchains
 
 const Acquire = () => {
   return (
-    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-no-repeat bg-contain 2xl:bg-cover 2xl:pt-[5%]  mt-72 pt-36 mx-auto relative ">
+    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-no-repeat bg-contain 2xl:bg-cover 2xl:pt-[5%]  mt-72 pt-36 mx-auto relative pb-40">
       <section className="text-center font-roboto">
         <h1 className="text-5xl font-500 text-blue-text">
           Acquire Stablecoins now!

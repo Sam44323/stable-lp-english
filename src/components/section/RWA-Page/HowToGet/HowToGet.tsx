@@ -3,7 +3,7 @@ import Supportedchains from "@/components/common/Supportedchains/Supportedchains
 
 const HowToGet = () => {
   return (
-    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-no-repeat bg-cover 2xl:bg-cover 2xl:pt-[5%]  mt-72 pt-16 mx-auto relative pb-16">
+    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-no-repeat bg-cover 2xl:bg-cover 2xl:pt-[5%]  mt-72 pt-16 mx-auto relative pb-40">
       <div className="relative z-10 mt-16 max-w-5xl mx-auto">
         <div className="max-w-xl">
           <h1 className="font-roboto text-xl text-blue-text">
