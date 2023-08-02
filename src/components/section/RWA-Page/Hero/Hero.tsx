@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="gradient-blue-bg-top min-h-[100vh] relative mb-44">
+    <div className="gradient-blue-bg-top relative mb-44">
       <img
         src="/images/shapes/rwa-mesh-right.png"
         alt="solid-circle-blue"
@@ -33,7 +33,7 @@ const Hero = () => {
             the selected asset.
           </p>
         </div>
-        <p className="text-right max-w-xl ml-auto mt-16 font-be-vietnam-pro font-300 leading-7 text-sm">
+        <p className="max-w-xl ml-auto mt-16 font-be-vietnam-pro font-300 leading-7 text-sm">
           The RWA tokenizing mechanism on Stable platform is executed through a
           dedicated smart-contract for each RWA. Participants may use Stable
           stablecoins (StUSD, StEUR, etc.) to interact with a specific contract
