@@ -1,4 +1,6 @@
 import React from "react";
+import { STABLECOINS_FEATURES } from "@/utils/constants";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -32,6 +34,19 @@ const Hero = () => {
             a 1:1 coin-to-asset backing.
           </p>
         </div>
+      </div>
+      <div className="flex flex-row justify-between max-w-screen-xl mx-auto relative z-10 mt-36">
+        {STABLECOINS_FEATURES.map((item, index) => (
+          <div className="flex flex-col items-center" key={index}>
+            <Image src={item.src} alt={item.title} height={190} width={190} />
+            <h1 className="font-roboto text-xl text-blue-text m-0">
+              {item.title}
+            </h1>
+            <p className="font-work-sans font-300 mt-1.5 leading-7 text-sm max-w-[240px] text-center">
+              {item.description}
+            </p>
+          </div>
+        ))}
       </div>
     </div>
   );
