@@ -43,6 +43,13 @@ const Hero = () => {
           asset.
         </p>
       </div>
+      <Image
+        src="/images/rwa-flow.png"
+        className="max-w-screen-lg mx-auto mt-36 object-fill"
+        height={500}
+        width={1200}
+        alt="redeem-flow"
+      />
     </div>
   );
 };
