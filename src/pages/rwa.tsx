@@ -1,9 +1,12 @@
 import React from "react";
+import Hero from "@/components/section/RWA-Page/Hero/Hero";
 
 const RWA = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 };
 
 export default RWA;
-
-//  return <div className="gradient-blue-bg-top min-h-[100vh]"></div>;
