@@ -2,13 +2,13 @@ import Head from "next/head";
 import React from "react";
 
 // components
-import Hero from "@/components/section/Hero/Hero";
-import Acquire from "@/components/section/Acquire/Acquire";
-import Joinnow from "@/components/section/Joinnow/Joinnow";
-import Tokenizedetails from "@/components/section/Tokenizedetails/Tokenizedetails";
-import FAQ from "@/components/section/FAQ/FAQ";
-import HaveMoreQuestions from "@/components/section/HaveMoreQuestions/HaveMoreQuestions";
-import TrustedPartners from "@/components/section/TrustedPartners/TrustedPartners";
+import Hero from "@/components/section/Index/Hero/Hero";
+import Acquire from "@/components/section/Index/Acquire/Acquire";
+import Joinnow from "@/components/section/Index/Joinnow/Joinnow";
+import Tokenizedetails from "@/components/section/Index/Tokenizedetails/Tokenizedetails";
+import FAQ from "@/components/section/Index/FAQ/FAQ";
+import HaveMoreQuestions from "@/components/section/Index/HaveMoreQuestions/HaveMoreQuestions";
+import TrustedPartners from "@/components/section/Index/TrustedPartners/TrustedPartners";
 
 /**
  * @todo: add support for meta-image support for images
