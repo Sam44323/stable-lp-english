@@ -11,6 +11,8 @@ const FAQ = () => {
       <img
         src="/images/shapes/faq-ellipse.png"
         className="absolute left-0 -z-10"
+        height={400}
+        width={400}
       />
       <h1 className="text-center mt-5 text-blue-text font-roboto tracking-wide font-500 mb-5">
         FAQ's

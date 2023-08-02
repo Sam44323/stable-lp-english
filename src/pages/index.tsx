@@ -7,6 +7,7 @@ import Acquire from "@/components/section/Acquire/Acquire";
 import Joinnow from "@/components/section/Joinnow/Joinnow";
 import Tokenizedetails from "@/components/section/Tokenizedetails/Tokenizedetails";
 import FAQ from "@/components/section/FAQ/FAQ";
+import HaveMoreQuestions from "@/components/section/HaveMoreQuestions/HaveMoreQuestions";
 
 /**
  * @todo: add support for meta-image support for images
@@ -30,6 +31,7 @@ export default function Home() {
         <Joinnow />
         <Tokenizedetails />
         <FAQ />
+        <HaveMoreQuestions />
       </main>
     </>
   );
