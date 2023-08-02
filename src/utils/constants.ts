@@ -76,17 +76,12 @@ export const HEADER_LINK = [
   },
 ];
 
-export const IMAGE_CONTENT = [
-  "/images/ethereum-icon.svg",
-  "/images/fantom-icon.svg",
-  "/images/polygon-icon.svg",
-  "/images/avalanche-icon.svg",
-];
-
-export const REGULATION_IMAGE_CONTENT = [
-  "/images/kyc-image.svg",
-  "/images/cft-image.svg",
-  "/images/aml-image.svg",
+export const TOP_FOOTER_LINK = [
+  { name: "Stable Protocol", link: "" },
+  { name: "Governance", link: "" },
+  { name: "Docs", link: "" },
+  { name: "Security", link: "" },
+  { name: "FAQ", link: "" },
 ];
 
 export const FOOTER_LINKS_A = [
