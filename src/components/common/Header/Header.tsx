@@ -9,7 +9,6 @@ import {
   Collapse,
   Nav,
   NavItem,
-  Container,
 } from "reactstrap";
 
 import { HEADER_LINK } from "@/utils/constants";
@@ -35,7 +34,6 @@ const Header: React.FC = () => {
           "
           >
             {HEADER_LINK.map((item, index) => {
-              console.log(item.name, router.pathname === item.href);
               return router.pathname === item.href ? (
                 <Link
                   key={index}
