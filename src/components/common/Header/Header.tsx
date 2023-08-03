@@ -105,12 +105,21 @@ const Header: React.FC = () => {
                 <Nav navbar>
                   {HEADER_LINK.map((item, index) => (
                     <NavItem key={index}>
-                      <Link
-                        href={item.href}
-                        className="no-underline font-work-sans text-link-inactive"
-                      >
-                        {item.name}
-                      </Link>
+                      {router.pathname === item.href ? (
+                        <Link
+                          href={item.href}
+                          className="no-underline font-work-sans text-link-active"
+                        >
+                          {item.name}
+                        </Link>
+                      ) : (
+                        <Link
+                          href={item.href}
+                          className="no-underline font-work-sans text-link-inactive"
+                        >
+                          {item.name}
+                        </Link>
+                      )}
                     </NavItem>
                   ))}
                 </Nav>
