@@ -26,7 +26,7 @@ const Header: React.FC = () => {
       {/**
        * @description: section for screen >= tablets
        */}
-      <section className="sm:hidden md:flex flex-row justify-between align-middle max-w-6xl ml-auto mr-auto">
+      <section className="mobile:hidden md:flex flex-row justify-between align-middle max-w-6xl ml-auto mr-auto">
         <img src="/images/logo/header-stable-icon.png" className="h-7" />
         <div className="flex flex-row justify-between align-middle w-fit">
           <div
@@ -76,7 +76,49 @@ const Header: React.FC = () => {
       {/**
        * @description: section for mobile
        */}
-      <section className="sm:block md:hidden"></section>
+      <section className="mobile:block hidden">
+        <div>
+          <div>
+            <Navbar color="faded" light>
+              <NavbarBrand
+                style={{
+                  paddingLeft: 10,
+                }}
+              >
+                <Image
+                  src="/images/logo/header-stable-icon.png"
+                  height={30}
+                  width={100}
+                  alt="stable-img"
+                  priority
+                />
+              </NavbarBrand>
+              <NavbarToggler
+                onClick={toggleNavbar}
+                style={{
+                  border: collapsed ? "none" : "1px solid #000",
+                  outline: "none",
+                  boxShadow: "none",
+                }}
+              />
+              <Collapse isOpen={!collapsed} navbar className="ml-4 mt-4">
+                <Nav navbar>
+                  {HEADER_LINK.map((item, index) => (
+                    <NavItem key={index}>
+                      <Link
+                        href={item.href}
+                        className="no-underline font-work-sans text-link-inactive"
+                      >
+                        {item.name}
+                      </Link>
+                    </NavItem>
+                  ))}
+                </Nav>
+              </Collapse>
+            </Navbar>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

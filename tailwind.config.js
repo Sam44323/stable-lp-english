@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        mobile: {
+          max: "1200px",
+        },
+      },
       colors: {
         link: {
           inactive: "#130F49",
