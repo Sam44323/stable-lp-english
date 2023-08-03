@@ -14,13 +14,13 @@ const Acquire = () => {
           equals EUR. We offer three different ways to acquire our stablecoins:
         </p>
       </section>
-      <section className="flex flex-row justify-between max-w-[1900px] mx-auto">
+      <section className="flex flex-row justify-between max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">
         <section className="ml-36">
-          <div>
-            <div className="icon-bg">
+          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:text-center">
+            <div className="icon-bg mobile:ml-[40%]">
               <img src="/images/utilize-dex.svg" />
             </div>
-            <div className="ml-1 mt-3">
+            <div className="ml-1 mt-3 mobile:ml-0">
               <h1 className="font-roboto text-xl font-500">Utilize a DEX</h1>
               <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm">
                 Utilize Curve, Uni V3 or similar DEXs to exchange your
@@ -56,7 +56,10 @@ const Acquire = () => {
             </div>
           </div>
         </section>
-        <img src="/images/macbook.png" className="h-[700] w-[1000]" />
+        <img
+          src="/images/macbook.png"
+          className="h-[700] w-[1000] mobile:hidden"
+        />
       </section>
       <section className="text-center font-roboto mt-36">
         <h1 className="text-5xl font-500 text-blue-text">We are Multichain!</h1>
