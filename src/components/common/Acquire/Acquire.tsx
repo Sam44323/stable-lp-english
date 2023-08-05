@@ -15,39 +15,51 @@ const Acquire = () => {
         </p>
       </section>
       <section className="flex flex-row justify-between max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">
-        <section className="ml-36">
-          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:text-center">
-            <div className="icon-bg mobile:ml-[40%]">
-              <img src="/images/utilize-dex.svg" />
+        <section className="ml-36 mobile:ml-0 mobile:mt-16">
+          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:my-10">
+            <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
+              <div className="icon-bg">
+                <img src="/images/utilize-dex.svg" height={30} width={30} />
+              </div>
             </div>
             <div className="ml-1 mt-3 mobile:ml-0">
-              <h1 className="font-roboto text-xl font-500">Utilize a DEX</h1>
-              <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm">
+              <h1 className="font-roboto text-xl font-500 mobile:text-center">
+                Utilize a DEX
+              </h1>
+              <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
                 Utilize Curve, Uni V3 or similar DEXs to exchange your
                 cryptocurrencies for our stablecoins. 
               </p>
             </div>
           </div>
-          <div>
-            <div className="icon-bg">
-              <img src="/images/create-account.svg" />
+          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center">
+            <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
+              <div className="icon-bg">
+                <img src="/images/create-account.svg" />
+              </div>
             </div>
-            <div className="ml-1 mt-3">
-              <h1 className="font-roboto text-xl font-500">Create Account</h1>
-              <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm">
+            <div className="ml-1 mt-3 mobile:ml-0">
+              <h1 className="font-roboto text-xl font-500 mobile:text-center">
+                Create Account
+              </h1>
+              <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
                 Establish an account with us, undergo our AML/KYC verifications,
                 and transfer fiat; you will then have the ability to mint/redeem
                 our stablecoins at a 1:1 exchange rate.
               </p>
             </div>
           </div>
-          <div>
-            <div className="icon-bg">
-              <img src="/images/swap-function.svg" />
+          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center">
+            <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
+              <div className="icon-bg">
+                <img src="/images/swap-function.svg" />
+              </div>
             </div>
-            <div className="ml-1 mt-3">
-              <h1 className="font-roboto text-xl font-500">Swap Function</h1>
-              <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm">
+            <div className="ml-1 mt-3 mobile:ml-0">
+              <h1 className="font-roboto text-xl font-500 mobile:text-center">
+                Swap Function
+              </h1>
+              <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
                 Take advantage of the STABLE swap function, enabling the
                 conversion of USDT/USDC/TUSD to RWA stablecoins, with
                 consideration for Tether or Circle fees during the redemption
