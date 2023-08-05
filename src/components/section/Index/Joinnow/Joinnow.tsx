@@ -2,18 +2,18 @@ import React from "react";
 
 const Joinnow = () => {
   return (
-    <div className="gradient-blue-bg 2xl:max-w-screen-2xl max-w-screen-xl mx-auto rounded-3xl md:min-h-[300px]   relative mt-36">
+    <div className="gradient-blue-bg 2xl:max-w-screen-2xl max-w-screen-xl mx-auto rounded-3xl md:min-h-[300px]   relative mt-36 mobile:max-w-[90%] mobile:overflow-hidden">
       <div>
         <img
           src="/images/shapes/stacked-ellipse.png"
-          className="absolute left-0 md:max-h-[300px] rounded-3xl"
+          className="absolute left-0 md:max-h-[300px] rounded-3xl mobile:hidden"
         />
         <img
           src="/images/shapes/right-border-ellipse.png"
-          className="absolute right-0 md:max-h-[300px] z-10"
+          className="absolute right-0 md:max-h-[300px] z-10 mobile:hidden"
         />
       </div>
-      <div className="absolute z-10 max-w-screen-lg mx-auto left-16 pt-16">
+      <div className="absolute z-10 max-w-screen-lg mx-auto left-16 pt-16 mobile:flex mobile:flex-col mobile:items-center mobile:justify-center mobile:max-w-none mobile:w-full mobile:h-full mobile:p-0 mobile:left-0">
         <h1 className="text-white font-roboto">
           Join now and feel the benefits
         </h1>
@@ -21,7 +21,7 @@ const Joinnow = () => {
           Get Started
         </div>
       </div>
-      <div className="relative">
+      <div className="relative mobile:hidden">
         <div className="coin-bg px-5 py-4 absolute right-36 z-10 -translate-y-10">
           <img src="/images/coins/eth.png" />
         </div>
