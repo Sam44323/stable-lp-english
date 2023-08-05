@@ -5,11 +5,11 @@ const Tokenizedetails = () => {
   return (
     <>
       <div className="relative">
-        <div className="max-w-[700px] mx-auto text-left 2xl:-translate-x-80 -translate-x-48 mt-28">
-          <h1 className="font-roboto text-blue-text text-4xl max-w-lg leading-[50px]">
+        <div className="max-w-[700px] mx-auto text-left 2xl:-translate-x-80 -translate-x-48 mt-28 mobile:max-w-[80%] mobile:translate-x-0 mobile:flex mobile:flex-col mobile:items-center">
+          <h1 className="font-roboto text-blue-text text-4xl max-w-lg leading-[50px] mobile:text-center mobile:text-xl">
             Tokenize your assets and get more control and flexibility over them.
           </h1>
-          <p className="text-grey-100 font-work-sans text-[15px] mt-10">
+          <p className="text-grey-100 font-work-sans text-[15px] mt-10 mobile:text-center">
             The RWA tokenizing mechanism on the Stable platform is executed
             through a dedicated smart-contract for each RWA. Participants may
             use the dedicated Stable stablecoins (StUSD, StEUR, etc.) to
@@ -33,7 +33,7 @@ const Tokenizedetails = () => {
         </div>
         <img
           src="/images/shapes/ellipse-with-masks.png"
-          className="absolute right-0 -translate-y-[700px] -z-10"
+          className="absolute right-0 -translate-y-[700px] -z-10 mobile:hidden"
         />
       </div>
     </>
