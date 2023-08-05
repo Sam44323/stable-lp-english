@@ -3,7 +3,7 @@ import Supportedchains from "@/components/common/Supportedchains/Supportedchains
 
 const Acquire = () => {
   return (
-    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-no-repeat bg-contain 2xl:bg-cover 2xl:pt-[5%]  mt-72 pt-36 mx-auto relative pb-40">
+    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-no-repeat bg-contain 2xl:bg-cover 2xl:pt-[5%]  mt-72 pt-36 mx-auto relative pb-40 mobile:pb-10">
       <section className="text-center font-roboto">
         <h1 className="text-5xl font-500 text-blue-text">
           Acquire Stablecoins now!
@@ -74,8 +74,10 @@ const Acquire = () => {
         />
       </section>
       <section className="text-center font-roboto mt-36">
-        <h1 className="text-5xl font-500 text-blue-text">We are Multichain!</h1>
-        <p className="max-w-5xl mx-auto mt-6 font-300 font-manrope leading-7 text-grey-100">
+        <h1 className="text-5xl font-500 text-blue-text mobile:text-3xl">
+          We are Multichain!
+        </h1>
+        <p className="max-w-5xl mx-auto mt-6 font-300 font-manrope leading-7 text-grey-100 mobile:max-w-[80%] mobile:mx-auto mobile:text-sm mobile:leading-8">
           Stables platform, tokens, and smart-contracts were intentionally
           designed to be multi-chain, allowing for effortless adoption and
           integration. We are committed to deploying on all EVM-compatible
