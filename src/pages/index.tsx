@@ -1,5 +1,7 @@
 import Head from "next/head";
 import React from "react";
+
+// components
 import Hero from "@/components/section/Index/Hero/Hero";
 import Acquire from "@/components/common/Acquire/Acquire";
 import Joinnow from "@/components/section/Index/Joinnow/Joinnow";
