@@ -1,4 +1,4 @@
-import "@/styles/globals.scss";
+import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "@/components/common/Footer/Footer";
@@ -7,6 +7,7 @@ import Script from "next/script";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

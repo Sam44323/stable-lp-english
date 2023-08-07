@@ -1,0 +1,96 @@
+import React from "react";
+import Supportedchains from "@/components/common/Supportedchains/Supportedchains";
+
+const Acquire = () => {
+  return (
+    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-no-repeat bg-contain 2xl:bg-cover 2xl:pt-[5%]  mt-72 pt-36 mx-auto relative pb-40 mobile:pb-10">
+      <section className="text-center font-roboto">
+        <h1 className="text-5xl font-500 text-blue-text mobile:text-xl">
+          Acquire Stablecoins now!
+        </h1>
+        <p className="max-w-2xl mx-auto mt-6 font-300 font-manrope leading-7 text-grey-100 mobile:max-w-[90%] mobile:mx-auto">
+          Our stablecoins are pegged at a fixed rate of 1:1 with a corresponding
+          fiat currency. For instance, 1 StUSD equates to 1 USD, while 1 StEUR
+          equals EUR. We offer three different ways to acquire our stablecoins:
+        </p>
+      </section>
+      <section className="flex flex-row justify-between max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">
+        <section className="ml-36 mobile:ml-0 mobile:mt-16">
+          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:my-10">
+            <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
+              <div className="icon-bg">
+                <img src="/images/utilize-dex.svg" height={30} width={30} />
+              </div>
+            </div>
+            <div className="ml-1 mt-3 mobile:ml-0">
+              <h1 className="font-roboto text-xl font-500 mobile:text-center">
+                Utilize a DEX
+              </h1>
+              <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
+                Utilize Curve, Uni V3 or similar DEXs to exchange your
+                cryptocurrencies for our stablecoins. 
+              </p>
+            </div>
+          </div>
+          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center">
+            <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
+              <div className="icon-bg">
+                <img src="/images/create-account.svg" />
+              </div>
+            </div>
+            <div className="ml-1 mt-3 mobile:ml-0">
+              <h1 className="font-roboto text-xl font-500 mobile:text-center">
+                Create Account
+              </h1>
+              <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
+                Establish an account with us, undergo our AML/KYC verifications,
+                and transfer fiat; you will then have the ability to mint/redeem
+                our stablecoins at a 1:1 exchange rate.
+              </p>
+            </div>
+          </div>
+          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center">
+            <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
+              <div className="icon-bg">
+                <img src="/images/swap-function.svg" />
+              </div>
+            </div>
+            <div className="ml-1 mt-3 mobile:ml-0">
+              <h1 className="font-roboto text-xl font-500 mobile:text-center">
+                Swap Function
+              </h1>
+              <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
+                Take advantage of the STABLE swap function, enabling the
+                conversion of USDT/USDC/TUSD to RWA stablecoins, with
+                consideration for Tether or Circle fees during the redemption
+                phase.
+              </p>
+            </div>
+          </div>
+        </section>
+        <img
+          src="/images/macbook.png"
+          className="h-[700] w-[1000] mobile:hidden"
+        />
+      </section>
+      <section className="text-center font-roboto mt-36">
+        <h1 className="text-5xl font-500 text-blue-text mobile:text-3xl">
+          We are Multichain!
+        </h1>
+        <p className="max-w-5xl mx-auto mt-6 font-300 font-manrope leading-7 text-grey-100 mobile:max-w-[80%] mobile:mx-auto mobile:text-sm mobile:leading-8">
+          Stables platform, tokens, and smart-contracts were intentionally
+          designed to be multi-chain, allowing for effortless adoption and
+          integration. We are committed to deploying on all EVM-compatible
+          chains overtime, enabling Defi users to bring their preferred RWA
+          asset to the blockchain of their choice, regardless of whether they
+          are using Avalanche, Polygon, Arbitrum, or any other EVM chains…. Our
+          unwavering vision has always been to be multi-chain right from the
+          start!
+        </p>
+      </section>
+      <Supportedchains />
+    </div>
+  );
+};
+
+export default Acquire;

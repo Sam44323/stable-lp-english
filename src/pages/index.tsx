@@ -1,11 +1,18 @@
 import Head from "next/head";
+import React from "react";
 
 // components
-import WhyUseStable from "@/components/section/WhyUseStable/WhyUseStable";
-import StableCoins from "@/components/section/StableCoins/StableCoins";
-import Bonds from "@/components/section/Bonds/Bonds";
-import JoinWaitlist from "@/components/common/JoinWaitlist/JoinWaitlist";
-import React from "react";
+import Hero from "@/components/section/Index/Hero/Hero";
+import Acquire from "@/components/common/Acquire/Acquire";
+import Joinnow from "@/components/section/Index/Joinnow/Joinnow";
+import Tokenizedetails from "@/components/section/Index/Tokenizedetails/Tokenizedetails";
+import FAQ from "@/components/section/Index/FAQ/FAQ";
+import HaveMoreQuestions from "@/components/section/Index/HaveMoreQuestions/HaveMoreQuestions";
+import TrustedPartners from "@/components/section/Index/TrustedPartners/TrustedPartners";
+
+/**
+ * @todo: add support for meta-image support for images
+ */
 
 export default function Home() {
   return (
@@ -20,17 +27,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="sidelined-image-container">
-          <img
-            src="/images/sidelined-image.svg"
-            alt="sidelined-image"
-            className="sidelined-image"
-          />
-        </div>
-        <JoinWaitlist />
-        <WhyUseStable />
-        <StableCoins />
-        <Bonds />
+        <Hero />
+        <Acquire />
+        <Joinnow />
+        <Tokenizedetails />
+        <FAQ />
+        <HaveMoreQuestions />
+        <TrustedPartners />
       </main>
     </>
   );
