@@ -8,7 +8,7 @@ const Hero = () => {
         alt="solid-circle-blue"
         className="absolute right-0 top-36 mobile:hidden"
       />
-      <div className="max-w-5xl mx-auto pt-48 mobile:text-center">
+      <div className="max-w-5xl mx-auto pt-48 mobile:text-center mobile:pt-20">
         <h1 className="text-link-inactive tracking-tighter text-4xl max-w-lg font-500 font-roboto leading-[1.4] m-0 mobile:text-xl">
           Tokenize your assets and obtain more control and flexibility over
           them.
