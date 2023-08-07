@@ -5,10 +5,10 @@ const Acquire = () => {
   return (
     <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-no-repeat bg-contain 2xl:bg-cover 2xl:pt-[5%]  mt-72 pt-36 mx-auto relative pb-40 mobile:pb-10">
       <section className="text-center font-roboto">
-        <h1 className="text-5xl font-500 text-blue-text">
+        <h1 className="text-5xl font-500 text-blue-text mobile:text-xl">
           Acquire Stablecoins now!
         </h1>
-        <p className="max-w-2xl mx-auto mt-6 font-300 font-manrope leading-7 text-grey-100">
+        <p className="max-w-2xl mx-auto mt-6 font-300 font-manrope leading-7 text-grey-100 mobile:max-w-[90%] mobile:mx-auto">
           Our stablecoins are pegged at a fixed rate of 1:1 with a corresponding
           fiat currency. For instance, 1 StUSD equates to 1 USD, while 1 StEUR
           equals EUR. We offer three different ways to acquire our stablecoins:
