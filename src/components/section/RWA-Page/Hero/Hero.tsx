@@ -47,7 +47,7 @@ const Hero = () => {
       <img
         src="/images/rwa-flow.png"
         className="max-w-screen-lg mx-auto mt-36 mobile:hidden"
-        height={500}
+        height={800}
         width={1200}
         alt="redeem-flow"
       />
