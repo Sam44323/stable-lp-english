@@ -19,7 +19,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
     <div
       className={classNames(
         "bg-white rounded-3xl py-[5px] px-[19px] mb-5 shadow-custom-card hover:cursor-pointer hover:border-blue-400",
-        active ? "border-2 border-blue-400 py-[30px]" : "border-2 border-white"
+        active ? "border-2 border-blue-400 py-[31px]" : "border-2 border-white"
       )}
       onClick={onClick}
     >

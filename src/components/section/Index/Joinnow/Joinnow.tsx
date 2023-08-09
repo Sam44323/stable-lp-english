@@ -2,7 +2,7 @@ import React from "react";
 
 const Joinnow = () => {
   return (
-    <div className="gradient-blue-bg 2xl:max-w-screen-2xl max-w-screen-xl mx-auto rounded-3xl md:min-h-[300px]   relative mt-36 mobile:max-w-[90%] mobile:overflow-hidden">
+    <div className="gradient-blue-bg 2xl:max-w-screen-2xl max-w-[1200px] mx-auto rounded-3xl md:min-h-[300px]   relative mt-18 mobile:max-w-[90%] mobile:overflow-hidden">
       <div>
         <img
           src="/images/shapes/stacked-ellipse.png"

@@ -5,12 +5,12 @@ const Tokenizedetails = () => {
   return (
     <>
       <div className="relative">
-        <div className="max-w-[700px] mx-auto text-left 2xl:-translate-x-80 -translate-x-48 mt-28 mobile:max-w-[80%] mobile:translate-x-0 mobile:flex mobile:flex-col mobile:items-center">
-          <h1 className="font-roboto text-blue-text text-4xl max-w-lg leading-[50px] mobile:text-center mobile:text-xl">
+        <div className="max-w-[800px] mx-auto text-left 2xl:-translate-x-80 -translate-x-48 mt-28 mobile:max-w-[80%] mobile:translate-x-0 mobile:flex mobile:flex-col mobile:items-center">
+          <h1 className="font-roboto text-blue-text text-[46px] max-w-3xl  leading-[70px] mobile:text-center mobile:text-xl">
             Tokenize your favorite assets and get more control and flexibility
             over them.
           </h1>
-          <p className="text-grey-100 font-work-sans text-[15px] mt-10 mobile:text-center">
+          <p className="text-grey-100 font-work-sans leading-6 text-[15px] mt-10 mobile:text-center">
             Bring your preferred equities, bonds, ETFs, and other instruments to
             your favorite blockchain, and take control of your favorite assets.
             This will allow you to unleash their maximum potential, and elevate

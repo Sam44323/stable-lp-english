@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero: React.FC = () => {
   return (
-    <div className="max-w-5xl relative flex flex-row justify-evenly ml-auto mr-auto mt-48 mobile:max-w-[90%] mobile:mt-36 mobile:flex-col">
+    <div className="max-w-8xl relative flex flex-row justify-evenly ml-auto mr-auto mt-48 mobile:max-w-[90%] mobile:mt-36 mobile:flex-col">
       <section>
         <div className="relative mobile:flex mobile:flex-col mobile:w-full mobile:items-center">
           <Image

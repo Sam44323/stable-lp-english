@@ -7,14 +7,14 @@ const FAQ = () => {
     React.useState<number>(-1);
 
   return (
-    <div className="mt-[400px] relative mobile:mt-36">
+    <div className="mt-[270px] relative mobile:mt-36">
       <img
         src="/images/shapes/faq-ellipse.png"
         className="absolute left-0 -z-10"
         height={400}
         width={400}
       />
-      <h1 className="text-center mt-5 text-blue-text font-roboto tracking-wide font-500 mb-5">
+      <h1 className="text-center mt-5 text-blue-text font-roboto text-5xl tracking-wide font-500 mb-5">
         FAQ's
       </h1>
       <div className="max-w-[80vw] mx-auto">
