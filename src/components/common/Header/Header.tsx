@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         <img src="/images/logo/header-stable-icon.png" className="h-7" />
         <div className="flex flex-row justify-between align-middle w-fit">
           <div
-            className="flex flex-row justify-between align-middle w-78
+            className="flex flex-row justify-between align-middle w-[400px]
              mt-1.5 mr-5
           "
           >
@@ -39,7 +39,7 @@ const Header: React.FC = () => {
                   key={index}
                   href={item.href}
                   className={classNames(
-                    "no-underline text-link-active font-900 hover:text-link-active font-work-sans"
+                    "no-underline text-link-active font-900 hover:text-link-active font-work-sans text-sm"
                   )}
                 >
                   {item.name}
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
                   key={index}
                   href={item.href}
                   className={classNames(
-                    "no-underline text-link-inactive font-900 hover:text-link-active font-work-sans"
+                    "no-underline text-link-inactive font-900 hover:text-link-active font-work-sans text-sm"
                   )}
                 >
                   {item.name}
@@ -57,7 +57,7 @@ const Header: React.FC = () => {
               );
             })}
           </div>
-          <div className="pill-btn hover:ease-in duration-100 hover:scale-105">
+          <div className="pill-btn hover:ease-in duration-100 hover:scale-105 ml-5 text-[14px]">
             Get Started
           </div>
         </div>
