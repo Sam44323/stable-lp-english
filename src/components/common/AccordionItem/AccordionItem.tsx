@@ -19,7 +19,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
     <div
       className={classNames(
         "bg-white rounded-3xl py-[5px] px-[19px] mb-5 shadow-custom-card hover:cursor-pointer hover:border-blue-400",
-        active ? "border-2 border-blue-400 py-[31px]" : "border-2 border-white"
+        active ? "border-2 border-blue-400 py-[30px]" : "border-2 border-white"
       )}
       onClick={onClick}
     >
@@ -29,7 +29,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
           active && "pb-4"
         )}
       >
-        <h1 className="m-0 text-blue-text text-lg font-be-vietnam-pro tracking-wide mobile:text-sm">
+        <h1 className="m-0 text-blue-text text-xl font-be-vietnam-pro tracking-wide mobile:text-sm">
           {title}
         </h1>
         <img
@@ -53,7 +53,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
               {description.map((item, index) => (
                 <p
                   key={index}
-                  className="max-w-[90%] font-work-sans font-400 leading-8 text-[#6F6C90] text-sm mobile:text-[12.5px"
+                  className="max-w-[90%] font-work-sans font-400 leading-8 text-[#6F6C90] text-md mobile:text-[12.5px"
                 >
                   <span className="font-manrope font-800 text-black mr-1">
                     {index + 1}.
@@ -63,7 +63,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
               ))}
             </div>
           ) : (
-            <p className="max-w-[90%] font-work-sans leading-8 text-[#6F6C90] text-sm mobile:text-[12.5px]">
+            <p className="max-w-[90%] font-work-sans leading-8 text-[#6F6C90] text-md mobile:text-[12.5px]">
               {description}
             </p>
           )}

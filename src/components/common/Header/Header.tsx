@@ -67,7 +67,7 @@ const Header: React.FC = () => {
             alt="header-ellipse"
             height={700}
             width={700}
-            className="absolute top-0 right-0 -z-[1]"
+            className="absolute top-0 -right-80 -z-[1]"
           />
         )}
       </section>

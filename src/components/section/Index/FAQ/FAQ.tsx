@@ -14,7 +14,7 @@ const FAQ = () => {
         height={400}
         width={400}
       />
-      <h1 className="text-center mt-5 text-blue-text font-roboto text-5xl tracking-wide font-500 mb-5">
+      <h1 className="text-center mt-5 text-blue-text font-roboto text-6xl mobile:text-4xl tracking-wide font-500 mb-5">
         FAQ's
       </h1>
       <div className="max-w-[80vw] mx-auto">

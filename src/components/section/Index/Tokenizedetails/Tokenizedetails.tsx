@@ -5,12 +5,12 @@ const Tokenizedetails = () => {
   return (
     <>
       <div className="relative">
-        <div className="max-w-[800px] mx-auto text-left 2xl:-translate-x-80 -translate-x-48 mt-28 mobile:max-w-[80%] mobile:translate-x-0 mobile:flex mobile:flex-col mobile:items-center">
-          <h1 className="font-roboto text-blue-text text-[46px] max-w-3xl  leading-[70px] mobile:text-center mobile:text-xl">
+        <div className="max-w-[800px] mx-auto text-left 2xl:-translate-x-80 -translate-x-48 mt-16 mobile:max-w-[80%] mobile:translate-x-0 mobile:flex mobile:flex-col mobile:items-center">
+          <h1 className="font-roboto text-blue-text text-[50px] max-w-3xl  leading-[70px] mobile:text-center mobile:text-xl">
             Tokenize your favorite assets and get more control and flexibility
             over them.
           </h1>
-          <p className="text-grey-100 font-work-sans leading-6 text-[15px] mt-10 mobile:text-center">
+          <p className="text-grey-100 font-work-sans font-400 leading-7 text-[17px] mt-10 mobile:text-center">
             Bring your preferred equities, bonds, ETFs, and other instruments to
             your favorite blockchain, and take control of your favorite assets.
             This will allow you to unleash their maximum potential, and elevate
@@ -20,7 +20,7 @@ const Tokenizedetails = () => {
             to hold.
           </p>
           <div className="pill-btn font-roboto tracking-wide font-500 text-white hover:ease-in duration-100 hover:scale-105 mt-6 flex align-middle">
-            <p className="m-0 text-sm font-work-sans px-1 py-1">
+            <p className="m-0 text-lg font-work-sans px-4 py-1 font-700">
               Find out more
             </p>
             <Image

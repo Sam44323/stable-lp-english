@@ -2,8 +2,8 @@ import React from "react";
 
 const TrustedPartners = () => {
   return (
-    <div className="mt-36 pb-36 gradient–blue-bg">
-      <h1 className="text-center mt-5 text-blue-text font-roboto tracking-wide font-500 mb-5 mobile:text-xl">
+    <div className="mt-20 pb-48 gradient–blue-bg">
+      <h1 className="text-center mt-5 text-blue-text font-roboto text-5xl tracking-wide font-500 mb-5 mobile:text-xl">
         Trusted Partners
       </h1>
       <div className="flex flex-row justify-between max-w-6xl mx-auto mt-16 mobile:hidden">
@@ -15,19 +15,28 @@ const TrustedPartners = () => {
         <img
           src="/images/chains/ethereum.png"
           alt="ethereum-chain"
-          width={240}
+          style={{
+            height: "50px",
+            width: "190px",
+          }}
           className="mt-0"
         />
         <img
           src="/images/chains/polygon.png"
           alt="polygon-chain"
-          width={240}
+          style={{
+            height: "50px",
+            width: "190px",
+          }}
           className="mt-10"
         />
         <img
           src="/images/chains/avalanche.png"
           alt="avalanche-chain"
-          width={240}
+          style={{
+            height: "50px",
+            width: "200px",
+          }}
           className="mt-10"
         />
       </div>
