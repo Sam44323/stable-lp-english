@@ -44,8 +44,8 @@ const Acquire = () => {
               </h1>
               <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
                 Establish an account with us, undergo our AML/KYC verifications,
-                and transfer fiat; you will then have the ability to mint/redeem
-                our stablecoins at a 1:1 exchange rate.
+                and transfer fiat; you will then have the ability to mint or
+                redeem our stablecoins at a 1:1 exchange rate.
               </p>
             </div>
           </div>
@@ -60,10 +60,8 @@ const Acquire = () => {
                 Swap Function
               </h1>
               <p className="max-w-sm  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
-                Take advantage of the STABLE swap function, enabling the
-                conversion of USDT/USDC/TUSD to RWA stablecoins, with
-                consideration for Tether or Circle fees during the redemption
-                phase.
+                Send us USDT, USDC, or TUSD, and receive back StUSD at the rate
+                of 1:1(deduction of redemption fees charged by issuers).
               </p>
             </div>
           </div>
@@ -78,13 +76,13 @@ const Acquire = () => {
           We are Multichain!
         </h1>
         <p className="max-w-5xl mx-auto mt-6 font-300 font-manrope leading-7 text-grey-100 mobile:max-w-[80%] mobile:mx-auto mobile:text-sm mobile:leading-8">
-          Stables platform, tokens, and smart-contracts were intentionally
+          Stable’s platform, tokens, and smart contracts were intentionally
           designed to be multi-chain, allowing for effortless adoption and
           integration. We are committed to deploying on all EVM-compatible
-          chains overtime, enabling Defi users to bring their preferred RWA
-          asset to the blockchain of their choice, regardless of whether they
-          are using Avalanche, Polygon, Arbitrum, or any other EVM chains…. Our
-          unwavering vision has always been to be multi-chain right from the
+          chains over time, enabling Defi and non-Defi users to bring their
+          preferred RWA asset to the blockchain of their choice, regardless of
+          whether they are using Avalanche, Polygon, Arbitrum, or any other EVM
+          chain. Our vision has always been to be multi-chain right from the
           start!
         </p>
       </section>

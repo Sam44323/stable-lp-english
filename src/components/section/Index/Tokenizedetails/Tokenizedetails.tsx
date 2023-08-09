@@ -7,16 +7,17 @@ const Tokenizedetails = () => {
       <div className="relative">
         <div className="max-w-[700px] mx-auto text-left 2xl:-translate-x-80 -translate-x-48 mt-28 mobile:max-w-[80%] mobile:translate-x-0 mobile:flex mobile:flex-col mobile:items-center">
           <h1 className="font-roboto text-blue-text text-4xl max-w-lg leading-[50px] mobile:text-center mobile:text-xl">
-            Tokenize your assets and get more control and flexibility over them.
+            Tokenize your favorite assets and get more control and flexibility
+            over them.
           </h1>
           <p className="text-grey-100 font-work-sans text-[15px] mt-10 mobile:text-center">
-            The RWA tokenizing mechanism on the Stable platform is executed
-            through a dedicated smart-contract for each RWA. Participants may
-            use the dedicated Stable stablecoins (StUSD, StEUR, etc.) to
-            interact with a specific contract of their choice, representing a
-            particular asset in a specific region, leading to the burning of the
-            stablecoins and releasing of the corresponding funds from the cash
-            reserve to purchase the selected asset.
+            Bring your preferred equities, bonds, ETFs, and other instruments to
+            your favorite blockchain, and take control of your favorite assets.
+            This will allow you to unleash their maximum potential, and elevate
+            their financial possibilities in the world of Defi. All you need to
+            do is utilize our in-house Stablecoins for the minting, which is the
+            quickest and simplest way to gain exposure to the assets you intend
+            to hold.
           </p>
           <div className="pill-btn font-roboto tracking-wide font-500 text-white hover:ease-in duration-100 hover:scale-105 mt-6 flex align-middle">
             <p className="m-0 text-sm font-work-sans px-1 py-1">

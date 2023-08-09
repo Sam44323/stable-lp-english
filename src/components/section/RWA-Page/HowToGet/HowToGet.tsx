@@ -10,16 +10,16 @@ const HowToGet = () => {
             How to get RWAs?
           </h1>
           <p className="font-be-vietnam-pro font-300 mt-4 leading-7 text-sm mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
-            To access Stable's Real World Assets (RWAs), users must acquire
-            Stable's stablecoins initially. Once users have stablecoins, they
-            can utilize them for RWAs minting or redeeming by interacting with
-            dedicated smart-staking.
+            To be able to mint, redeem or act as arbitrageur for Stable's Real
+            World Assets (RWAs), you must first create an account with us and
+            successfully complete our KYC and AML checks. Once it’s all done,
+            you are free to unleash the maximum potential of RWAs.
           </p>
         </div>
         <p className="max-w-xl ml-auto mt-16 font-be-vietnam-pro font-300 leading-7 text-sm mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
-          This process involves burning the stablecoins, buying assets for
-          backing, and minting an RWA token. With a focus on transparency and
-          1:1 asset backing, each RWA token is fully backed by an equivalent
+          The actual process involves burning the stablecoins, buying the assets
+          for backing, and minting the RWA token. With a focus on transparency
+          and 1:1 asset backing, each RWA token is fully backed by an equivalent
           amount of assets that is representing. This means that 100 StTSLA
           tokens are backed by 100 TSLA shares in Stable's custody, which is
           reported through Chainlinks Proof of Reserve.

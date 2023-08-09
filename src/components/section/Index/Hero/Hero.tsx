@@ -28,11 +28,11 @@ const Hero: React.FC = () => {
           />
           <p className="font-manrope font-300 max-w-xl mt-4 leading-[1.6] tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
             Gain access to variety of financial products including government
-            bonds, stocks, investment funds, ETF's, and many others.
+            bonds, stocks, investment funds,ETF's, and many others.
           </p>
         </div>
         <div className="pill-btn hover:ease-in duration-100 hover:scale-105 min-w-[190px] mobile:max-w-50% mobile:mx-auto">
-          Get Started
+          Gain Access
         </div>
       </section>
       <section className="flex flex-col relative align-end -right-7 mt-16 mobile:hidden">
