@@ -10,23 +10,23 @@ const Hero = () => {
         alt="solid-circle-blue"
         className="absolute right-0 top-36 mobile:hidden"
       />
-      <div className="max-w-5xl mx-auto pt-48 mobile:text-center mobile:pt-20">
-        <h1 className="text-link-inactive tracking-tighter text-4xl max-w-xl font-500 font-roboto leading-[1.4] m-0 mobile:text-lg">
+      <div className="max-w-6xl mx-auto pt-48 mobile:text-center mobile:pt-20">
+        <h1 className="text-link-inactive text-[50px] max-w-3xl font-500 font-roboto leading-[1.4] m-0 mobile:text-lg">
           Stable's stablecoins offer the advantage of a convenient medium for
           minting or redeeming our RWAs.
         </h1>
         <div className="mobile:flex mobile:flex-row mobile:justify-center">
-          <div className="pill-btn hover:ease-in duration-100 hover:scale-105 min-w-[190px] mt-5">
+          <div className="pill-btn hover:ease-in text-lg px-7 duration-100 hover:scale-105 min-w-[190px] mt-5">
             Acquire Stablecoins
           </div>
         </div>
       </div>
-      <div className="relative z-10 mt-16 max-w-5xl mx-auto">
+      <div className="relative z-10 mt-16 max-w-6xl mx-auto">
         <div className="max-w-xl">
-          <h1 className="font-roboto text-xl text-blue-text mobile:text-center">
+          <h1 className="font-roboto text-3xl text-blue-text mobile:text-center">
             Stablecoins
           </h1>
-          <p className="font-be-vietnam-pro font-300 mt-4 leading-7 text-sm mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
+          <p className="font-be-vietnam-pro mt-4 font-300  text-grey-100 min-w-[700px]  mobile:min-w-0 text-lg leading-8 mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
             Stablecoins from Stable are pegged at a fixed rate of 1:1 with a
             corresponding fiat currency when minting or redeeming. For instance,
             1 StUSD equates to 1 USD, and 1 StEUR equals 1 EUR. These
@@ -67,11 +67,11 @@ const Hero = () => {
         ))}
       </div>
       <div className="relative z-10 mt-36 max-w-5xl mx-auto">
-        <div className="max-w-xl ml-auto">
-          <h1 className="font-roboto text-xl text-blue-text text-right mobile:text-center">
+        <div className="max-w-[680px] ml-auto">
+          <h1 className="font-roboto text-3xl text-blue-text text-right mobile:text-center">
             What can you do with our Stablecoins? 
           </h1>
-          <p className="font-be-vietnam-pro font-300 mt-4 leading-7 text-sm mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
+          <p className="font-be-vietnam-pro font-300 mt-4 text-grey-100 min-w-[700px] mr-36  mobile:min-w-0 text-lg leading-8 mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
             Stable's stablecoins are a top choice for crypto enthusiasts, Defi,
             or non-Defi users, since they can be utilized just like any other
             fiat-backed stablecoin. However, what sets Stable apart is the added
@@ -84,11 +84,11 @@ const Hero = () => {
             use for day-to-day payments.
           </p>
         </div>
-        <div className="max-w-xl mt-16">
-          <h1 className="font-roboto text-xl text-blue-text mobile:text-center">
+        <div className="max-w-xl mt-20">
+          <h1 className="font-roboto text-3xl text-blue-text mobile:text-center">
             Regulation
           </h1>
-          <p className="font-be-vietnam-pro font-300 mt-4 leading-7 text-sm mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
+          <p className="font-be-vietnam-pro font-300 mt-4 text-grey-100 min-w-[700px]  mobile:min-w-0 text-lg leading-8 mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
             At Stable, we are committed to upholding the highest compliance
             standards in order to prevent money laundering, financing of
             terrorism and to comply with sanctions and KYC regulations. Prior to
