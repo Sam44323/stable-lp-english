@@ -61,7 +61,7 @@ const Acquire = () => {
               </h1>
               <p className="max-w-[290px]  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
                 Send us USDT, USDC, or TUSD, and receive back StUSD at the rate
-                of 1:1(deduction of redemption fees charged by issuers).
+                of 1:1 deduction of redemption fees charged by issuers.
               </p>
             </div>
           </div>
