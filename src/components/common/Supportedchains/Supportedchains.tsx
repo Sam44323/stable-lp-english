@@ -20,7 +20,7 @@ const Supportedchains = () => {
           alt="polygon-chain"
           style={{
             height: "50px",
-            width: "190px",
+            width: "200px",
           }}
         />
         <img
@@ -36,7 +36,7 @@ const Supportedchains = () => {
           alt="avalanche-chain"
           style={{
             height: "50px",
-            width: "200px",
+            width: "240px",
           }}
         />
       </div>
