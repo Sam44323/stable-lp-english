@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
             width={100}
             className="absolute -z-10 -left-16 -top-16 mobile:hidden"
           />
-          <h1 className="text-link-inactive tracking-tighter text-6xl font-500 font-roboto leading-[1.4] m-0 mobile:text-3xl mobile:text-center">
+          <h1 className="text-link-inactive tracking-tight text-[50px] font-500 font-roboto leading-[1.1] m-0 mobile:text-3xl mobile:text-center">
             The easiest way to <br />
             obtain RWA tokens!
           </h1>
@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
             width={10}
             className="absolute -left-16 mobile:hidden"
           />
-          <p className="font-manrope font-300 max-w-xl mt-4 leading-[1.6] tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
+          <p className="font-manrope font-300 max-w-md mt-4 leading-[1.6] tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
             Gain access to variety of financial products including government
             bonds, stocks, investment funds,ETF's, and many others.
           </p>
