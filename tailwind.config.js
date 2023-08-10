@@ -11,6 +11,7 @@ module.exports = {
         mobile: {
           max: "1200px",
         },
+        "large-screen": "3500px",
       },
       colors: {
         link: {
@@ -23,6 +24,7 @@ module.exports = {
         blue: {
           btn: "#130F49",
           text: "#031250",
+          link: "#0160FE",
         },
       },
       backgroundColor: {
