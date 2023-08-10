@@ -33,7 +33,7 @@ export default function Home() {
         <Tokenizedetails />
         <FAQ />
         <HaveMoreQuestions />
-        <TrustedPartners />
+        {/* <TrustedPartners /> */}
       </main>
     </>
   );

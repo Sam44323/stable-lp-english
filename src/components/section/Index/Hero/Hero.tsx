@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
           />
           <p className="font-manrope font-300 max-w-lg mt-4 text-grey-100 leading-[1.6] text-lg tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
             Gain access to variety of financial products including government
-            bonds, stocks, investment funds,ETF's, and many others.
+            bonds, stocks, investment funds, ETF's, and many others.
           </p>
         </div>
         <div className="pill-btn mt-16 text-lg hover:ease-in duration-100 hover:scale-105 min-w-[200px] mobile:max-w-50% mobile:mx-auto">
