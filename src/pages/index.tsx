@@ -10,10 +10,6 @@ import FAQ from "@/components/section/Index/FAQ/FAQ";
 import HaveMoreQuestions from "@/components/section/Index/HaveMoreQuestions/HaveMoreQuestions";
 import TrustedPartners from "@/components/section/Index/TrustedPartners/TrustedPartners";
 
-/**
- * @todo: add support for meta-image support for images
- */
-
 export default function Home() {
   return (
     <>
