@@ -43,7 +43,8 @@ const JoinWaitlist = () => {
       toggle={() => setShowModal(false)}
       size="lg"
       style={{
-        height: "100vh",
+        // height: "100%",
+        overflow: "hidden",
       }}
     >
       <div className="relative overflow-hidden">
