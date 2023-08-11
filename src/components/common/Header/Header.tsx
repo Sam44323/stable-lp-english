@@ -84,7 +84,7 @@ const Header: React.FC = () => {
                 }}
               >
                 <Image
-                  src="/images/logo/header-stable-icon.png"
+                  src="/images/logo/stable-icon-header.svg"
                   height={30}
                   width={100}
                   alt="stable-img"
