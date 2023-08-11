@@ -42,6 +42,9 @@ const JoinWaitlist = () => {
       centered
       toggle={() => setShowModal(false)}
       size="lg"
+      style={{
+        height: "100vh",
+      }}
     >
       <div className="relative overflow-hidden">
         <img
@@ -50,7 +53,7 @@ const JoinWaitlist = () => {
         />
         <img
           src="/images/shapes/join-ellipse-test.png"
-          className="absolute right-0"
+          className="absolute right-0 bottom-0"
         />
         <div className="max-w-[95%] mx-auto flex flex-row justify-end mt-3 relative z-30">
           <img
