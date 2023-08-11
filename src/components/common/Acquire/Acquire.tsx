@@ -98,7 +98,7 @@ const Acquire = () => {
         </section>
         <img
           src="/images/screen-group.svg"
-          className="h-[700] w-[1000] absolute right-0 -top-48 mobile:hidden"
+          className="absolute right-0 -top-48 mobile:hidden"
         />
       </section>
       <section className="text-center font-roboto mt-36">

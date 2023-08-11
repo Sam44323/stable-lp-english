@@ -71,7 +71,7 @@ const Supportedchains = () => {
           style={{
             width: "200px",
           }}
-          className="mobile:mt-5"
+          className="mobile:mt-1"
         />
       </div>
     </section>
