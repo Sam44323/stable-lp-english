@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
         </section>
         <section className="hidden mobile:flex mobile:flex-col mobile:items-center">
           <img
-            src="/images/logo/stable-footer-logo.png"
+            src="/images/logo/stable-footer-logo.svg"
             height={140}
             width={140}
           />

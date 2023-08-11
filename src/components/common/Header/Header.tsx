@@ -26,7 +26,7 @@ const Header: React.FC = () => {
        * @description: section for screen >= tablets
        */}
       <section className="mobile:hidden md:flex flex-row justify-between align-middle max-w-6xl ml-auto mr-auto">
-        <img src="/images/logo/header-stable-icon.png" className="h-7" />
+        <img src="/images/logo/stable-icon-header.svg" className="h-7" />
         <div className="flex flex-row justify-between align-middle w-fit">
           <div
             className="flex flex-row justify-between align-middle w-[400px]
