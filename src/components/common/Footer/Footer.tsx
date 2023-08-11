@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
       <div className="max-w-[1290px] mx-auto pt-14 px-5 pb-10">
         <section className="flex flex-row justify-between mobile:hidden">
           <img
-            src="/images/logo/stable-footer-logo.png"
+            src="/images/logo/stable-footer-logo.svg"
             height={140}
             width={140}
           />

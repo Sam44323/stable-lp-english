@@ -12,7 +12,7 @@ const Supportedchains = () => {
           alt="ethereum-chain"
           style={{
             height: "200px",
-            width: "200px",
+            width: "280px",
           }}
         />
         <img

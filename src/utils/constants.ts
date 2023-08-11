@@ -64,8 +64,8 @@ export const FOOTER_LINKS_A = [
     link: "",
   },
   {
-    name: "Whitepaper",
-    link: "https://stable-3.gitbook.io/whitepaper/",
+    name: "Litepaper",
+    link: "https://drive.google.com/file/d/1b7e9q9maOUnX_pDK3zInGSG5LWAJjo-G/view?usp=sharing",
   },
   {
     name: "Tokenomics",
