@@ -69,3 +69,13 @@
   font-weight: 900;
   /* overflow: hidden; */
 }
+
+.modal-content {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 30.427px;
+  overflow: hidden;
+  outline: none;
+  border: none !important;
+  background: linear-gradient(122deg, #193BDA 0%, rgba(13, 54, 202, 0.58) 100%, rgba(100, 111, 150, 0.97) 100%);
+}

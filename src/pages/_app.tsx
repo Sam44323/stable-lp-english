@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "@/components/common/Footer/Footer";
 import Header from "@/components/common/Header/Header";
+import JoinWaitlist from "@/components/common/JoinWaitlist/JoinWaitlist";
 import Script from "next/script";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ToastContainer } from "react-toastify";
@@ -27,6 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <ToastContainer autoClose={false} theme="dark" position="top-center" />
       <Header />
       <Component {...pageProps} />
+      <JoinWaitlist />
       <Footer />
     </>
   );
