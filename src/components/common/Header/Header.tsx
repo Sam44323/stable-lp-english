@@ -57,7 +57,10 @@ const Header: React.FC = () => {
               );
             })}
           </div>
-          <div className="pill-btn hover:ease-in duration-100 hover:scale-105 ml-5 text-[14px]">
+          <div
+            className="pill-btn hover:ease-in duration-100 hover:scale-105 ml-5 text-[14px]"
+            onClick={() => router.push("/coming-soon")}
+          >
             Get Started
           </div>
         </div>
