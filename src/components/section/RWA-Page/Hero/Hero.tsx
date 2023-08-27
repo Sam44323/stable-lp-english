@@ -1,6 +1,9 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 const Hero = () => {
+  const router = useRouter();
+
   return (
     <div className="gradient-blue-bg-top relative mb-16">
       <img
@@ -13,7 +16,10 @@ const Hero = () => {
           Tokenize your favorite assets and obtain more control and flexibility
           over them.
         </h1>
-        <div className="mobile:flex mobile:flex-row mobile:justify-center">
+        <div
+          className="mobile:flex mobile:flex-row mobile:justify-center"
+          onClick={() => router.push("/gain-access")}
+        >
           <div className="pill-btn hover:ease-in duration-100 hover:scale-105 min-w-[190px] mt-5">
             Gain Access to RWA
           </div>

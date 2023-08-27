@@ -1,8 +1,11 @@
 import React from "react";
+import { useRouter } from "next/router";
 import { STABLECOINS_FEATURES } from "@/utils/constants";
 import Image from "next/image";
 
 const Hero = () => {
+  const router = useRouter();
+
   return (
     <div className="gradient-blue-bg-top relative mb-44">
       <img
@@ -16,7 +19,10 @@ const Hero = () => {
           minting or redeeming our RWAs.
         </h1>
         <div className="mobile:flex mobile:flex-row mobile:justify-center">
-          <div className="pill-btn hover:ease-in text-lg px-7 duration-100 hover:scale-105 min-w-[190px] mt-5">
+          <div
+            className="pill-btn hover:ease-in text-lg px-7 duration-100 hover:scale-105 min-w-[190px] mt-5"
+            onClick={() => router.push("/acquire-stablecoins")}
+          >
             Acquire Stablecoins
           </div>
         </div>

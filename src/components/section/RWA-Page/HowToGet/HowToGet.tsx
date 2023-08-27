@@ -1,7 +1,10 @@
 import React from "react";
+import { useRouter } from "next/router";
 import Supportedchains from "@/components/common/Supportedchains/Supportedchains";
 
 const HowToGet = () => {
+  const router = useRouter();
+
   return (
     <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-no-repeat bg-contain 2xl:bg-cover 2xl:pt-[5%]  mt-0 pt-16 mx-auto relative pb-36 mobile:pb-10 mobile:mt-48">
       <div className="relative z-10 mt-16 max-w-5xl mx-auto">
@@ -42,7 +45,10 @@ const HowToGet = () => {
               Sign up and feel the benefits...
             </p>
           </div>
-          <div className="pill-btn py-3 px-5 text-base  bg-white font-roboto tracking-wide font-500 text-blue-btn hover:ease-in duration-100 hover:scale-105">
+          <div
+            className="pill-btn py-3 px-5 text-base  bg-white font-roboto tracking-wide font-500 text-blue-btn hover:ease-in duration-100 hover:scale-105"
+            onClick={() => router.push("/gain-access")}
+          >
             Gain Access to RWAs
           </div>
         </div>
