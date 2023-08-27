@@ -23,7 +23,9 @@ const HaveMoreQuestions = () => {
         </div>
         <div
           className="pill-btn bg-white tracking-wide font-800 text-blue-btn hover:ease-in duration-100 hover:scale-105 mt-6 px-10 py-3 rounded-full"
-          onClick={() => router.push("/get-started")}
+          onClick={() => {
+            window.open("mailto:info@stablefinance.co", "_blank");
+          }}
         >
           Get in touch!
         </div>
