@@ -1,6 +1,9 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 const Joinnow = () => {
+  const router = useRouter();
+
   return (
     <div className="gradient-blue-bg 2xl:max-w-screen-2xl max-w-[1200px] mx-auto rounded-3xl md:min-h-[300px]   relative mt-18 mobile:max-w-[90%] mobile:overflow-hidden">
       <div>
@@ -17,7 +20,10 @@ const Joinnow = () => {
         <h1 className="text-white font-roboto text-5xl">
           Join now and feel the benefits
         </h1>
-        <div className="pill-btn py-3 px-5 mt-5 text-base  bg-white font-roboto tracking-wide font-500 text-blue-btn hover:ease-in duration-100 hover:scale-105">
+        <div
+          className="pill-btn py-3 px-5 mt-5 text-base  bg-white font-roboto tracking-wide font-500 text-blue-btn hover:ease-in duration-100 hover:scale-105"
+          onClick={() => router.push("/get-started")}
+        >
           Get Started
         </div>
       </div>

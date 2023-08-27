@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 const Hero: React.FC = () => {
@@ -31,9 +32,11 @@ const Hero: React.FC = () => {
             bonds, stocks, investment funds, ETF's, and many others.
           </p>
         </div>
-        <div className="pill-btn mt-16 text-lg hover:ease-in duration-100 hover:scale-105 min-w-[200px] mobile:max-w-50% mobile:mx-auto">
-          Gain Access
-        </div>
+        <Link href="/gain-access" className="no-underline">
+          <div className="pill-btn mt-16 text-lg hover:ease-in duration-100 hover:scale-105 min-w-[200px] mobile:max-w-50% mobile:mx-auto">
+            Gain Access
+          </div>
+        </Link>
       </section>
       <section className="flex flex-col relative align-end -right-7 mt-16 mobile:hidden">
         <Image

@@ -51,17 +51,17 @@ export const HEADER_LINK = [
 ];
 
 export const TOP_FOOTER_LINK = [
-  { name: "Stable Protocol", link: "" },
-  { name: "Governance", link: "" },
-  { name: "Docs", link: "" },
-  { name: "Security", link: "" },
-  { name: "FAQ", link: "" },
+  { name: "Stable Protocol", link: "/coming-soon" },
+  { name: "Governance", link: "/coming-soon" },
+  { name: "Docs", link: "/coming-soon" },
+  { name: "Security", link: "/coming-soon" },
+  { name: "FAQ", link: "/coming-soon" },
 ];
 
 export const FOOTER_LINKS_A = [
   {
     name: "Bug Bounty",
-    link: "",
+    link: "/coming-soon",
   },
   {
     name: "Litepaper",
@@ -76,30 +76,30 @@ export const FOOTER_LINKS_A = [
 export const FOOTER_LINKS_B = [
   {
     name: "Careers",
-    link: "",
+    link: "/coming-soon",
   },
   {
     name: "Blog",
-    link: "",
+    link: "/coming-soon",
   },
   {
     name: "Contact",
-    link: "",
+    link: "/coming-soon",
   },
 ];
 
 export const FOOTER_LINKS_C = [
   {
     name: "Term Of Use",
-    link: "",
+    link: "/coming-soon",
   },
   {
     name: "Privacy Policy",
-    link: "",
+    link: "/coming-soon",
   },
   {
     name: "Candidate Privacy",
-    link: "",
+    link: "/coming-soon",
   },
 ];
 

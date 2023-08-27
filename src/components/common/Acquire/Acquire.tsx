@@ -6,7 +6,7 @@ const Acquire = () => {
   const router = useRouter();
 
   return (
-    <div className="bg-[url('/images/gradients/gradient-bent.svg')] overflow-x-hidden bg-no-repeat bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] mt-4 pt-36 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 -z-10">
+    <div className="bg-[url('/images/gradients/gradient-bent.svg')] overflow-x-hidden bg-no-repeat bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] mt-4 pt-36 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
       <section className="text-center font-roboto">
         <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px]">
           Acquire Stablecoins now!

@@ -43,7 +43,6 @@ const JoinWaitlist = () => {
       toggle={() => setShowModal(false)}
       size="lg"
       style={{
-        // height: "100%",
         overflow: "hidden",
       }}
     >

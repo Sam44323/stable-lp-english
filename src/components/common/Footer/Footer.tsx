@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import {
   FOOTER_IMAGES,
   FOOTER_LINKS_A,
@@ -10,6 +11,8 @@ import {
 import Link from "next/link";
 
 const Footer: React.FC = () => {
+  const router = useRouter();
+
   return (
     <div className="w-full min-h-[10px] bg-blue-btn">
       <div className="max-w-[1290px] mx-auto pt-14 px-5 pb-10">
@@ -62,6 +65,8 @@ const Footer: React.FC = () => {
                 <Link
                   href={item.link}
                   key={index}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:cursor-pointer hover:scale-110 hover:transition-all duration-100 ease-in-out"
                 >
                   <Image src={item.src} height={30} width={30} alt={item.alt} />
@@ -76,8 +81,8 @@ const Footer: React.FC = () => {
                   {item.map((link, index) => (
                     <Link
                       href={link.link}
+                      target={link.link === "/coming-soon" ? "_self" : "_blank"}
                       key={index}
-                      target="_blank"
                       className="no-underline font-be-vietnam-pro font-300 text-white my-[10px] text-[12.5px] leading-6 hover:underline"
                     >
                       {link.name}

@@ -1,7 +1,10 @@
 import React from "react";
+import { useRouter } from "next/router";
 import Image from "next/image";
 
 const Tokenizedetails = () => {
+  const router = useRouter();
+
   return (
     <>
       <div className="relative">
@@ -19,7 +22,10 @@ const Tokenizedetails = () => {
             quickest and simplest way to gain exposure to the assets you intend
             to hold.
           </p>
-          <div className="pill-btn font-roboto tracking-wide font-500 text-white hover:ease-in duration-100 hover:scale-105 mt-6 flex align-middle">
+          <div
+            className="pill-btn font-roboto tracking-wide font-500 text-white hover:ease-in duration-100 hover:scale-105 mt-6 flex align-middle"
+            onClick={() => router.push("/find-out-more")}
+          >
             <p className="m-0 text-lg font-work-sans px-4 py-1 font-700">
               Find out more
             </p>

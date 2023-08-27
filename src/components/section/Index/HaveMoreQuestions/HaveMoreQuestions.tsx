@@ -1,6 +1,9 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 const HaveMoreQuestions = () => {
+  const router = useRouter();
+
   return (
     <div className="gradient-blue-bg mb-36 2xl:max-w-screen-2xl max-w-[1200px] mx-auto rounded-3xl md:min-h-[250px]   relative overflow-clip mobile:max-w-[1200px] mobile:mx-auto mobile:pb-10">
       <div>
@@ -18,7 +21,10 @@ const HaveMoreQuestions = () => {
             Contact us and our team will be happy to answer your questions!
           </p>
         </div>
-        <div className="pill-btn bg-white tracking-wide font-800 text-blue-btn hover:ease-in duration-100 hover:scale-105 mt-6 px-10 py-3 rounded-full ">
+        <div
+          className="pill-btn bg-white tracking-wide font-800 text-blue-btn hover:ease-in duration-100 hover:scale-105 mt-6 px-10 py-3 rounded-full"
+          onClick={() => router.push("/get-started")}
+        >
           Get in touch!
         </div>
       </div>
