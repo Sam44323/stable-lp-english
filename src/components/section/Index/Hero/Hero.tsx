@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
             width={15}
             className="absolute -left-20 mobile:hidden -top-14"
           />
-          <p className="font-manrope mobile:mx-auto font-300 max-w-lg mt-4 text-grey-100 leading-[1.6] text-lg tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
+          <p className="font-manrope mobile:min-w-full font-300 max-w-lg mt-4 text-grey-100 leading-[1.6] text-lg tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
             Unleash the maximum potential of listed securities from traditional
             markets, such as government and corporate bonds, stocks, investment
             funds, and ETFs, on the blockchain by tokenizing them with
