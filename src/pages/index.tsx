@@ -28,7 +28,10 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
-        <Acquire />
+        <Acquire
+          title="Stablecoins from Stable"
+          description="Stablecoins from Stable are regulated and licensed in the EU, pegged at a fixed rate of 1:1 with a corresponding fiat currency, and offer redemption guarantees. Our stablecoins can be utilized in the same way as you are used to it, plus they grant the ability of almost instant tokenization of assets on Stable’s tokenization platform. We offer three different ways to acquire our stablecoins:"
+        />
         <Joinnow />
         <Tokenizedetails />
         <FAQ />

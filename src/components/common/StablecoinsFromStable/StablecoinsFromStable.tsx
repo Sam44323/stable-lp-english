@@ -1,18 +1,30 @@
 import React from "react";
+import classNames from "classnames";
 import Supportedchains from "@/components/common/Supportedchains/Supportedchains";
 import { useRouter } from "next/router";
 
-const Acquire = () => {
+interface AcquireProps {
+  title: string;
+  description: string;
+  subHeader?: boolean;
+}
+
+const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
   const router = useRouter();
 
   return (
     <div className="bg-[url('/images/gradients/gradient-bent.svg')] overflow-x-hidden bg-no-repeat bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] mt-4 pt-36 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
       <section className="text-center font-roboto">
         <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px]">
-          How to acquire our stablecoins?
+          {title}
         </h1>
-        <p className="max-w-3xl mx-auto text-[24px] font-500 font-manrope leading-7 mt-11 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base">
-          We offer three different ways to acquire our stablecoins:
+        <p
+          className={classNames(
+            "max-w-3xl mx-auto text-[19px] font-300 font-manrope leading-7 mt-11 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base",
+            subHeader ? "text-[24px] font-500" : ""
+          )}
+        >
+          {description}
         </p>
       </section>
       <section className="flex flex-row align-top justify-between mt-40 mobile:mt-0 relative  max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">

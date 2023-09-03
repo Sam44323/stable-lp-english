@@ -11,7 +11,11 @@ const Stablecoins = () => {
       </Head>
       <div>
         <Hero />
-        <Acquire />
+        <Acquire
+          title="How to acquire our stablecoins?"
+          description="We offer three different ways to acquire our stablecoins:"
+          subHeader
+        />
       </div>
     </>
   );
