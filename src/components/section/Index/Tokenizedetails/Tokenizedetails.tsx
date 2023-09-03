@@ -14,13 +14,14 @@ const Tokenizedetails = () => {
             over them.
           </h1>
           <p className="text-grey-100 font-work-sans font-400 leading-7 text-[17px] mt-10 mobile:text-center">
-            Bring your preferred equities, bonds, ETFs, and other instruments to
-            your favorite blockchain, and take control of your favorite assets.
-            This will allow you to unleash their maximum potential, and elevate
-            their financial possibilities in the world of Defi. All you need to
-            do is utilize our in-house Stablecoins for the minting, which is the
-            quickest and simplest way to gain exposure to the assets you intend
-            to hold.
+            Bring your preferred equities, bonds, ETFs, and other instruments on
+            your favorite blockchain, unleash their maximum potential, and
+            elevate your financial possibilities with the best blockchain and
+            Defi offer. All you need to do is mint the assets you intend to hold
+            with whitelisted fiat-back stablecoins such as USDC and USDT or use
+            our in-house Stablecoins for the quickest and simplest minting and
+            redemption experience. The RWA tokens are transferrable and can be
+            utilized as you see fit.
           </p>
           <div
             className="pill-btn font-roboto tracking-wide font-500 text-white hover:ease-in duration-100 hover:scale-105 mt-6 flex align-middle"

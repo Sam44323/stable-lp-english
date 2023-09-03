@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
           alt="solid-circle-blue"
           height={15}
           width={15}
-          className="absolute -bottom-11 right-0  -z-[1]"
+          className="absolute bottom-0 right-0  -z-[1]"
         />
       </section>
     </div>
