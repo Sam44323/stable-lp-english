@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero: React.FC = () => {
   return (
     <div className="max-w-5xl relative flex flex-row justify-evenly ml-auto mr-auto mt-48 mobile:max-w-[90%] mobile:mt-36 mobile:flex-col">
-      <section>
+      <section className="ml-5 mobile:m-0">
         <div className="relative mobile:flex mobile:flex-col mobile:w-full mobile:items-center">
           <Image
             src="/images/shapes/solid-circle-blue.png"
@@ -14,11 +14,11 @@ const Hero: React.FC = () => {
             width={140}
             className="absolute -z-10 -left-24 -top-24 mobile:hidden"
           />
-          <h1 className="text-link-inactive tracking-tight w-full text-[70px] font-500 font-roboto leading-[1.1] m-0 mobile:text-3xl mobile:text-center">
+          <h1 className="text-link-inactive tracking-tight text-[50px] font-500 font-roboto leading-[1.1] m-0 mobile:text-3xl mobile:text-center">
             Listed securities from traditional markets, Now on-chain!
           </h1>
         </div>
-        <div className="relative">
+        <div>
           <Image
             src="/images/shapes/oval-small.png"
             alt="solid-circle-blue"
