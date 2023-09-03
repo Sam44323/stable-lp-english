@@ -14,9 +14,8 @@ const Hero: React.FC = () => {
             width={140}
             className="absolute -z-10 -left-24 -top-24 mobile:hidden"
           />
-          <h1 className="text-link-inactive tracking-tight text-[70px] font-500 font-roboto leading-[1.1] m-0 mobile:text-3xl mobile:text-center">
-            The easiest way to <br />
-            obtain RWA tokens!
+          <h1 className="text-link-inactive tracking-tight w-full text-[70px] font-500 font-roboto leading-[1.1] m-0 mobile:text-3xl mobile:text-center">
+            Listed securities from traditional markets, Now on-chain!
           </h1>
         </div>
         <div className="relative">
@@ -27,9 +26,11 @@ const Hero: React.FC = () => {
             width={15}
             className="absolute -left-20 mobile:hidden -top-14"
           />
-          <p className="font-manrope font-300 max-w-lg mt-4 text-grey-100 leading-[1.6] text-lg tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
-            Gain access to variety of financial products including government
-            bonds, stocks, investment funds, ETF's, and many others.
+          <p className="font-manrope mobile:mx-auto font-300 max-w-lg mt-4 text-grey-100 leading-[1.6] text-lg tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
+            Unleash the maximum potential of listed securities from traditional
+            markets, such as government and corporate bonds, stocks, investment
+            funds, and ETFs, on the blockchain by tokenizing them with
+            fiat-backed stablecoins from Stable or other issuers.
           </p>
         </div>
         <Link href="/gain-access" className="no-underline">
@@ -42,8 +43,8 @@ const Hero: React.FC = () => {
         <Image
           src="/images/shapes/masked-circle-pattern.png"
           alt="solid-circle-blue"
-          height={400}
-          width={400}
+          height={900}
+          width={900}
         />
         <Image
           src="/images/shapes/oval-small.png"
