@@ -9,12 +9,15 @@ const Acquire = () => {
     <div className="bg-[url('/images/gradients/gradient-bent.svg')] overflow-x-hidden bg-no-repeat bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] mt-4 pt-36 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
       <section className="text-center font-roboto">
         <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px]">
-          Acquire Stablecoins now!
+          Stablecoins from Stable
         </h1>
         <p className="max-w-3xl mx-auto mt-6 text-[17px] font-300 font-manrope leading-7 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base">
-          Our stablecoins are pegged at a fixed rate of 1:1 with a corresponding
-          fiat currency. For instance, 1 StUSD equates to 1 USD, while 1 StEUR
-          equals EUR. We offer three different ways to acquire our stablecoins:
+          Stablecoins from Stable are regulated and licensed in the EU, pegged
+          at a fixed rate of 1:1 with a corresponding fiat currency, and offer
+          redemption guarantees. Our stablecoins can be utilized in the same way
+          as you are used to it, plus they grant the ability of almost instant
+          tokenization of assets on Stable’s tokenization platform. We offer
+          three different ways to acquire our stablecoins:
         </p>
       </section>
       <section className="flex flex-row align-top justify-between mt-40 mobile:mt-0 relative  max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">
@@ -110,10 +113,10 @@ const Acquire = () => {
           designed to be multi-chain, allowing for effortless adoption and
           integration. We are committed to deploying on all EVM-compatible
           chains over time, enabling Defi and non-Defi users to bring their
-          preferred RWA asset to the blockchain of their choice, regardless of
-          whether they are using Avalanche, Polygon, Arbitrum, or any other EVM
-          chain. Our vision has always been to be multi-chain right from the
-          start!
+          preferred currencies and assets from traditional financial markets to
+          the blockchain of their choice, regardless of whether they are using
+          Avalanche, Polygon, Arbitrum, or any other EVM chain. Our vision has
+          always been to be multi-chain right from the start!
         </p>
       </section>
       <Supportedchains />

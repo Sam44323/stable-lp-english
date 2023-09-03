@@ -3,7 +3,7 @@ import React from "react";
 
 // components
 import Hero from "@/components/section/Index/Hero/Hero";
-import Acquire from "@/components/common/Acquire/Acquire";
+import Acquire from "@/components/common/StablecoinsFromStable/StablecoinsFromStable";
 import Joinnow from "@/components/section/Index/Joinnow/Joinnow";
 import Tokenizedetails from "@/components/section/Index/Tokenizedetails/Tokenizedetails";
 import FAQ from "@/components/section/Index/FAQ/FAQ";

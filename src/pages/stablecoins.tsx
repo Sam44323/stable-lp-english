@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "@/components/section/Stablecoins/Hero/Hero";
-import Acquire from "@/components/common/Acquire/Acquire";
+import Acquire from "@/components/common/StablecoinsFromStable/StablecoinsFromStable";
 import Head from "next/head";
 
 const Stablecoins = () => {

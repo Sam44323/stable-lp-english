@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
             width={140}
             className="absolute -z-10 -left-24 -top-24 mobile:hidden"
           />
-          <h1 className="text-link-inactive tracking-tight text-[50px] font-500 font-roboto leading-[1.1] m-0 mobile:text-3xl mobile:text-center">
+          <h1 className="text-link-inactive tracking-tight text-[60px] font-500 font-roboto leading-[1.1] m-0 mobile:text-3xl mobile:text-center">
             Listed securities from traditional markets, Now on-chain!
           </h1>
         </div>
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
             alt="solid-circle-blue"
             height={15}
             width={15}
-            className="absolute -left-20 mobile:hidden -top-14"
+            className="absolute -left-20 mobile:hidden top-[300px]"
           />
           <p className="font-manrope mobile:min-w-full font-300 max-w-lg mt-4 text-grey-100 leading-[1.6] text-lg tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
             Unleash the maximum potential of listed securities from traditional
