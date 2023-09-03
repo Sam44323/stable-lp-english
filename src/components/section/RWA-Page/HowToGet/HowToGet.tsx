@@ -39,17 +39,17 @@ const HowToGet = () => {
         <div className="absolute flex flex-row  items-center justify-between w-full z-10 max-w-screen-lg mx-auto left-16 pt-16 mobile:flex mobile:flex-col mobile:items-center mobile:justify-center mobile:max-w-none mobile:w-full mobile:h-full mobile:p-0 mobile:left-0">
           <div className="h-fit">
             <h1 className="text-white font-roboto text-5xl">
-              Gain Access Now!
+              Mint or Redeem RWAs
             </h1>
             <p className="text-white font-roboto font-500 text-[18px] ml-1 tracking-wide">
-              Sign up and feel the benefits...
+              Sign up and unlock the capabilities ...
             </p>
           </div>
           <div
             className="pill-btn py-3 px-5 text-base  bg-white font-roboto tracking-wide font-500 text-blue-btn hover:ease-in duration-100 hover:scale-105"
             onClick={() => router.push("/gain-access")}
           >
-            Gain Access to RWAs
+            Acquire Real World Assets
           </div>
         </div>
         <img

@@ -9,15 +9,10 @@ const Acquire = () => {
     <div className="bg-[url('/images/gradients/gradient-bent.svg')] overflow-x-hidden bg-no-repeat bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] mt-4 pt-36 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
       <section className="text-center font-roboto">
         <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px]">
-          Stablecoins from Stable
+          How to acquire our stablecoins?
         </h1>
-        <p className="max-w-3xl mx-auto mt-6 text-[17px] font-300 font-manrope leading-7 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base">
-          Stablecoins from Stable are regulated and licensed in the EU, pegged
-          at a fixed rate of 1:1 with a corresponding fiat currency, and offer
-          redemption guarantees. Our stablecoins can be utilized in the same way
-          as you are used to it, plus they grant the ability of almost instant
-          tokenization of assets on Stable’s tokenization platform. We offer
-          three different ways to acquire our stablecoins:
+        <p className="max-w-3xl mx-auto text-[24px] font-500 font-manrope leading-7 mt-11 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base">
+          We offer three different ways to acquire our stablecoins:
         </p>
       </section>
       <section className="flex flex-row align-top justify-between mt-40 mobile:mt-0 relative  max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">

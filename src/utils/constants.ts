@@ -146,16 +146,16 @@ export const STABLECOINS_FEATURES = [
   {
     src: "/images/logo/deposit-fiat.png",
     title: "Deposit Fiat Currency",
-    description: "User deposits fiat currency to Stable platform.",
+    description: "Deposit fiat currency to Stable platform. ",
   },
   {
     src: "/images/logo/currency-custody.png",
     title: "Currency Custody",
-    description: "Stable will custody the currency for Reserves.",
+    description: "Stable will custody the currency for Reserves",
   },
   {
     src: "/images/logo/get-stablecoins.png",
     title: "Get Stablecoins",
-    description: "User gets coin in 1:1 ratio on blockchain.",
+    description: "Get coin in a 1:1 ratio on blockchain.",
   },
 ];

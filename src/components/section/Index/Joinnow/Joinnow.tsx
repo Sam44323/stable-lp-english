@@ -18,7 +18,7 @@ const Joinnow = () => {
       </div>
       <div className="absolute z-10 max-w-screen-lg mx-auto left-16 pt-16 mobile:flex mobile:flex-col mobile:items-center mobile:justify-center mobile:max-w-none mobile:w-full mobile:h-full mobile:p-0 mobile:left-0">
         <h1 className="text-white font-roboto text-5xl">
-          Join now and feel the benefits
+          Join now and unlock the capabilities
         </h1>
         <div
           className="pill-btn py-3 px-5 mt-5 text-base  bg-white font-roboto tracking-wide font-500 text-blue-btn hover:ease-in duration-100 hover:scale-105"
