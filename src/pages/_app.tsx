@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Stable" />
         <meta
           property="og:description"
-          content="Providing Access to Securities and Real-World Assets"
+          content="Providing Access to Listed Securities & Assets on Blockchain"
         />
         <meta
           property="og:image"
@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="twitter:title" content="Stable" />
         <meta
           name="twitter:description"
-          content="Providing Access to Securities and Real-World Assets"
+          content="Providing Access to Listed Securities & Assets on Blockchain"
         />
         <meta
           name="twitter:image"
