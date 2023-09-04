@@ -15,8 +15,8 @@ const Hero = () => {
       />
       <div className="max-w-6xl mx-auto pt-48 mobile:text-center mobile:pt-20">
         <h1 className="text-link-inactive text-[50px] max-w-3xl font-500 font-roboto leading-[1.4] m-0 mobile:text-lg">
-          Stable's stablecoins offer the advantage of a convenient medium for
-          minting or redeeming our RWAs.
+          Enter crypto with guarantees thanks to stablecoins from Stable and
+          enjoy fast and safe tokenization of listed securities.
         </h1>
         <div className="mobile:flex mobile:flex-row mobile:justify-center">
           <div
