@@ -20,7 +20,7 @@ const AssetPreviewCard: React.FC<AssetPreviewCardProps> = ({
   changeType,
 }) => {
   return (
-    <div className="asset-preview-card">
+    <div className="asset-preview-card mobile:mb-10">
       <section>
         <h1 className="text-blue-link text-[26px] font-600">
           {status === "loaded" ? title : "Loading..."}
