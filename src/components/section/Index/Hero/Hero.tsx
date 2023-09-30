@@ -10,9 +10,9 @@ const Hero: React.FC = () => {
           <Image
             src="/images/shapes/solid-circle-blue.png"
             alt="solid-circle-blue"
-            height={140}
-            width={140}
-            className="absolute -z-10 -left-24 -top-24 mobile:hidden"
+            height={110}
+            width={110}
+            className="absolute -z-10 -left-44 top-10 mobile:hidden"
           />
           <h1 className="text-link-inactive tracking-tight text-[60px] font-500 font-roboto leading-[1.1] m-0 mobile:text-3xl mobile:text-center">
             Listed securities from traditional markets, Now on-chain!
@@ -26,18 +26,16 @@ const Hero: React.FC = () => {
             width={15}
             className="absolute -left-20 mobile:hidden top-[300px]"
           />
-          <p className="font-manrope mobile:min-w-full font-300 max-w-lg mt-4 text-grey-100 leading-[1.6] text-lg tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
-            Unleash the maximum potential of listed securities from traditional
-            markets, such as government and corporate bonds, stocks, investment
-            funds, and ETFs, on the blockchain by tokenizing them with
-            fiat-backed stablecoins from Stable or other issuers.
+          <p className="font-work-sans mobile:min-w-full font-300 max-w-xl mt-4 text-grey-100 leading-[1.4] text-md tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
+            Bring your preferred Equities, Bonds, ETFs, and other instruments to
+            your favorite blockchain, unleash their maximum potential, and
+            elevate your financial possibilities with the best blockchain and
+            Defi offer. All you need to do is mint the assets you intend to hold
+            with whitelisted fiat-backed stablecoins such as USDC and USDT or
+            use our in-house Stablecoins for the quickest and simplest minting
+            and redemption experience.
           </p>
         </div>
-        <Link href="/gain-access" className="no-underline">
-          <div className="pill-btn mt-16 text-lg hover:ease-in duration-100 hover:scale-105 min-w-[200px] mobile:max-w-50% mobile:mx-auto">
-            Gain Access
-          </div>
-        </Link>
       </section>
       <section className="flex flex-col relative align-end -right-7 mt-16 mobile:hidden">
         <Image
