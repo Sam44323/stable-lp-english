@@ -57,6 +57,14 @@
     background: linear-gradient(180deg, #EAF3FF 0%, rgba(234, 243, 255, 0.00) 100%);;
   }
 
+  .asset-preview-card{
+    border-radius: 28px;
+    border: 1px solid var(--Inactive-Button, #C3DEFF);
+    background: var(--white, #FFF);
+    box-shadow: 0px 0px 12px 0px rgba(42, 77, 215, 0.16);
+    max-width: 250px;
+    padding: 30px 20px;
+  }
 }
 
 

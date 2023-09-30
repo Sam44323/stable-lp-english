@@ -8,7 +8,8 @@ import Joinnow from "@/components/section/Index/Joinnow/Joinnow";
 import Tokenizedetails from "@/components/section/Index/Tokenizedetails/Tokenizedetails";
 import FAQ from "@/components/section/Index/FAQ/FAQ";
 import HaveMoreQuestions from "@/components/section/Index/HaveMoreQuestions/HaveMoreQuestions";
-import TrustedPartners from "@/components/section/Index/TrustedPartners/TrustedPartners";
+import AssetPreview from "@/components/section/Index/AssetPreview/AssetPreview";
+// import TrustedPartners from "@/components/section/Index/TrustedPartners/TrustedPartners";
 
 /**
  * @todo: add support for meta-image support for images
@@ -28,10 +29,11 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
-        <Acquire
+        <AssetPreview />
+        {/* <Acquire
           title="Stablecoins from Stable"
           description="Stablecoins from Stable are regulated and licensed in the EU, pegged at a fixed rate of 1:1 with a corresponding fiat currency, and offer redemption guarantees. Our stablecoins can be utilized in the same way as you are used to it, plus they grant the ability of almost instant tokenization of assets on Stable’s tokenization platform. We offer three different ways to acquire our stablecoins:"
-        />
+        /> */}
         <Joinnow />
         <Tokenizedetails />
         <FAQ />
