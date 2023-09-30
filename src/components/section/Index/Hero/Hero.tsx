@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
             alt="solid-circle-blue"
             height={15}
             width={15}
-            className="absolute -left-20 mobile:hidden top-[300px]"
+            className="absolute -left-20 mobile:hidden top-[250px]"
           />
           <p className="font-work-sans mobile:min-w-full font-300 max-w-xl mt-4 text-grey-100 leading-[1.4] text-md tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
             Bring your preferred Equities, Bonds, ETFs, and other instruments to
