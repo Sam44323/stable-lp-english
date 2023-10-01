@@ -12,6 +12,10 @@ module.exports = {
           max: "1200px",
         },
         "large-screen": "3500px",
+        "mid-screen": {
+          min: "1000px",
+          max: "1300px",
+        },
       },
       colors: {
         link: {
