@@ -33,7 +33,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
           <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:my-10 mb-16">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
               <div className="icon-bg">
-                <img src="/images/utilize-dex.svg" height={30} width={30} />
+                <img src="/images/safe.svg" height={30} width={30} />
               </div>
             </div>
             <div className="ml-1 mt-3 mobile:ml-0">
@@ -49,7 +49,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
           <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mb-16">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
               <div className="icon-bg">
-                <img src="/images/create-account.svg" />
+                <img src="/images/transparent.svg" />
               </div>
             </div>
             <div className="ml-1 mt-3 mobile:ml-0">
@@ -78,7 +78,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
           <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mb-16">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
               <div className="icon-bg">
-                <img src="/images/swap-function.svg" />
+                <img src="/images/multi-currency.svg" />
               </div>
             </div>
             <div className="ml-1 mt-3 mobile:ml-0">
