@@ -1,9 +1,85 @@
 import React from "react";
 import AssetPreviewCard from "./AssetPreviewCard";
 import { useRouter } from "next/router";
+import { nasdaqAxios } from "@/utils/axios";
 
 const AssetPreview = () => {
   const router = useRouter();
+  const [assetData, setAssetData] = React.useState<any>([]);
+
+  const queryAssetData = async () => {
+    try {
+      const prevTimeStamp = window.localStorage.getItem("nasdaq-timestamp");
+      // checking if already 10mins have passed
+      if (prevTimeStamp) {
+        const currentTime = new Date().getTime();
+        const diff = currentTime - parseInt(prevTimeStamp);
+        const minutes = Math.floor(diff / 1000 / 60);
+        if (minutes < 10) {
+          const assetData = window.localStorage.getItem("nasdaq-data");
+          if (assetData) {
+            setAssetData(JSON.parse(assetData));
+          }
+        }
+      }
+
+      const assetPromise = [
+        nasdaqAxios.get("/quote/SGOV/info?assetclass=etf"),
+        nasdaqAxios.get("/quote/BIL/info?assetclass=etf"),
+        nasdaqAxios.get("/quote/AAPL/info?assetclass=stocks"),
+        nasdaqAxios.get("/quote/NVDA/info?assetclass=stocks"),
+      ];
+
+      const [sgov, bil, aapl, nvda] = await Promise.all(assetPromise);
+      const data = [
+        {
+          name: sgov.data.companyName,
+          lastSalePrice: sgov.data.primaryData.lastSalePrice,
+          change: sgov.data.primaryData.percentageChange,
+          yield: 5.6,
+        },
+        {
+          name: bil.data.companyName,
+          lastSalePrice: bil.data.primaryData.lastSalePrice,
+          change: sgov.data.primaryData.percentageChange,
+          yield: 5.15,
+        },
+        {
+          name: nvda.data.companyName,
+          lastSalePrice: nvda.data.primaryData.lastSalePrice,
+          change: nvda.data.primaryData.netChange,
+          yield: 0.04,
+        },
+        {
+          name: aapl.data.companyName,
+          lastSalePrice: aapl.data.primaryData.lastSalePrice,
+          change: aapl.data.primaryData.netChange,
+          yield: 0.56,
+        },
+      ];
+      setAssetData(data);
+      window.localStorage.setItem("nasdaq-data", JSON.stringify(data));
+      window.localStorage.setItem(
+        "nasdaq-timestamp",
+        new Date().getTime().toString()
+      );
+    } catch (err) {
+      console.log(err);
+      const assetData = window.localStorage.getItem("nasdaq-data");
+      if (assetData) {
+        setAssetData(JSON.parse(assetData));
+      }
+    }
+  };
+
+  React.useEffect(() => {
+    queryAssetData();
+  }, []);
+
+  console.log({
+    assetData,
+  });
+
   return (
     <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-[center_top_5rem] pb-[140px] mobile:pb-[30px] bg-no-repeat bg-cover 2xl:bg-cover large-screen:bg-cover mobile:bg-cover mt-10 relative z-30 mobile:mt-16">
       <section className="max-w-[1200px] mx-auto flex justify-between mobile:flex-col mobile:items-center">
