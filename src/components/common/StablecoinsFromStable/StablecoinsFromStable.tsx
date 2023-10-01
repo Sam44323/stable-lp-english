@@ -14,7 +14,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
 
   // bg-[url('/images/gradients/gradient-bent.svg')]
   return (
-    <div className="overflow-x-hidden bg-no-repeat  bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] mt-4 pt-36 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
+    <div className="overflow-x-hidden bg-no-repeat  bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] pt-0 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
       <section className="text-center font-roboto">
         <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px]">
           {title}
