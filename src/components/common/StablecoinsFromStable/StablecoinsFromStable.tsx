@@ -1,6 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import Supportedchains from "@/components/common/Supportedchains/Supportedchains";
 import { useRouter } from "next/router";
 
 interface AcquireProps {
@@ -12,7 +11,6 @@ interface AcquireProps {
 const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
   const router = useRouter();
 
-  // bg-[url('/images/gradients/gradient-bent.svg')]
   return (
     <div className="overflow-x-hidden bg-no-repeat  bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] pt-0 z-10 mx-auto relative pb-10 mobile:pb-10 mobile:pt-16 mobile:mt-10">
       <section className="text-center font-roboto">
