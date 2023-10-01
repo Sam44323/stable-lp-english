@@ -53,20 +53,6 @@ const Hero = () => {
           based on for which stablecoin you are redeeming the RWA token.
         </p>
       </div>
-      <img
-        src="/images/rwa-flow.png"
-        className="max-w-screen-lg mx-auto mt-16 mobile:hidden"
-        height={800}
-        width={1200}
-        alt="redeem-flow"
-      />
-      <img
-        src="/images/rwa-flow.png"
-        className="hidden max-w-screen-lg mx-auto mt-16 mobile:block"
-        height={300}
-        width={300}
-        alt="redeem-flow"
-      />
     </div>
   );
 };
