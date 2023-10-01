@@ -116,21 +116,6 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
           className="absolute right-0 -top-48 mobile:hidden"
         />
       </section>
-      <section className="text-center font-roboto mt-36">
-        <h1 className="text-6xl font-500 text-blue-text mobile:text-3xl">
-          We are Multichain!
-        </h1>
-        <p className="max-w-5xl mx-auto mt-10 font-300 text-lg font-manrope leading-8 text-grey-100 mobile:max-w-[80%] mobile:mx-auto mobile:text-sm mobile:leading-8">
-          Stable’s platform, tokens, and smart contracts were intentionally
-          designed to be multi-chain, allowing for effortless adoption and
-          integration. We are committed to deploying on all EVM-compatible
-          chains over time, enabling Defi and non-Defi users to bring their
-          preferred currencies and assets from traditional financial markets to
-          the blockchain of their choice, regardless of whether they are using
-          Avalanche, Polygon, Arbitrum, or any other EVM chain. Our vision has
-          always been to be multi-chain right from the start!
-        </p>
-      </section>
       <Supportedchains />
     </div>
   );

@@ -12,7 +12,7 @@ const AssetPreview = () => {
           status="loaded"
           description="Tokenized iShares 0-3 Month Treasury Bond ETF"
           price="100"
-          yieldData="0.01%"
+          yieldData="0.01"
           change="2%"
           changeType="positive"
         />
@@ -21,7 +21,7 @@ const AssetPreview = () => {
           status="loaded"
           description="Tokenized iShares 0-3 Month Treasury Bond ETF"
           price="100"
-          yieldData="0.01%"
+          yieldData="0.01"
           change="2%"
           changeType="positive"
         />
@@ -30,7 +30,7 @@ const AssetPreview = () => {
           status="loaded"
           description="Tokenized iShares 0-3 Month Treasury Bond ETF"
           price="100"
-          yieldData="0.01%"
+          yieldData="0.01"
           change="2%"
           changeType="positive"
         />
@@ -39,7 +39,7 @@ const AssetPreview = () => {
           status="loaded"
           description="Tokenized iShares 0-3 Month Treasury Bond ETF"
           price="100"
-          yieldData="0.01%"
+          yieldData="0.01"
           change="2%"
           changeType="positive"
         />
