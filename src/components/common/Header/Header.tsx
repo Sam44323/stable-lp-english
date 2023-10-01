@@ -1,5 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
+import classNames from "classnames";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -11,12 +12,12 @@ import {
   NavItem,
 } from "reactstrap";
 
-import { HEADER_LINK } from "@/utils/constants";
-import classNames from "classnames";
+import { DROPDOWN_LINKS, HEADER_LINK } from "@/utils/constants";
 
 const Header: React.FC = () => {
   const [collapsed, setCollapsed] = React.useState(true);
   const router = useRouter();
+  const [dropdownOpen, setDropdownOpen] = React.useState(false);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
 
@@ -56,6 +57,48 @@ const Header: React.FC = () => {
                 </Link>
               );
             })}
+            <div className="relative">
+              <div
+                className="flex items-center align-middle hover:cursor-pointer"
+                onClick={() => setDropdownOpen((prev) => !prev)}
+              >
+                <p className="no-underline my-0 mr-1.5 text-link-active font-900 hover:text-link-active font-work-sans text-sm">
+                  More
+                </p>
+                <Image
+                  src="/images/logo/nav-arrow.svg"
+                  className={classNames(
+                    "transition-all",
+                    dropdownOpen && "rotate-180"
+                  )}
+                  height={10}
+                  width={10}
+                  alt="nav-arrow"
+                />
+              </div>
+              {dropdownOpen && (
+                <>
+                  <div
+                    className="fixed inset-0 bg-black/0 z-[99]"
+                    onClick={() => setDropdownOpen(false)}
+                  ></div>
+                  <div className="flex flex-col bg-blue-link  pt-1 items-start w-36 absolute top-10 z-[100] rounded-md">
+                    {DROPDOWN_LINKS.map((item, index) => (
+                      <Link
+                        key={index}
+                        href={item.href}
+                        onClick={() => setDropdownOpen(false)}
+                        className={classNames(
+                          "no-underline text-white font-900 px-4 py-1 hover:bg-black font-work-sans text-sm mb-1 w-[90%] mx-auto rounded-md"
+                        )}
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
+                  </div>
+                </>
+              )}
+            </div>
           </div>
           <div
             className="pill-btn hover:ease-in duration-100 hover:scale-105 ml-5 text-[14px]"
@@ -123,6 +166,50 @@ const Header: React.FC = () => {
                       )}
                     </NavItem>
                   ))}
+                  <NavItem>
+                    <div className="relative">
+                      <div
+                        className="flex items-center align-middle hover:cursor-pointer"
+                        onClick={() => setDropdownOpen((prev) => !prev)}
+                      >
+                        <p className="no-underline my-0 mr-1.5 text-link-active font-900 hover:text-link-active font-work-sans text-sm">
+                          More
+                        </p>
+                        <Image
+                          src="/images/logo/nav-arrow.svg"
+                          className={classNames(
+                            "transition-all",
+                            dropdownOpen && "rotate-180"
+                          )}
+                          height={10}
+                          width={10}
+                          alt="nav-arrow"
+                        />
+                      </div>
+                      {dropdownOpen && (
+                        <>
+                          <div
+                            className="fixed inset-0 bg-black/0 z-[99]"
+                            onClick={() => setDropdownOpen(false)}
+                          ></div>
+                          <div className="flex flex-col bg-blue-link  pt-1 items-start w-36 absolute top-10 z-[100] rounded-md">
+                            {DROPDOWN_LINKS.map((item, index) => (
+                              <Link
+                                key={index}
+                                href={item.href}
+                                onClick={() => setDropdownOpen(false)}
+                                className={classNames(
+                                  "no-underline text-white font-900 px-4 py-1 hover:bg-black font-work-sans text-sm mb-1 w-[90%] mx-auto rounded-md"
+                                )}
+                              >
+                                {item.name}
+                              </Link>
+                            ))}
+                          </div>
+                        </>
+                      )}
+                    </div>
+                  </NavItem>
                 </Nav>
               </Collapse>
             </Navbar>

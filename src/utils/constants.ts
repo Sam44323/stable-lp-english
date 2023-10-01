@@ -44,9 +44,20 @@ export const HEADER_LINK = [
     name: "Stablecoins",
     href: "/stablecoins",
   },
+];
+
+export const DROPDOWN_LINKS = [
   {
     name: "veSTE",
     href: "/veSTE",
+  },
+  {
+    name: "Swap",
+    href: "/swap",
+  },
+  {
+    name: "Bridge",
+    href: "/bridge",
   },
 ];
 
