@@ -19,7 +19,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
         </h1>
         <p
           className={classNames(
-            "max-w-[600px] mx-auto text-md font-300 font-manrope leading-7 mt-3 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base",
+            "max-w-[800px] mx-auto text-[18px] font-300 font-manrope leading-7 mt-3 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base",
             subHeader ? "text-[24px] font-500" : ""
           )}
         >
@@ -31,7 +31,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
           <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:my-10 mb-16">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
               <div className="icon-bg">
-                <img src="/images/safe.svg" height={30} width={30} />
+                <img src="/images/utilize-dex.svg" height={30} width={30} />
               </div>
             </div>
             <div className="ml-1 mt-3 mobile:ml-0">
@@ -47,7 +47,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
           <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mb-16">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
               <div className="icon-bg">
-                <img src="/images/transparent.svg" />
+                <img src="/images/mint-rwa.svg" />
               </div>
             </div>
             <div className="ml-1 mt-3 mobile:ml-0">
