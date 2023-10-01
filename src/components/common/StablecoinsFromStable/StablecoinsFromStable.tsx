@@ -12,15 +12,16 @@ interface AcquireProps {
 const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
   const router = useRouter();
 
+  // bg-[url('/images/gradients/gradient-bent.svg')]
   return (
-    <div className="bg-[url('/images/gradients/gradient-bent.svg')] overflow-x-hidden bg-no-repeat bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] mt-4 pt-36 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
+    <div className="overflow-x-hidden bg-no-repeat  bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] mt-4 pt-36 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
       <section className="text-center font-roboto">
         <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px]">
           {title}
         </h1>
         <p
           className={classNames(
-            "max-w-3xl mx-auto text-[19px] font-300 font-manrope leading-7 mt-11 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base",
+            "max-w-[600px] mx-auto text-md font-300 font-manrope leading-7 mt-3 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base",
             subHeader ? "text-[24px] font-500" : ""
           )}
         >
@@ -37,11 +38,11 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
             </div>
             <div className="ml-1 mt-3 mobile:ml-0">
               <h1 className="font-roboto text-[26px] font-500 mobile:text-center">
-                Utilize a DEX
+                Safe
               </h1>
               <p className="max-w-[300px] mobile:max-w-none  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
-                Utilize Curve, Uni V3 or similar DEXs to exchange your
-                cryptocurrencies for our stablecoins. 
+                Regulated and licensed in the EU, pegged at a fixed rate of 1:1
+                with a corresponding fiat currency, with redemption guarantees.
               </p>
             </div>
           </div>
@@ -53,15 +54,14 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
             </div>
             <div className="ml-1 mt-3 mobile:ml-0">
               <h1 className="font-roboto text-[26px] font-500 mobile:text-center">
-                Create Account
+                Transparent
               </h1>
               <p className="max-w-xs mobile:max-w-none  mt-1  font-300 font-manrope leading-7 text-base  mobile:text-center">
-                Establish an account with us, undergo our AML/KYC verifications,
-                and transfer fiat; you will then have the ability to mint or
-                redeem our stablecoins at a 1:1 exchange rate.
+                Our backing for each stablecoin is reported through publicly
+                accessible Chainlink Proof of Reserve.
               </p>
             </div>
-            <div
+            {/* <div
               className="hover:cursor-pointer flex flex-row mobile:justify-center"
               onClick={() => router.push("/mint")}
             >
@@ -73,7 +73,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
                 alt="right-arrow-blue"
                 className="ml-1"
               />
-            </div>
+            </div> */}
           </div>
           <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mb-16">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
@@ -83,15 +83,14 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
             </div>
             <div className="ml-1 mt-3 mobile:ml-0">
               <h1 className="font-roboto text-[26px] font-500 mobile:text-center">
-                Swap Function
+                Multi-Currency
               </h1>
               <p className="max-w-[290px] mobile:max-w-none  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
-                Swap USDT, USDC, or TUSD, and receive back StUSD at the rate of
-                1:1, with redemption fees from other issuers deducted from the
-                amount received.
+                We are supporting multiple stablecoins, such as stUSD, stEUR,
+                and stCNY. We will be adding more currencies along the way.
               </p>
             </div>
-            <div
+            {/* <div
               className="hover:cursor-pointer flex flex-row mobile:justify-center"
               onClick={() => router.push("/swap")}
             >
@@ -103,7 +102,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
                 alt="right-arrow-blue"
                 className="ml-1"
               />
-            </div>
+            </div> */}
           </div>
         </section>
         <img
