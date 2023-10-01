@@ -3,10 +3,10 @@ import React from "react";
 const Supportedchains = () => {
   return (
     <section className="mt-20">
-      <h1 className="text-[27px] font-500 text-center font-roboto text-blue-text mobile:text-xl">
+      <h1 className="text-[24px] font-500 text-center font-roboto text-blue-text mobile:text-xl">
         Supported Chains
       </h1>
-      <div className="flex flex-row justify-between max-w-[1190px] mx-auto mt-16 mobile:hidden">
+      <div className="flex flex-row justify-between max-w-[1190px] mx-auto mobile:hidden">
         <img
           src="/images/chains/ethereum.svg"
           alt="ethereum-chain"

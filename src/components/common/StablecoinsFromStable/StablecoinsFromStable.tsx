@@ -14,7 +14,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
 
   // bg-[url('/images/gradients/gradient-bent.svg')]
   return (
-    <div className="overflow-x-hidden bg-no-repeat  bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] pt-0 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
+    <div className="overflow-x-hidden bg-no-repeat  bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] pt-0 z-10 mx-auto relative pb-10 mobile:pb-10 mobile:pt-16 mobile:mt-10">
       <section className="text-center font-roboto">
         <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px]">
           {title}
@@ -28,7 +28,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
           {description}
         </p>
       </section>
-      <section className="flex flex-row align-top justify-between mt-40 mobile:mt-0 relative  max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">
+      <section className="flex flex-row align-top justify-between mt-40 mobile:mt-0 relative  max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center -translate-y-16">
         <section className="ml-36 mobile:ml-0 mobile:mt-16">
           <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:my-10 mb-16">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
@@ -61,19 +61,6 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
                 accessible Chainlink Proof of Reserve.
               </p>
             </div>
-            {/* <div
-              className="hover:cursor-pointer flex flex-row mobile:justify-center"
-              onClick={() => router.push("/mint")}
-            >
-              <p className="m-0 font-work-sans text-blue-link font-800">
-                Go to Mint
-              </p>
-              <img
-                src="/images/right-arrow-blue.svg"
-                alt="right-arrow-blue"
-                className="ml-1"
-              />
-            </div> */}
           </div>
           <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mb-16">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
@@ -90,42 +77,20 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
                 and stCNY. We will be adding more currencies along the way.
               </p>
             </div>
-            {/* <div
-              className="hover:cursor-pointer flex flex-row mobile:justify-center"
-              onClick={() => router.push("/swap")}
-            >
-              <p className="m-0 font-work-sans text-blue-link font-800">
-                Go to Swap
-              </p>
-              <img
-                src="/images/right-arrow-blue.svg"
-                alt="right-arrow-blue"
-                className="ml-1"
-              />
-            </div> */}
+          </div>
+          <div
+            className="pill-btn py-[14px] px-[30px] hover:ease-in duration-100 hover:scale-105 -mt-5 text-[14px] flex justify-between items-center mobile:mx-auto"
+            onClick={() => router.push("/stablecoins")}
+          >
+            <p className="my-0 mr-3">Find out more</p>
+            <img src="/images/right-arrow.svg" height={15} width={15} />
           </div>
         </section>
         <img
-          src="/images/screen-group.svg"
-          className="absolute right-0 -top-48 mobile:hidden"
+          src="/images/coin-group.svg"
+          className="absolute right-40 top-16 mobile:hidden"
         />
       </section>
-      <section className="text-center font-roboto mt-36">
-        <h1 className="text-6xl font-500 text-blue-text mobile:text-3xl">
-          We are Multichain!
-        </h1>
-        <p className="max-w-5xl mx-auto mt-10 font-300 text-lg font-manrope leading-8 text-grey-100 mobile:max-w-[80%] mobile:mx-auto mobile:text-sm mobile:leading-8">
-          Stable’s platform, tokens, and smart contracts were intentionally
-          designed to be multi-chain, allowing for effortless adoption and
-          integration. We are committed to deploying on all EVM-compatible
-          chains over time, enabling Defi and non-Defi users to bring their
-          preferred currencies and assets from traditional financial markets to
-          the blockchain of their choice, regardless of whether they are using
-          Avalanche, Polygon, Arbitrum, or any other EVM chain. Our vision has
-          always been to be multi-chain right from the start!
-        </p>
-      </section>
-      <Supportedchains />
     </div>
   );
 };
