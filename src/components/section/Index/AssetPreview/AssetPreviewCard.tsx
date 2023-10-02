@@ -32,7 +32,7 @@ const AssetPreviewCard: React.FC<AssetPreviewCardProps> = ({
       <div className="bg-[#C3DEFF] h-[1.7px] mt-11 mb-3"></div>
       <section>
         <p className="text-grey-100 font-700 text-sm leading-[1.4]">
-          Price: ${price} ({change} in 24h)
+          Price: ${parseFloat(price).toFixed(2)} ({change} in 24h)
         </p>
         <div
           className="pill-btn hover:cursor-auto hover:bg-blue-pillBtn  text-[15px] tracking-wide font-600 mt-4"

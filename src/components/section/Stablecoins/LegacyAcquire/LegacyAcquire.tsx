@@ -44,7 +44,7 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
               <h1 className="font-roboto text-[26px] font-500 mobile:text-center">
                 Utilize a DEX
               </h1>
-              <p className="max-w-[300px] mobile:max-w-none  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
+              <p className="max-w-[390px] mobile:max-w-none  mt-1 font-300 font-be-vietnam-pro leading-7 text-[15px]mobile:text-center">
                 Utilize Curve, Uni V3 or similar DEXs to exchange your
                 cryptocurrencies for our stablecoins. 
               </p>
@@ -58,9 +58,9 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
             </div>
             <div className="ml-1 mt-3 mobile:ml-0">
               <h1 className="font-roboto text-[26px] font-500 mobile:text-center">
-                Create Account
+                Mint Stablecoins
               </h1>
-              <p className="max-w-xs mobile:max-w-none  mt-1  font-300 font-manrope leading-7 text-base  mobile:text-center">
+              <p className="max-w-[390px] mobile:max-w-none  mt-1  font-300 font-be-vietnam-pro leading-7 text-[15px]mobile:text-center">
                 Establish an account with us, undergo our AML/KYC verifications,
                 and transfer fiat; you will then have the ability to mint or
                 redeem our stablecoins at a 1:1 exchange rate.
@@ -90,7 +90,7 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
               <h1 className="font-roboto text-[26px] font-500 mobile:text-center">
                 Swap Function
               </h1>
-              <p className="max-w-[290px] mobile:max-w-none  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
+              <p className="max-w-[390px] mobile:max-w-none  mt-1 font-300 font-be-vietnam-pro leading-7 text-[15px] mobile:text-center">
                 Swap USDT, USDC, or TUSD, and receive back StUSD at the rate of
                 1:1, with redemption fees from other issuers deducted from the
                 amount received.
@@ -112,8 +112,8 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
           </div>
         </section>
         <img
-          src="/images/screen-group.svg"
-          className="absolute right-0 -top-48 mobile:hidden"
+          src="/images/stablecoin-screen.svg"
+          className="absolute right-10 top-36 mobile:hidden"
         />
       </section>
       <Supportedchains />
