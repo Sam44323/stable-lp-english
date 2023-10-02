@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import Supportedchains from "@/components/common/Supportedchains/Supportedchains";
 
 const Tokenizedetails = () => {
   const router = useRouter();
@@ -8,42 +9,58 @@ const Tokenizedetails = () => {
   return (
     <>
       <div className="relative">
-        <div className="max-w-[800px] mx-auto text-left 2xl:-translate-x-80 -translate-x-48 mt-16 mobile:max-w-[80%] mobile:translate-x-0 mobile:flex mobile:flex-col mobile:items-center">
-          <h1 className="font-roboto text-blue-text text-[50px] max-w-3xl  leading-[70px] mobile:text-center mobile:text-xl">
-            Tokenize your favorite assets and get more control and flexibility
-            over them.
+        <div className="max-w-[700px] mx-auto mt-16 mobile:max-w-[80%] mobile:translate-x-0 mobile:flex mobile:flex-col mobile:items-center mobile:mt-5">
+          <h1 className="font-roboto text-blue-text text-6xl text-center  leading-[70px] mobile:text-center mobile:text-xl">
+            About Us
           </h1>
-          <p className="text-grey-100 font-work-sans font-400 leading-7 text-[17px] mt-10 mobile:text-center">
-            Bring your preferred equities, bonds, ETFs, and other instruments on
-            your favorite blockchain, unleash their maximum potential, and
-            elevate your financial possibilities with the best blockchain and
-            Defi offer. All you need to do is mint the assets you intend to hold
-            with whitelisted fiat-back stablecoins such as USDC and USDT or use
-            our in-house Stablecoins for the quickest and simplest minting and
-            redemption experience. The RWA tokens are transferrable and can be
-            utilized as you see fit.
-          </p>
-          <div
-            className="pill-btn font-roboto tracking-wide font-500 text-white hover:ease-in duration-100 hover:scale-105 mt-6 flex align-middle"
-            onClick={() => router.push("/rwa")}
-          >
-            <p className="m-0 text-lg font-work-sans px-4 py-1 font-700">
-              Find out more
+          <div className="flex justify-between items-center my-16 mobile:flex-col mobile:text-center mobile:mt-4">
+            <h1 className="flex-[0.1] text-blue-text leading-[50px] text-[43px] mobile:text-[20px]">
+              Fully Regulated
+            </h1>
+            <p className="flex-[0.8] text-grey-100 font-300 leading-6 text-md font-work-sans text-[17px]">
+              Compliance with EU regulations are on top of our priority list. We
+              operate directly or via our partners as fully regulated EU
+              electronic money issuer, investment broker company and we are also
+              preparing for MiCA EU crypto regulation.
             </p>
-            <Image
-              src="/images/right-arrow.svg"
-              alt="right-arrow"
-              height={18}
-              width={18}
-              className="ml-3"
-            />
+          </div>
+          <div className="flex flex-row-reverse justify-between items-center mobile:flex-col mobile:hidden">
+            <h1 className="flex-[0.1] text-blue-text text-right leading-[50px] text-[43px] mobile:text-[20px]">
+              We are Multichain!
+            </h1>
+            <p className="flex-[0.85] text-grey-100 text-[17px] text-md font-300 leading-6 text-right font-work-sans mobile:text-center">
+              Stable’s platform, tokens, and smart contracts were intentionally
+              designed to be multi-chain, allowing for effortless adoption and
+              integration. We are committed to deploying on all EVM-compatible
+              chains over time, enabling Defi and non-Defi users to bring their
+              preferred currencies and assets from traditional financial markets
+              to the blockchain of their choice, regardless of whether they are
+              using Avalanche, Polygon, Arbitrum, or any other EVM chain. Our
+              vision has always been to be multi-chain right from the start!
+            </p>
+          </div>
+          <div className="hidden mobile:flex mobile:flex-col mobile:text-center">
+            <h1 className="flex-[0.1] text-blue-text text-right leading-[50px] mobile:text-center">
+              We are Multichain!
+            </h1>
+            <p className="flex-[0.85] text-grey-100 text-md font-300 leading-6 text-right font-work-sans mobile:text-center">
+              Stable’s platform, tokens, and smart contracts were intentionally
+              designed to be multi-chain, allowing for effortless adoption and
+              integration. We are committed to deploying on all EVM-compatible
+              chains over time, enabling Defi and non-Defi users to bring their
+              preferred currencies and assets from traditional financial markets
+              to the blockchain of their choice, regardless of whether they are
+              using Avalanche, Polygon, Arbitrum, or any other EVM chain. Our
+              vision has always been to be multi-chain right from the start!
+            </p>
           </div>
         </div>
         <img
           src="/images/shapes/ellipse-with-masks.png"
-          className="absolute right-0 -translate-y-[700px] -z-10 mobile:hidden"
+          className="absolute -right-0 -translate-y-[950px] -z-10 mid-screen:hidden mobile:hidden"
         />
       </div>
+      <Supportedchains />
     </>
   );
 };

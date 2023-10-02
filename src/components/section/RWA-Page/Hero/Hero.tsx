@@ -46,27 +46,13 @@ const Hero = () => {
         </div>
         <p className="max-w-xl ml-auto mt-16 font-be-vietnam-pro font-300 text-grey-100 min-w-[700px] leading-8 text-lg mobile:min-w-0 mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
           Conversely, when you choose to redeem, the asset is sold on the open
-          market, with the corresponding stablecoins you chose minted to you
+          market, after which the corresponding stablecoins are minted to you
           based on the proceeds received. Again, each asset is 1:1 backed and
           reported through Chainlink Proof of Reserves, thus ensuring complete
           transparency and security. Yet again, fees and redemption time vary
           based on for which stablecoin you are redeeming the RWA token.
         </p>
       </div>
-      <img
-        src="/images/rwa-flow.png"
-        className="max-w-screen-lg mx-auto mt-16 mobile:hidden"
-        height={800}
-        width={1200}
-        alt="redeem-flow"
-      />
-      <img
-        src="/images/rwa-flow.png"
-        className="hidden max-w-screen-lg mx-auto mt-16 mobile:block"
-        height={300}
-        width={300}
-        alt="redeem-flow"
-      />
     </div>
   );
 };

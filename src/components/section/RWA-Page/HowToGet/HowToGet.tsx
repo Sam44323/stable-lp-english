@@ -25,10 +25,10 @@ const HowToGet = () => {
           and 1:1 asset backing, each RWA token is fully backed by an equivalent
           amount of assets that is representing. This means that 100 StTSLA
           tokens are backed by 100 TSLA shares in Stable's custody, which is
-          reported through Chainlinks Proof of Reserve.
+          reported through Chainlinks{" "}
+          <span className="font-600">Proof of Reserve.</span>
         </p>
       </div>
-      <Supportedchains />
       <div className="gradient-blue-bg 2xl:max-w-screen-2xl max-w-[1200px] mx-auto rounded-3xl md:min-h-[200px] overflow-clip relative mt-48 mobile:max-w-[90%] mobile:overflow-hidden">
         <div>
           <img
@@ -38,8 +38,8 @@ const HowToGet = () => {
         </div>
         <div className="absolute flex flex-row  items-center justify-between w-full z-10 max-w-screen-lg mx-auto left-16 pt-16 mobile:flex mobile:flex-col mobile:items-center mobile:justify-center mobile:max-w-none mobile:w-full mobile:h-full mobile:p-0 mobile:left-0">
           <div className="h-fit">
-            <h1 className="text-white font-roboto text-5xl">
-              Mint or Redeem RWAs
+            <h1 className="text-white font-roboto text-4xl">
+              Collateralize, trade, lend, and self-custody
             </h1>
             <p className="text-white font-roboto font-500 text-[18px] ml-1 tracking-wide">
               Sign up and unlock the capabilities ...
@@ -57,6 +57,7 @@ const HowToGet = () => {
           className="absolute right-0 md:max-h-[300px] rounded-tr-3xl rounded-br-3xl"
         />
       </div>
+      <Supportedchains />
     </div>
   );
 };

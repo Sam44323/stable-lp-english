@@ -7,7 +7,7 @@ const FAQ = () => {
     React.useState<number>(-1);
 
   return (
-    <div className="mt-[270px] relative mobile:mt-36">
+    <div className="mt-[100px] relative mobile:mt-36">
       <img
         src="/images/shapes/faq-ellipse.png"
         className="absolute left-0 -z-10"
