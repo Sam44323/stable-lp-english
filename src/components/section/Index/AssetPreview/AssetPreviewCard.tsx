@@ -20,12 +20,12 @@ const AssetPreviewCard: React.FC<AssetPreviewCardProps> = ({
   changeType,
 }) => {
   return (
-    <div className="asset-preview-card mobile:mb-10">
+    <div className="asset-preview-card flex flex-col justify-between mobile:mb-10">
       <section>
-        <h1 className="text-blue-link text-[26px] font-600">
+        <h1 className="text-blue-link text-[26px] font-600 ">
           {status === "loaded" ? title : "Loading..."}
         </h1>
-        <p className="text-blue-text font-300 text-sm leading-[1.4]">
+        <p className="text-blue-text font-300 text-sm leading-[1.4] min-w-[200px]">
           Tokenized {status === "loaded" ? description : "Loading..."}
         </p>
       </section>

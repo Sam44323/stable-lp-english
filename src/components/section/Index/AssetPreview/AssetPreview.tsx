@@ -20,9 +20,20 @@ const AssetPreview = () => {
     queryAssetData();
   }, []);
 
-  console.log({
-    assetData,
-  });
+  const yieldFetcher = (symbol: string) => {
+    switch (symbol) {
+      case "SGOV":
+        return 5.26;
+      case "BIL":
+        return 5.15;
+      case "NVDA":
+        return 0.04;
+      case "AAPL":
+        return 0.56;
+      default:
+        return "";
+    }
+  };
 
   return (
     <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-[center_top_5rem] pb-[140px] mobile:pb-[30px] bg-no-repeat bg-cover 2xl:bg-cover large-screen:bg-cover mobile:bg-cover mt-10 relative z-30 mobile:mt-16">
@@ -33,7 +44,7 @@ const AssetPreview = () => {
             status="loaded"
             description={asset.assetName}
             price={asset.assetValue}
-            yieldData="0.01"
+            yieldData={yieldFetcher(asset.assetTicker) as any}
             change={asset.change + "%"}
             changeType={asset.change > 0 ? "positive" : "negative"}
           />
