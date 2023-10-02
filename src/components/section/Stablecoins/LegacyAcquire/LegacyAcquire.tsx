@@ -25,8 +25,8 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
         </h1>
         <p
           className={classNames(
-            "max-w-3xl mx-auto text-[19px] font-300 font-manrope leading-7 mt-11 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base",
-            subHeader ? "text-[24px] font-500" : ""
+            "max-w-3xl mx-auto text-[19px] font-600 font-manrope leading-7 mt-8 text-grey-100 mobile:max-w-[90%] mobile:mx-auto mobile:text-base",
+            subHeader ? "text-[20px] font-500" : ""
           )}
         >
           {description}

@@ -24,8 +24,8 @@ const AssetPreview = () => {
     switch (symbol) {
       case "SGOV":
         return 5.26;
-      case "BIL":
-        return 5.15;
+      case "SPY":
+        return 1.5;
       case "NVDA":
         return 0.04;
       case "AAPL":
@@ -82,7 +82,7 @@ const AssetPreview = () => {
           </p>
         </div>
       </section>
-      <section className="max-w-[1300px] mx-auto flex justify-end mt-10 mobile:max-w-[none] mobile:just-center">
+      <section className="max-w-[1200px] mx-auto flex justify-end mt-10 mobile:max-w-[none] mobile:just-center">
         <div
           className="pill-btn py-[14px] px-[30px] hover:ease-in duration-100 hover:scale-105 ml-5 text-[14px] flex justify-between items-center"
           onClick={() => router.push("/rwa")}

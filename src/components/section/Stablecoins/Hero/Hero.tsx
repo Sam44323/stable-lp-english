@@ -15,8 +15,8 @@ const Hero = () => {
       />
       <div className="max-w-6xl mx-auto pt-48 mobile:text-center mobile:pt-20">
         <h1 className="text-link-inactive text-[50px] max-w-3xl font-500 font-roboto leading-[1.4] m-0 mobile:text-lg">
-          Enter crypto with guarantees thanks to stablecoins from Stable and
-          enjoy fast and safe tokenization of listed securities.
+          Enter crypto with guarantees and enjoy fast and safe tokenization of
+          listed securities.
         </h1>
         <div className="mobile:flex mobile:flex-row mobile:justify-center">
           <div
@@ -80,8 +80,8 @@ const Hero = () => {
           <p className="font-be-vietnam-pro font-300 mt-4 text-grey-100 min-w-[700px] mr-36  mobile:min-w-0 text-lg leading-8 mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
             Stable's stablecoins are a top choice for crypto enthusiasts, Defi,
             or non-Defi users since they can be utilized just like any other
-            fiat-backed stablecoin. However, what sets them apart is the ability
-            to guarantee redemption at a 1:1 ratio and the option of utilizing
+            fiat-backed stablecoin. However, what sets us apart is the ability
+            to guarantee redemption at a 1:1 ratio and the ability to utilize
             them for the fastest and safest tokenization of listed securities
             and assets on Stable’s tokenization platform. To further broaden the
             usage of stablecoins, at Stable, we will be adding additional use
