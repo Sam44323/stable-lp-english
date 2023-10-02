@@ -1,8 +1,8 @@
 import axios from "axios";
 import { BACKEND_URL } from "./constants";
 
-export const nasdaqAxios = axios.create({
-  baseURL: "https://api.nasdaq.com/api",
+export const assetAxios = axios.create({
+  baseURL: "https://api.twelvedata.com/eod",
   timeout: 10000,
 });
 

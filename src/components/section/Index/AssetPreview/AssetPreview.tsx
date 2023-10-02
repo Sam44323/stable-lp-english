@@ -1,7 +1,8 @@
 import React from "react";
 import AssetPreviewCard from "./AssetPreviewCard";
 import { useRouter } from "next/router";
-import { nasdaqAxios } from "@/utils/axios";
+import { assetAxios } from "@/utils/axios";
+import axios from "axios";
 
 const AssetPreview = () => {
   const router = useRouter();
@@ -9,67 +10,98 @@ const AssetPreview = () => {
 
   const queryAssetData = async () => {
     try {
-      const prevTimeStamp = window.localStorage.getItem("nasdaq-timestamp");
-      // checking if already 10mins have passed
+      const prevTimeStamp = window.localStorage.getItem("asset-timestamp");
+      // checking if already 60mins have passed
       if (prevTimeStamp) {
         const currentTime = new Date().getTime();
         const diff = currentTime - parseInt(prevTimeStamp);
         const minutes = Math.floor(diff / 1000 / 60);
-        if (minutes < 10) {
-          const assetData = window.localStorage.getItem("nasdaq-data");
+        if (minutes < 60) {
+          const assetData = window.localStorage.getItem("asset-data");
           if (assetData) {
             setAssetData(JSON.parse(assetData));
           }
         }
       }
-
       const assetPromise = [
-        nasdaqAxios.get("/quote/SGOV/info?assetclass=etf"),
-        nasdaqAxios.get("/quote/BIL/info?assetclass=etf"),
-        nasdaqAxios.get("/quote/AAPL/info?assetclass=stocks"),
-        nasdaqAxios.get("/quote/NVDA/info?assetclass=stocks"),
+        assetAxios.get(
+          `?symbol=SGOV&apikey=${process.env.NEXT_PUBLIC_API_KEY}`
+        ),
+        assetAxios.get(`?symbol=BIL&apikey=${process.env.NEXT_PUBLIC_API_KEY}`),
+        assetAxios.get(
+          `?symbol=NVDA&apikey=${process.env.NEXT_PUBLIC_API_KEY}`
+        ),
+        assetAxios.get(
+          `?symbol=AAPL&apikey=${process.env.NEXT_PUBLIC_API_KEY}`
+        ),
       ];
-
-      const [sgov, bil, aapl, nvda] = await Promise.all(assetPromise);
-      const data = [
-        {
-          name: sgov.data.companyName,
-          lastSalePrice: sgov.data.primaryData.lastSalePrice,
-          change: sgov.data.primaryData.percentageChange,
-          yield: 5.6,
-        },
-        {
-          name: bil.data.companyName,
-          lastSalePrice: bil.data.primaryData.lastSalePrice,
-          change: sgov.data.primaryData.percentageChange,
-          yield: 5.15,
-        },
-        {
-          name: nvda.data.companyName,
-          lastSalePrice: nvda.data.primaryData.lastSalePrice,
-          change: nvda.data.primaryData.netChange,
-          yield: 0.04,
-        },
-        {
-          name: aapl.data.companyName,
-          lastSalePrice: aapl.data.primaryData.lastSalePrice,
-          change: aapl.data.primaryData.netChange,
-          yield: 0.56,
-        },
-      ];
-      setAssetData(data);
-      window.localStorage.setItem("nasdaq-data", JSON.stringify(data));
-      window.localStorage.setItem(
-        "nasdaq-timestamp",
-        new Date().getTime().toString()
-      );
     } catch (err) {
       console.log(err);
-      const assetData = window.localStorage.getItem("nasdaq-data");
+      const assetData = window.localStorage.getItem("asset-data");
       if (assetData) {
         setAssetData(JSON.parse(assetData));
       }
     }
+    // try {
+    //   const prevTimeStamp = window.localStorage.getItem("nasdaq-timestamp");
+    //   // checking if already 10mins have passed
+    //   if (prevTimeStamp) {
+    //     const currentTime = new Date().getTime();
+    //     const diff = currentTime - parseInt(prevTimeStamp);
+    //     const minutes = Math.floor(diff / 1000 / 60);
+    //     if (minutes < 10) {
+    //       const assetData = window.localStorage.getItem("nasdaq-data");
+    //       if (assetData) {
+    //         setAssetData(JSON.parse(assetData));
+    //       }
+    //     }
+    //   }
+    //   const assetPromise = [
+    //     nasdaqAxios.get("/quote/SGOV/info?assetclass=etf"),
+    //     nasdaqAxios.get("/quote/BIL/info?assetclass=etf"),
+    //     nasdaqAxios.get("/quote/AAPL/info?assetclass=stocks"),
+    //     nasdaqAxios.get("/quote/NVDA/info?assetclass=stocks"),
+    //   ];
+    //   const [sgov, bil, aapl, nvda] = await Promise.all(assetPromise);
+    //   const data = [
+    //     {
+    //       name: sgov.data.companyName,
+    //       lastSalePrice: sgov.data.primaryData.lastSalePrice,
+    //       change: sgov.data.primaryData.percentageChange,
+    //       yield: 5.6,
+    //     },
+    //     {
+    //       name: bil.data.companyName,
+    //       lastSalePrice: bil.data.primaryData.lastSalePrice,
+    //       change: sgov.data.primaryData.percentageChange,
+    //       yield: 5.15,
+    //     },
+    //     {
+    //       name: nvda.data.companyName,
+    //       lastSalePrice: nvda.data.primaryData.lastSalePrice,
+    //       change: nvda.data.primaryData.netChange,
+    //       yield: 0.04,
+    //     },
+    //     {
+    //       name: aapl.data.companyName,
+    //       lastSalePrice: aapl.data.primaryData.lastSalePrice,
+    //       change: aapl.data.primaryData.netChange,
+    //       yield: 0.56,
+    //     },
+    //   ];
+    //   setAssetData(data);
+    //   window.localStorage.setItem("nasdaq-data", JSON.stringify(data));
+    //   window.localStorage.setItem(
+    //     "nasdaq-timestamp",
+    //     new Date().getTime().toString()
+    //   );
+    // } catch (err) {
+    //   console.log(err);
+    //   const assetData = window.localStorage.getItem("nasdaq-data");
+    //   if (assetData) {
+    //     setAssetData(JSON.parse(assetData));
+    //   }
+    // }
   };
 
   React.useEffect(() => {
