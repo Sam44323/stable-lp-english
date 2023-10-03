@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero: React.FC = () => {
   return (
-    <div className="max-w-5xl relative flex flex-row justify-evenly ml-auto mr-auto mt-36 mobile:max-w-[90%] mobile:mt-36 mobile:flex-col">
+    <div className="max-w-[1150px] relative flex flex-row justify-evenly ml-auto mr-auto mt-36 mobile:max-w-[90%] mobile:mt-36 mobile:flex-col">
       <section className="ml-5 mobile:m-0">
         <div className="relative mobile:flex mobile:flex-col mobile:w-full mobile:items-center">
           <Image
@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
             alt="solid-circle-blue"
             height={110}
             width={110}
-            className="absolute -z-10 -left-44 top-10 mobile:hidden"
+            className="absolute -z-10 -left-[130px] top-10 mobile:hidden"
           />
           <h1 className="text-link-inactive tracking-tight text-[60px] font-500 font-roboto leading-[1.1] m-0 mobile:text-3xl mobile:text-center">
             Listed securities from traditional markets, Now on-chain!
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
             alt="solid-circle-blue"
             height={15}
             width={15}
-            className="absolute -left-20 mobile:hidden top-[250px]"
+            className="absolute -left-0 mobile:hidden top-[250px]"
           />
           <p className="font-work-sans mobile:min-w-full font-300 max-w-xl mt-4 text-grey-100 leading-[1.4] text-md tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
             Bring your preferred Equities, Bonds, ETFs, and other instruments to
@@ -41,15 +41,15 @@ const Hero: React.FC = () => {
         <Image
           src="/images/shapes/masked-circle-pattern.png"
           alt="solid-circle-blue"
-          height={900}
-          width={900}
+          height={700}
+          width={700}
         />
         <Image
           src="/images/shapes/oval-small.png"
           alt="solid-circle-blue"
           height={15}
           width={15}
-          className="absolute -bottom-11 right-0  -z-[1]"
+          className="absolute -bottom-11 right-36  -z-[1]"
         />
       </section>
     </div>

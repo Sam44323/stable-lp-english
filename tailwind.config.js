@@ -16,6 +16,10 @@ module.exports = {
           min: "1000px",
           max: "1300px",
         },
+        mobile: {
+          min: "0px",
+          max: "1400px",
+        },
       },
       colors: {
         link: {
