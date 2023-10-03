@@ -11,7 +11,7 @@ module.exports = {
         mobile: {
           max: "1200px",
         },
-        "large-screen": "3500px",
+        "large-screen": "2000px",
         "mid-screen": {
           min: "1000px",
           max: "1300px",

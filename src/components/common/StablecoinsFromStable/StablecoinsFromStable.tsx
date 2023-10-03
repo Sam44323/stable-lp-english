@@ -12,7 +12,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
   const router = useRouter();
 
   return (
-    <div className="overflow-x-hidden bg-no-repeat  bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] pt-0 z-10 mx-auto relative pb-10 mobile:pb-10 mobile:pt-16 mobile:mt-10">
+    <div className="overflow-x-hidden bg-no-repeat  bg-contain 2xl:bg-contain large-screen:bg-cover large-screen:mt-36  2xl:pt-[5%] pt-0 z-10 mx-auto relative pb-10 mobile:pb-10 mobile:pt-16 mobile:mt-10">
       <section className="text-center font-roboto">
         <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px]">
           {title}
@@ -26,7 +26,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
           {description}
         </p>
       </section>
-      <section className="flex flex-row align-top justify-between mt-40 mobile:mt-0 relative  max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center -translate-y-16">
+      <section className="flex flex-row align-top justify-between mt-40 mobile:mt-0 relative  max-w-[1400px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center -translate-y-16">
         <section className="ml-36 mobile:ml-0 mobile:mt-16">
           <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:my-10 mb-16">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
@@ -86,7 +86,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
         </section>
         <img
           src="/images/coin-group.svg"
-          className="absolute right-40 top-16 mobile:hidden"
+          className="absolute right-36 top-16 mobile:hidden large-screen:right-11"
         />
       </section>
     </div>
