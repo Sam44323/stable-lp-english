@@ -9,7 +9,7 @@ const Tokenizedetails = () => {
   return (
     <>
       <div className="relative">
-        <div className="max-w-[800px] mx-auto mt-16 mobile:max-w-[80%] mobile:translate-x-0 mobile:flex mobile:flex-col mobile:items-center mobile:mt-5">
+        <div className="max-w-[800px] mx-auto -translate-x-16 mt-16 mobile:max-w-[80%] mobile:translate-x-0 mobile:flex mobile:flex-col mobile:items-center mobile:mt-5">
           <h1 className="font-roboto text-blue-text text-6xl text-center  leading-[70px] mobile:text-center mobile:text-xl">
             About Us
           </h1>

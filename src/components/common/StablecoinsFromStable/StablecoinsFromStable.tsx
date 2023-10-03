@@ -38,7 +38,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
               <h1 className="font-roboto text-[26px] font-500 mobile:text-center">
                 Safe
               </h1>
-              <p className="max-w-[300px] mobile:max-w-none  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
+              <p className="max-w-[300px] mobile:max-w-[90%] mobile:mx-auto  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
                 Regulated and licensed in the EU, pegged at a fixed rate of 1:1
                 with a corresponding fiat currency, with redemption guarantees.
               </p>
@@ -54,7 +54,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
               <h1 className="font-roboto text-[26px] font-500 mobile:text-center">
                 Transparent
               </h1>
-              <p className="max-w-xs mobile:max-w-none  mt-1  font-300 font-manrope leading-7 text-base  mobile:text-center">
+              <p className="max-w-xs mt-1 mobile:max-w-[90%] mobile:mx-auto font-300 font-manrope leading-7 text-sm  mobile:text-center">
                 Our backing for each stablecoin is reported through publicly
                 accessible Chainlink Proof of Reserve.
               </p>
@@ -70,7 +70,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
               <h1 className="font-roboto text-[26px] font-500 mobile:text-center">
                 Multi-Currency
               </h1>
-              <p className="max-w-[290px] mobile:max-w-none  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
+              <p className="max-w-[290px] mobile:max-w-[90%] mobile:mx-auto  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
                 We are supporting multiple stablecoins, such as stUSD, stEUR,
                 and stCNY. We will be adding more currencies along the way.
               </p>
@@ -86,7 +86,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
         </section>
         <img
           src="/images/coin-group.svg"
-          className="absolute right-36 top-16 mobile:hidden large-screen:right-11"
+          className="absolute right-36 top-7 mobile:hidden large-screen:right-11"
         />
       </section>
     </div>

@@ -5,7 +5,7 @@ const Joinnow = () => {
   const router = useRouter();
 
   return (
-    <div className="gradient-blue-bg 2xl:max-w-screen-2xl max-w-[1200px] mx-auto rounded-3xl md:min-h-[300px]   relative mt-18 mobile:max-w-[90%] mobile:overflow-hidden">
+    <div className="gradient-blue-bg 2xl:max-w-screen-2xl max-w-[1150px] mx-auto rounded-3xl md:min-h-[300px]   relative mt-18 mobile:max-w-[90%] mobile:overflow-hidden">
       <div>
         <img
           src="/images/shapes/stacked-ellipse.png"
@@ -16,7 +16,7 @@ const Joinnow = () => {
           className="absolute right-0 md:max-h-[300px] z-10 mobile:hidden"
         />
       </div>
-      <div className="absolute z-10 max-w-screen-lg mx-auto left-16 pt-16 mobile:flex mobile:flex-col mobile:items-center mobile:justify-center mobile:max-w-none mobile:w-full mobile:h-full mobile:p-0 mobile:left-0">
+      <div className="absolute z-10 max-w-[1150px] mx-auto left-16 pt-16 mobile:flex mobile:flex-col mobile:items-center mobile:justify-center mobile:max-w-none mobile:w-full mobile:h-full mobile:p-0 mobile:left-0">
         <h1 className="text-white font-roboto text-5xl">
           Join now and unlock the capabilities
         </h1>

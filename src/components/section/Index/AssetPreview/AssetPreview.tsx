@@ -82,7 +82,7 @@ const AssetPreview = () => {
           </p>
         </div>
       </section>
-      <section className="max-w-[1100px] mx-auto flex justify-end mt-10 mobile:max-w-[none] mobile:just-center">
+      <section className="max-w-[1100px]  mx-auto flex justify-end mobile:justify-center mt-10 mobile:max-w-[none] mobile:just-center">
         <div
           className="pill-btn py-[14px] px-[30px] hover:ease-in duration-100 hover:scale-105 ml-5 text-[14px] flex justify-between items-center"
           onClick={() => router.push("/rwa")}
