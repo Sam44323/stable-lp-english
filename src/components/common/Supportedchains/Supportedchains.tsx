@@ -2,7 +2,7 @@ import React from "react";
 
 const Supportedchains = () => {
   return (
-    <section className="mt-36">
+    <section className="mt-10">
       <h1 className="text-[24px] font-500 text-center font-roboto text-blue-text mobile:text-xl">
         Supported Chains
       </h1>
