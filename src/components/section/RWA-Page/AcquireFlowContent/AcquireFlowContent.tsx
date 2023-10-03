@@ -5,7 +5,7 @@ const AcquireFlowContent = () => {
   const router = useRouter();
 
   return (
-    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-[center_top_5rem] pb-[140px] mt-80 mobile:pb-[30px] bg-no-repeat bg-cover 2xl:bg-cover large-screen:bg-cover mobile:bg-cover relative z-30 mobile:mt-16">
+    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-[center_top_5rem] mt-80 -mb-36 bg-no-repeat bg-cover 2xl:bg-cover large-screen:bg-cover mobile:bg-cover relative z-30 mobile:mt-16">
       <img
         src="/images/rwa-flow.png"
         className="max-w-screen-lg mx-auto mt-16 mobile:hidden -translate-y-48 mobile:translate-y-0"

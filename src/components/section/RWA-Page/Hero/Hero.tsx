@@ -25,12 +25,12 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="relative z-10 mt-16 max-w-6xl mx-auto">
-        <div className="max-w-xl">
-          <h1 className="font-roboto text-3xl text-blue-text mobile:text-center">
+      <div className="relative z-10 mt-16 max-w-6xl mx-auto mid-screen:max-w-none mobile:max-w-none">
+        <div className="max-w-xl mid-screen:max-w-none mobile:max-w-none">
+          <h1 className="font-roboto text-3xl text-blue-text mid-screen:text-center mobile:text-center mobile:text-xl">
             How Does It Work?
           </h1>
-          <p className="font-be-vietnam-pro font-300 mt-4 text-grey-100 min-w-[700px] mobile:min-w-0  leading-8 text-lg mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
+          <p className="font-be-vietnam-pro font-300 mt-4 text-grey-100 min-w-[700px] mobile:min-w-0 leading-8 text-lg mobile:text-center mobile:max-w-[90%] mobile:mx-auto mobile:text-sm mobile:leading-9">
             The RWA tokenization is executed through a dedicated smart contract
             for each RWA. To mint your favorite tokenized equity, bond, ETF, or
             other instruments, you need to deposit whitelisted fiat-backed
@@ -44,7 +44,7 @@ const Hero = () => {
             fastest in the time needed to finish the tokenization process.
           </p>
         </div>
-        <p className="max-w-xl ml-auto mt-16 font-be-vietnam-pro font-300 text-grey-100 min-w-[700px] leading-8 text-lg mobile:min-w-0 mobile:text-center mobile:max-w-[90%] mobile:mx-auto">
+        <p className="max-w-xl ml-auto mt-16 font-be-vietnam-pro font-300 text-grey-100 min-w-[700px] leading-8 text-lg mobile:min-w-0 mobile:text-center mobile:max-w-[90%] mobile:mx-auto mobile:text-sm mobile:leading-9">
           Conversely, when you choose to redeem, the asset is sold on the open
           market, after which the corresponding stablecoins are minted to you
           based on the proceeds received. Again, each asset is 1:1 backed and
