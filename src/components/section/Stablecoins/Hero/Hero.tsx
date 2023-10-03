@@ -77,7 +77,7 @@ const Hero = () => {
           <h1 className="font-roboto text-3xl text-blue-text text-right mobile:text-center mobile:text-xl">
             What can you do with our Stablecoins? 
           </h1>
-          <p className="font-be-vietnam-pro font-300 mt-4 text-grey-100 min-w-[700px] mr-36  mobile:min-w-0 text-lg leading-8 mobile:text-center mobile:max-w-[90%] mobile:mx-auto mobile:text-sm mobile:leading-9">
+          <p className="font-be-vietnam-pro font-300 mt-4 text-right text-grey-100 min-w-[700px] mr-36  mobile:min-w-0 text-lg leading-8 mobile:text-center mobile:max-w-[90%] mobile:mx-auto mobile:text-sm mobile:leading-9">
             Stable's stablecoins are a top choice for crypto enthusiasts, Defi,
             or non-Defi users since they can be utilized just like any other
             fiat-backed stablecoin. However, what sets us apart is the ability
