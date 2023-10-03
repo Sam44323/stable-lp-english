@@ -1,11 +1,7 @@
 import React from "react";
-import { useRouter } from "next/router";
-import Image from "next/image";
 import Supportedchains from "@/components/common/Supportedchains/Supportedchains";
 
 const Tokenizedetails = () => {
-  const router = useRouter();
-
   return (
     <>
       <div className="relative">
