@@ -39,7 +39,7 @@ const AcquireFlowContent = () => {
               </div>
               <div className="ml-1 mt-3 mobile:ml-0">
                 <h1 className="font-roboto text-[26px] font-500 mobile:text-center mobile:text-[17px]">
-                  Mint RWA’s
+                  Mint RWAs
                 </h1>
                 <p className="max-w-[300px] mobile:max-w-none  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center mobile:text-[14px]">
                   Mint or Redeem tokens of your favorite instrument through our
