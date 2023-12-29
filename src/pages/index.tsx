@@ -9,7 +9,7 @@ import Tokenizedetails from "@/components/section/Index/Tokenizedetails/Tokenize
 import FAQ from "@/components/section/Index/FAQ/FAQ";
 import HaveMoreQuestions from "@/components/section/Index/HaveMoreQuestions/HaveMoreQuestions";
 import AssetPreview from "@/components/section/Index/AssetPreview/AssetPreview";
-// import TrustedPartners from "@/components/section/Index/TrustedPartners/TrustedPartners";
+import TrustedPartners from "@/components/section/Index/TrustedPartners/TrustedPartners";
 
 /**
  * @todo: add support for meta-image support for images
@@ -38,7 +38,7 @@ export default function Home() {
         <Tokenizedetails />
         <FAQ />
         <HaveMoreQuestions />
-        {/* <TrustedPartners /> */}
+        <TrustedPartners />
       </main>
     </>
   );
