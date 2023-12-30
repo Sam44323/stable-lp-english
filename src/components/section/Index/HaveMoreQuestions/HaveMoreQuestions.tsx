@@ -17,7 +17,7 @@ const HaveMoreQuestions = () => {
           <h1 className="text-white font-roboto text-5xl">
             Have more questions?
           </h1>
-          <p className="text-white font-roboto font-400 tracking-wider">
+          <p className="text-white font-roboto font-400 tracking-wider mt-10">
             Contact us and our team will be happy to answer your questions!
           </p>
         </div>
