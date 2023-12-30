@@ -1,9 +1,6 @@
 import React from "react";
-import { useRouter } from "next/router";
 
 const HaveMoreQuestions = () => {
-  const router = useRouter();
-
   return (
     <div className="gradient-blue-bg mb-36 2xl:max-w-screen-2xl max-w-[1200px] mx-auto rounded-3xl md:min-h-[250px]   relative overflow-clip mobile:max-w-[1200px] mobile:mx-auto mobile:pb-10">
       <div>
