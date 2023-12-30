@@ -12,14 +12,6 @@ const Stablecoins = () => {
       </Head>
       <div>
         <Hero />
-        {/**
-         * Needs to be changed
-         */}
-        {/* <Acquire
-          title="How to acquire our stablecoins?"
-          description="We offer three different ways to acquire our stablecoins:"
-          subHeader
-        /> */}
         <LegacyAcquire
           title="How to acquire our stablecoins?"
           description="We offer three different ways to acquire our stablecoins:"
