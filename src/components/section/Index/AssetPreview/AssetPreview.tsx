@@ -51,34 +51,33 @@ const AssetPreview = () => {
         ))}
       </section>
       <section className="mt-36 flex justify-between align-middle max-w-[1100px] mx-auto mobile:flex-col mobile:items-center mobile:mt-16">
-        <div className="flex flex-col items-center justify-between text-center">
-          <h1 className="text-center text-xl text-blue-text font-500 font-roboto max-w-[300px] mx-auto mb-5">
+        <div className=" text-center">
+          <h1 className="text-center text-xl text-blue-text font-500 font-roboto max-w-[300px] mx-auto mb-[1.5rem]">
             Your gateway to global financial and capital markets
           </h1>
           <p className="text-grey-100 text-sm font-400 leading-6 max-w-[300px] mx-auto">
-            You are no longer dependant on silly Mon-Fri 9am-5pm trading hours.
-            24/7 liquidity and transferability granted by machines and
-            smart-contracts.
+            Transcend TradFi trading hours - Enjoy the 24/7 liquidity and
+            transferability of blockchain and DeFi.
           </p>
         </div>
-        <div className="flex flex-col items-center text-center justify-between">
-          <h1 className="text-center text-xl text-blue-text font-500 font-roboto max-w-[60%] mx-auto mb-5">
+        <div className="flex flex-col items-center text-center">
+          <h1 className="text-center text-xl text-blue-text font-500 font-roboto max-w-[60%] mx-auto mb-4">
             Collateralize, trade, lend and self-custody
           </h1>
           <p className="text-grey-100 text-sm font-400 leading-6 max-w-[300px] mx-auto">
-            Traditional securities now becoming available worldwide,
-            permissionless. Harvest all benefits of blockchain that traditional
-            markets are incapable of.
+            Traditional securities are becoming globally available, totally
+            permissionless. Harvest the benefits of DeFi that traditional
+            markets cannot reach.
           </p>
         </div>
-        <div className="flex flex-col items-center justify-between text-center">
+        <div className="text-center">
           <h1 className="text-center text-xl text-blue-text font-500 font-roboto max-w-[90%] mx-auto mb-5">
             Redeem for stablecoins
           </h1>
           <p className="text-grey-100 text-sm font-400 leading-6 max-w-[300px] mx-auto">
-            Any verified holder of the tokenized asset can de-tokenize and
-            redeem back for stablecoins for off-chain market price and not rely
-            on DEX or CEX liquidity.
+            No more reliance on DEX or CEX liquidity! Any verified holder of the
+            tokenized asset can de-tokenize and redeem back in stablecoins for
+            the off-chain market price.
           </p>
         </div>
       </section>
