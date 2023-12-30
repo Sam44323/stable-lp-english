@@ -32,7 +32,7 @@ export default function Home() {
         <AssetPreview />
         <Acquire
           title="Stablecoins from Stable"
-          description="Our stablecoins can be used just like traditional stablecoins, but also allow for instant asset tokenization on Stable’s platform."
+          description="Our STABLECoins have all the utility of traditional stablecoins, while also allowing instant asset tokenization on STABLE’s platform."
         />
         <Joinnow />
         <Tokenizedetails />

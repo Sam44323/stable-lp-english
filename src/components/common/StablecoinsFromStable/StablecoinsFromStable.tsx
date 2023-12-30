@@ -28,7 +28,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
       </section>
       <section className="flex flex-row align-top justify-between mt-40 mobile:mt-0 relative  max-w-[1400px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center -translate-y-16">
         <section className="ml-36 mobile:ml-0 mobile:mt-16">
-          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:my-10 mb-16">
+          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:my-10 mb-6">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
               <div className="icon-bg">
                 <img src="/images/utilize-dex.svg" height={30} width={30} />
@@ -40,11 +40,11 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
               </h1>
               <p className="max-w-[300px] mobile:max-w-[90%] mobile:mx-auto  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
                 Regulated and licensed in the EU, pegged at a fixed rate of 1:1
-                with a corresponding fiat currency, with redemption guarantees.
+                with a corresponding fiat currency and redemption guarantees.
               </p>
             </div>
           </div>
-          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mb-16">
+          <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mb-6">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
               <div className="icon-bg">
                 <img src="/images/mint-rwa.svg" />
@@ -55,8 +55,8 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
                 Transparent
               </h1>
               <p className="max-w-xs mt-1 mobile:max-w-[90%] mobile:mx-auto font-300 font-manrope leading-7 text-sm  mobile:text-center">
-                Our backing for each stablecoin is reported through publicly
-                accessible Chainlink Proof of Reserve.
+                STABLE’s backing for each STABLEcoin is reported through
+                publicly accessible Chainlink Proof of Reserve.
               </p>
             </div>
           </div>
@@ -71,8 +71,8 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
                 Multi-Currency
               </h1>
               <p className="max-w-[290px] mobile:max-w-[90%] mobile:mx-auto  mt-1 font-300 font-manrope leading-7 text-sm mobile:text-center">
-                We are supporting multiple stablecoins, such as stUSD, stEUR,
-                and stCNY. We will be adding more currencies along the way.
+                We already support multiple stablecoins including stUSD, stEUR,
+                and stCZK. We will add more as we grow.
               </p>
             </div>
           </div>
