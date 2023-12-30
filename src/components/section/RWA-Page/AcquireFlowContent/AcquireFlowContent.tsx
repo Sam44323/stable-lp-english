@@ -5,7 +5,7 @@ const AcquireFlowContent = () => {
   const router = useRouter();
 
   return (
-    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-[center_top_5rem] mt-80 -mb-36 bg-no-repeat bg-cover 2xl:bg-cover large-screen:bg-cover mobile:bg-cover relative z-30 mobile:mt-16">
+    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-[center_top_5rem] pb-36 mt-80 -mb-36 bg-no-repeat bg-cover 2xl:bg-cover large-screen:bg-cover mobile:bg-cover relative z-30 mobile:mt-16">
       <img
         src="/images/rwa-flow.png"
         className="max-w-screen-lg mx-auto mt-16 mobile:hidden -translate-y-48 mobile:translate-y-0"
@@ -23,10 +23,10 @@ const AcquireFlowContent = () => {
       <section className="max-w-[1300px] mx-auto -mt-16 mobile:mt-16">
         <div className="flex flex-col items-center mobile:text-center">
           <h1 className="text-5xl font-500 mb-3 text-blue-text mobile:text-[17px] font-roboto">
-            How to acquire our Real-World Assets?
+            Acquire our Real-World Assets
           </h1>
           <p className="font-manrope text-grey-100 text-lg font-600 tracking-wide mobile:text-[15px]">
-            We offer two different ways to acquire our RWA tokens:
+            Stable offers two methods of RWA token acquisition:
           </p>
         </div>
         <section className="flex flex-row align-top justify-between mt-40 mobile:mt-0 relative  max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center -translate-y-16">
