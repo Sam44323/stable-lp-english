@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
           <p className="font-work-sans mobile:min-w-full min-h-[90px] font-300 max-w-xl mt-[250px] mobile:mt-10 text-grey-100 leading-[1.4] text-md tracking-wide ml-[7px] mobile:ml-0 mobile:text-center mobile:text-sm">
             {PLATFORM_FEATURES_LIST[currentCarouselIndex]}
           </p>
-          <div className="flex flex-row items-center justify-between max-w-[250px] ml-1 mt-1">
+          <div className="flex flex-row items-center justify-between max-w-[250px] mobile:w-full mobile:max-w-[90%] mobile:mx-auto ml-1 mt-1">
             {Array(4)
               .fill(0)
               .map((_, index) => (
