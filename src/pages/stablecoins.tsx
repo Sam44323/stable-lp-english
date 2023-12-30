@@ -13,8 +13,8 @@ const Stablecoins = () => {
       <div>
         <Hero />
         <MintStablecoins
-          title="How to acquire our stablecoins?"
-          description="We offer three different ways to acquire our stablecoins:"
+          title="Mint STABLEcoins"
+          description="Three simple steps to enjoy access to mint/redeem our STABLEcoins at 1:1 exchange rate."
           subHeader
         />
       </div>
