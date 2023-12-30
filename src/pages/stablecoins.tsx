@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "@/components/section/Stablecoins/Hero/Hero";
 import Acquire from "@/components/common/StablecoinsFromStable/StablecoinsFromStable";
-import LegacyAcquire from "@/components/section/Stablecoins/LegacyAcquire/LegacyAcquire";
+import MintStablecoins from "@/components/section/Stablecoins/MintStablecoins/MintStablecoins";
 import Head from "next/head";
 
 const Stablecoins = () => {
@@ -12,7 +12,7 @@ const Stablecoins = () => {
       </Head>
       <div>
         <Hero />
-        <LegacyAcquire
+        <MintStablecoins
           title="How to acquire our stablecoins?"
           description="We offer three different ways to acquire our stablecoins:"
           subHeader
