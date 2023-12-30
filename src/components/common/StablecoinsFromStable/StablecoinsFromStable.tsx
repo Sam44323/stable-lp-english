@@ -80,7 +80,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
             className="pill-btn py-[14px] px-[30px] hover:ease-in duration-100 hover:scale-105 -mt-5 text-[14px] flex justify-between items-center mobile:mx-auto"
             onClick={() => router.push("/stablecoins")}
           >
-            <p className="my-0 mr-3">Find out more</p>
+            <p className="my-0 mr-3">Discover more</p>
             <img src="/images/right-arrow.svg" height={15} width={15} />
           </div>
         </section>
