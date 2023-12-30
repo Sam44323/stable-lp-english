@@ -9,7 +9,7 @@ const Hero = () => {
       <img
         src="/images/shapes/rwa-mesh-right.png"
         alt="solid-circle-blue"
-        className="absolute right-0 top-36 mobile:hidden"
+        className="absolute right-0 top-48 mobile:hidden"
       />
       <div className="max-w-6xl mx-auto pt-48 mobile:text-center mobile:pt-20">
         <h1 className="text-link-inactive tracking-tighter text-[50px] max-w-3xl font-500 font-roboto leading-[70px] m-0 mobile:text-xl">
