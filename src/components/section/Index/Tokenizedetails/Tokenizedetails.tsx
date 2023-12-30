@@ -53,7 +53,7 @@ const Tokenizedetails = () => {
         </div>
         <img
           src="/images/shapes/ellipse-with-masks.png"
-          className="absolute -right-0 -translate-y-[940px] -z-10 mid-screen:hidden mobile:hidden"
+          className="absolute -right-16 -translate-y-[940px] -z-10 mid-screen:hidden mobile:hidden"
         />
       </div>
       <Supportedchains />
