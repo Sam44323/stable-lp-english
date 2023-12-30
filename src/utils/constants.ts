@@ -170,3 +170,10 @@ export const STABLECOINS_FEATURES = [
     description: "Get coin in a 1:1 ratio on blockchain.",
   },
 ];
+
+export const PLATFORM_FEATURES_LIST = [
+  "Unleash the maximum potential of your preferred Equities, Bonds, ETFs and more with the power of your chosen blockchain.",
+  "Expand your financial horizons with the best that blockchain and DeFi can offer.	Mint held or targeted assets with whitelisted fiat-backed STABLEcoins such as USDC or USDT.",
+  "Use STABLE's own STABLEcoins for the most frictionless minting and redemption experience.",
+  "Discover TaaS from STABLE - Harness the power of blockchain to increase your financial freedom.",
+];
