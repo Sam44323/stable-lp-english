@@ -13,8 +13,8 @@ const Hero = () => {
       />
       <div className="max-w-6xl mx-auto pt-48 mobile:text-center mobile:pt-20">
         <h1 className="text-link-inactive tracking-tighter text-[50px] max-w-3xl font-500 font-roboto leading-[70px] m-0 mobile:text-xl">
-          Tokenize your favorite assets and obtain more control and flexibility
-          over them.
+          Enjoy greater control and flexibility over your chosen assets through
+          tokenization.
         </h1>
         <div
           className="mobile:flex mobile:flex-row mobile:justify-center"
