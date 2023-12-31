@@ -26,7 +26,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
       <div
         className={classNames(
           "flex items-center justify-between",
-          active && "pb-4"
+          active && "py-4"
         )}
       >
         <h1 className="m-0 text-blue-text text-xl font-be-vietnam-pro tracking-wide mobile:text-sm">
@@ -53,11 +53,11 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
               {description.map((item, index) => (
                 <p
                   key={index}
-                  className="max-w-[90%] font-work-sans font-400 leading-8 text-[#6F6C90] text-md mobile:text-[12.5px"
+                  className="max-w-[95%] font-work-sans font-400 leading-8 text-[#6F6C90] text-md mobile:text-[12.5px"
                 >
-                  <span className="font-manrope font-800 text-black mr-1">
+                  {/* <span className="font-manrope font-800 text-black mr-1">
                     {index + 1}.
-                  </span>
+                  </span> */}
                   {item}
                 </p>
               ))}

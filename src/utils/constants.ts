@@ -119,37 +119,48 @@ export const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URI;
 export const FAQ_DATA = [
   {
     title: "Why is Stable introducing its own stablecoins?",
-    description:
-      "At Stable, we are committed to offering the simplest, quickest, safest, and most transparent tokenization model, which is pushing us toward issuing our own fully regulated, licensed, and transparent fiat-backed stablecoins so we are not reliant solely on third-party stablecoin issuers. By that, we have the opportunity to offer fast (almost instant) and safe tokenization with no third-party systematic risks, and transparent audits coupled with Proof of Reserve reports. However we will still support other stablecoins for minting and redeeming, but it will be more expensive and it will take more time to tokenize the chosen asset.",
-  },
-  {
-    title: "How is Stable tapping the potential of blockchain?",
-    description:
-      "We are taping the potential of blockchain through Tokenization, which offers enhanced liquidity, stability, transparency, and accessibility of conventional financial assets while enabling users to take control of their tokenized assets and unleash their maximum potential.",
-  },
-  {
-    title:
-      "How is Stable maintaining the pegs and what makes our holding trustable for stablecoins and RWA’s?",
-    description:
-      "Each stablecoins are hard pegged to the value of 1 to the backing currency when minting and redeeming, and the backing is directly reported through Chainlink Proof of Reserve reports. The listed securities and assets that we tokenize (RWAs) will adhere to the same standards as our stablecoins when it comes to audits and Proof of Reserve reporting. A ratio of one-to-one will once again back each RWA token. Price feeds for our stablecoins and RWAs tokens are provided by Chainlink to ensure maximum accuracy and safety. If there is an on-chain depeg event, the peg can be restored thanks to Arbitrageurs buying de-pegged stablecoins and RWAs on-chain and redeeming them for peg value, or vice versa.",
-  },
-  {
-    title:
-      " What are some of the major solutions which Stable is bringing to the market?",
     description: [
-      "Our objective is to broaden the range of fiat-backed stablecoins by introducing stUSD, stEUR, stCNY, and more, enabling users to diversify their stablecoin holdings, and facilitating the development of a fully functional forex market on the blockchain. Moreover, these stablecoins will offer instant usability for the fast (almost instant) tokenization of Real-World Assets (RWAs), enhancing their value proposition.",
-      "Through our RWA system, we aim to tokenize real-world assets and listed securities, creating a seamless and accessible platform for buying, selling, and gaining exposure to these valuable assets.",
-      "As part of our tokenization service, users will receive RWA tokens, ERC tokens directly backed and linked to the specific asset they have bought (minted). These tokens will mirror the price on the open market of the assets that are backing them 1:1, thanks to Chainlink's Oracle integration. To further enhance the utility of our RWA tokens, we plan to collaborate with industry-leading lending, CDP, and DEX protocols, allowing them to be utilized in Defi.",
+      "Stable is committed to transparently providing the most swift, secure and simple tokenization model.",
+      "To build the very best product and experience for our customers and users, we avoid sole dependency on third-party stablecoin issuers by issuing our own fully regulated, licensed, and transparent fiat-backed stablecoins.",
+      "Our STABLEcoins enjoy transparent audits coupled with Proof of Reserve reports, and allow the provision of near instant, secure tokenization without systematic third-party risks.",
+      "Stable still supports other stablecoins for minting and redeeming, but use of our own STABLEcoins provides the swiftest, cheapest and most frictionless method of tokenizing chosen assets.",
+    ],
+  },
+  {
+    title: "How is Stable tapping blockchain’s full potential?",
+    description: [
+      "Stable’s tokenization platform and offer allows our users to discover and enjoy enhanced liquidity, stability, transparency, and accessibility to conventional financial assets.",
+      "The power of blockchain gives our users 24/7, 365 days a year access to global financial markets with improved control and flexibility.",
     ],
   },
   {
     title:
-      "What are the major regulations that Stable is complying with for smooth workings?",
-    description: `Stable legal structure will consist of multiple limited liability companies (LLCs) operating across various regions, including the European Union, EMEA, and APAC. Each LLC will be subject to independent regulation by local authorities, ensuring complete compliance in the creation and operation of native currency stablecoins and our tokenization service within their respective jurisdictions. This approach enables us to provide optimized compliance solutions tailored to each operating region, enhancing regulatory adherence.
-
- In alignment with the MiCA regulations, we are committed to operating in full compliance and obtaining an E-Money EMI License and Investment firm license. This positions us as one of the pioneering issuers of Stablecoin and Real World Asset (RWA) tokens in the European Union, further solidifying our commitment to regulatory compliance and establishing ourselves as a trusted participant in the market.
-
-`,
+      "How is Stable ensuring peg maintenance and trustable holding maintenance for RWAs and our STABLEcoins?",
+    description: [
+      "STABLEcoins are hard pegged to the value of 1 to the backing currency when minting and redeeming, a 1:1 ratio also backs each RWA token.",
+      "The listed securities and assets that we tokenize (RWAs) will adhere to the same standards as our STABLEcoins when it comes to audits and Proof of Reserve reporting.",
+      "If there is an on-chain depeg event, the peg can be restored thanks to Arbitrageurs buying de-pegged stablecoins and RWAs on-chain and redeeming them for peg value.",
+    ],
+  },
+  {
+    title:
+      "How do Stable’s solutions and platform transform financial instrument access and management?",
+    description: [
+      "Our objective is to broaden the range of fiat-backed stablecoins by introducing stUSD, stEUR, stCNY and more, enabling users to diversify their stablecoin holdings, facilitating development of a fully functional, blockchain native forex market.",
+      "Moreover, these stablecoins offer near-instant tokenization of Real-World Assets (RWAs), enhancing their value proposition.",
+      "Stable’s goal is also to tokenize real-world assets and listed securities via our RWA system, creating a frictionless platform for buying, selling and gaining exposure to these valuable assets.",
+      "As part of our tokenization service, users will receive RWA tokens, ERC tokens directly backed and linked to the specific asset they have bought (minted).",
+      "These tokens will mirror the price on the open market of the assets that are backing them 1:1.",
+    ],
+  },
+  {
+    title:
+      "What major regulations does STABLE comply with to ensure maximum levels of compliance and security?",
+    description: [
+      "Stable commits to adhere to all relevant legislation, including the framework of The Markets in Crypto-Assets Regulation (MiCA), which institutes uniform EU market rules for crypto-assets.",
+      "The regulation covers crypto-assets that are not currently regulated by existing financial services legislation. Key provisions for those issuing and trading crypto-assets (including asset-referenced tokens and e-money tokens) cover transparency, disclosure, authorization, and supervision of transactions.",
+      "Furthermore, Stable is in the process of obtaining an Electronic Money Institution (EMI) license alongside an investment firm license.",
+    ],
   },
 ];
 
