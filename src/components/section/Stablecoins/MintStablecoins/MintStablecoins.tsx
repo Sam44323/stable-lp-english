@@ -18,9 +18,9 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
   const router = useRouter();
 
   return (
-    <div className="bg-[url('/images/gradients/gradient-bent.svg')] overflow-x-hidden bg-no-repeat bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] mt-4 pt-36 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
+    <div className="bg-[url('/images/gradients/gradient-bent.svg')] large-screen:bg-[center] overflow-x-hidden bg-no-repeat bg-contain 2xl:bg-contain large-screen:bg-cover  2xl:pt-[5%] mt-4 pt-36 mx-auto relative pb-40 mobile:pb-10 mobile:pt-16 z-10">
       <section className="text-center font-roboto">
-        <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px]">
+        <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px] large-screen:mt-36">
           {title}
         </h1>
         <p
@@ -77,7 +77,10 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
           className="absolute right-10 top-0 mobile:hidden"
         />
       </section>
-      <section className="flex flex-row align-top justify-between mt-16 mobile:mt-0 relative max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">
+      {/**
+       * @description will be added
+       */}
+      {/* <section className="flex flex-row align-top justify-between mt-16 mobile:mt-0 relative max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">
         <img
           src="/images/stablecoin-bridge.svg"
           className="absolute left-10 top-0 mobile:hidden"
@@ -92,7 +95,7 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
             1:1 minus third party issuer redemption fees.
           </p>
         </div>
-      </section>
+      </section> */}
       <div className="mt-96 mobile:mt-14">
         <Supportedchains />
       </div>
