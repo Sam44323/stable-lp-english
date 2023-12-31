@@ -6,13 +6,19 @@ const AcquireFlowContent = () => {
 
   return (
     <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-[center_top_5rem] pb-36 mt-80 -mb-36 bg-no-repeat bg-cover 2xl:bg-cover large-screen:bg-cover mobile:bg-cover relative z-30 mobile:mt-16">
-      <img
+      {/* <img
         src="/images/rwa-flow.png"
         className="max-w-screen-lg mx-auto mt-16 mobile:hidden -translate-y-48 mobile:translate-y-0"
-        height={800}
-        width={9000}
         alt="redeem-flow"
-      />
+      /> */}
+      {/* <div className=" flex justify-center w-fit mx-auto"> */}
+      <div
+        className="bg-[url('/images/rwa-flow.png')] bg-contain
+      h-[700px] mobile:hidden w-[1200px] bg-no-repeat mx-auto -translate-y-[200px] mobile:translate-y-0
+      pb-4 rounded-[10px]
+      "
+      ></div>
+      {/* </div> */}
       <img
         src="/images/rwa-flow.png"
         className="hidden max-w-screen-lg mx-auto mt-16 mobile:block"
@@ -20,7 +26,7 @@ const AcquireFlowContent = () => {
         width={300}
         alt="redeem-flow"
       />
-      <section className="max-w-[1300px] mx-auto -mt-16 mobile:mt-16">
+      <section className="max-w-[1300px] mx-auto -mt-36 mobile:mt-16">
         <div className="flex flex-col items-center mobile:text-center">
           <h1 className="text-5xl font-500 mb-3 text-blue-text mobile:text-[17px] font-roboto">
             Acquire our Real-World Assets
