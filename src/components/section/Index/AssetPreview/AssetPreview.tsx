@@ -36,7 +36,7 @@ const AssetPreview = () => {
   };
 
   return (
-    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-[center_top_5rem] pb-[140px] mobile:pb-[30px] bg-no-repeat bg-cover 2xl:bg-cover large-screen:bg-cover mobile:bg-cover mt-10 relative z-30 mobile:mt-16">
+    <div className="bg-[url('/images/gradients/gradient-bent.svg')] bg-[center_top_5rem] pb-20  overflow-y-hidden mobile:pb-[30px] bg-no-repeat bg-cover 2xl:bg-cover large-screen:bg-cover mobile:bg-cover mt-10 relative z-30 mobile:mt-16">
       <section className="max-w-[1100px] mx-auto flex justify-between mobile:flex-col mobile:items-center">
         {assetData.map((asset: any) => (
           <AssetPreviewCard
@@ -83,7 +83,7 @@ const AssetPreview = () => {
       </section>
       <section className="max-w-[1100px]  mx-auto flex justify-end mobile:justify-center mt-10 mobile:max-w-[none] mobile:just-center">
         <div
-          className="pill-btn py-[14px] px-[30px] hover:ease-in duration-100 hover:scale-105 ml-5 text-[14px] flex justify-between items-center"
+          className="pill-btn py-[17px] px-[50px] hover:ease-in duration-100 hover:scale-105 ml-5 text-[14px] flex justify-between items-center"
           onClick={() => router.push("/rwa")}
         >
           <p className="my-0 mr-3">Discover more</p>

@@ -12,7 +12,7 @@ const Acquire: React.FC<AcquireProps> = ({ title, description, subHeader }) => {
   const router = useRouter();
 
   return (
-    <div className="overflow-x-hidden bg-no-repeat  bg-contain 2xl:bg-contain large-screen:bg-cover large-screen:mt-36  2xl:pt-[5%] pt-0 z-10 mx-auto relative pb-10 mobile:pb-10 mobile:pt-16 mobile:mt-10">
+    <div className="overflow-x-hidden bg-no-repeat bg-contain 2xl:bg-contain large-screen:bg-cover large-screen:mt-20  2xl:pt-[5%] pt-0 z-10 mx-auto relative pb-10 mobile:pb-10 mobile:pt-16 mobile:mt-10">
       <section className="text-center font-roboto">
         <h1 className="text-6xl font-500 text-blue-text mobile:text-[30px]">
           {title}
