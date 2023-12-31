@@ -5,7 +5,7 @@ const Joinnow = () => {
   const router = useRouter();
 
   return (
-    <div className="gradient-blue-bg 2xl:max-w-screen-2xl max-w-[1150px] mx-auto rounded-3xl md:min-h-[300px]   relative mt-18 mobile:max-w-[90%] mobile:overflow-hidden">
+    <div className="gradient-blue-bg 2xl:max-w-screen-[1090px] max-w-[1150px] mx-auto rounded-3xl md:min-h-[300px] relative mt-18 mobile:max-w-[90%] mobile:overflow-hidden">
       <div>
         <img
           src="/images/shapes/stacked-ellipse.png"

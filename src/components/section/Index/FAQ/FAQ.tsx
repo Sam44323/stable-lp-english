@@ -17,7 +17,7 @@ const FAQ = () => {
       <h1 className="text-center mt-5 text-blue-text font-roboto text-6xl mobile:text-4xl tracking-wide font-500 mb-5">
         FAQ's
       </h1>
-      <div className="max-w-[1150px] large-screen:max-w-[1400px] mx-auto">
+      <div className="max-w-[1150px] large-screen:max-w-[1200px] mx-auto">
         {FAQ_DATA.map((item, index) => (
           <AccordionItem
             {...item}
