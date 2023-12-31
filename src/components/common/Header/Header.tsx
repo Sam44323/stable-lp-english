@@ -22,11 +22,11 @@ const Header: React.FC = () => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <div className="px-10 py-10 bg-transparent relative mobile:px-1 mobile:py-4">
+    <div className="px-10 py-10 bg-transparent relative large-screen:static  mobile:px-1 mobile:py-4">
       {/**
        * @description: section for screen >= tablets
        */}
-      <section className="mobile:hidden md:flex flex-row justify-between align-middle max-w-6xl ml-auto mr-auto">
+      <section className="mobile:hidden md:flex large-screen:relative flex-row justify-between align-middle max-w-6xl ml-auto mr-auto">
         <img src="/images/logo/stable-icon-header.svg" className="h-7" />
         <div className="flex flex-row justify-between align-middle w-fit">
           <div
@@ -108,13 +108,22 @@ const Header: React.FC = () => {
           </div>
         </div>
         {router.pathname === "/" && (
-          <Image
-            src="/images/gradients/header-ellipse.png"
-            alt="header-ellipse"
-            height={700}
-            width={700}
-            className="absolute top-0 -right-0 -z-[1]"
-          />
+          <div>
+            <Image
+              src="/images/gradients/header-ellipse.png"
+              alt="header-ellipse"
+              height={700}
+              width={700}
+              className="absolute top-0 right-0 -z-[1] large-screen:hidden"
+            />
+            <Image
+              src="/images/gradients/hder-ellipse-full.png"
+              alt="header-ellipse"
+              height={700}
+              width={700}
+              className="absolute top-0 right-0 -z-[1] hidden large-screen:block"
+            />
+          </div>
         )}
       </section>
       {/**
