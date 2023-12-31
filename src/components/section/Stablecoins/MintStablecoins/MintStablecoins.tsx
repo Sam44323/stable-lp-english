@@ -32,7 +32,7 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
           {description}
         </p>
       </section>
-      <section className="flex flex-row align-top justify-between mt-16 mobile:mt-0 relative  max-w-[1900px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">
+      <section className="flex flex-row align-top justify-between mt-16 mobile:mt-0 relative  max-w-[1600px] mx-auto mobile:flex-col mobile:align-middle mobile:justify-center">
         <section className="ml-36 mobile:ml-0 mobile:mt-0">
           <div className="mobile:flex mobile:flex-col mobile:align-middle mobile:justify-center mobile:my-10 mb-16">
             <div className="w-full mobile:flex mobile:align-middle mobile:justify-center">
@@ -96,7 +96,7 @@ const LegacyAcquire: React.FC<LegacyAcquireProps> = ({
           </p>
         </div>
       </section> */}
-      <div className="mt-96 mobile:mt-14">
+      <div className="mt-48 mobile:mt-14">
         <Supportedchains />
       </div>
     </div>
