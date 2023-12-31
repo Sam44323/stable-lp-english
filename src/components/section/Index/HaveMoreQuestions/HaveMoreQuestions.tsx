@@ -2,14 +2,14 @@ import React from "react";
 
 const HaveMoreQuestions = () => {
   return (
-    <div className="gradient-blue-bg mb-36  max-w-[1150px] large-screen::min-w-screen-[1250px] mx-auto rounded-3xl md:min-h-[250px] relative overflow-clip mobile:max-w-[1200px] mobile:mx-auto mobile:pb-10">
+    <div className="gradient-blue-bg mb-36  max-w-[1150px] large-screen::min-w-screen-[1250px] mx-auto rounded-3xl md:min-h-[200px] relative overflow-clip mobile:max-w-[1200px] mobile:mx-auto mobile:pb-10">
       <div>
         <img
           src="/images/shapes/stacked-ellipse.png"
           className="absolute left-0 md:max-h-[300px] rounded-3xl mobile:hidden"
         />
       </div>
-      <div className="absolute flex flex-row items-start justify-between w-full z-10 max-w-screen-lg mx-auto  left-16 top-7 pt-10 mobile:hidden">
+      <div className="absolute flex flex-row items-start justify-between w-full z-10 max-w-screen-lg mx-auto  left-16 top-1.5 pt-10 mobile:hidden">
         <div>
           <h1 className="text-white font-roboto text-5xl">
             Have more questions?
