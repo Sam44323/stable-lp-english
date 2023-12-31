@@ -9,9 +9,14 @@ const Hero = () => {
       <img
         src="/images/shapes/rwa-mesh-right.png"
         alt="solid-circle-blue"
-        className="absolute right-0 top-48 mobile:hidden"
+        className="absolute right-0 top-48 mobile:hidden large-screen:hidden"
       />
-      <div className="max-w-6xl mx-auto pt-48 mobile:text-center mobile:pt-20">
+      <div className="max-w-6xl mx-auto large-screen:relative pt-48 mobile:text-center mobile:pt-20">
+        <img
+          src="/images/shapes/rwa-mesh-large-right.png"
+          alt="solid-circle-blue"
+          className="absolute -right-[400px]  mobile:hidden hidden large-screen:block"
+        />
         <h1 className="text-link-inactive tracking-tight text-[50px] max-w-3xl font-500 font-roboto leading-[70px] m-0 mobile:text-xl">
           Enjoy greater control and flexibility over your chosen assets through
           tokenization.
