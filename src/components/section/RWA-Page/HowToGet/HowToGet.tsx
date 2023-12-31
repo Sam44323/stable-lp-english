@@ -23,7 +23,7 @@ const HowToGet = () => {
           <span>Proof of Reserve.</span>
         </p>
       </div>
-      <div className="gradient-blue-bg 2xl:max-w-screen-2xl max-w-[1200px] mx-auto rounded-3xl md:min-h-[200px] overflow-clip relative mt-36 mobile:my-10 mobile:max-w-[90%] mobile:overflow-hidden">
+      <div className="gradient-blue-bg large-screen:max-w-screen-[1100px] max-w-[1200px] mx-auto rounded-3xl md:min-h-[200px] overflow-clip relative mt-36 mobile:my-10 mobile:max-w-[90%] mobile:overflow-hidden">
         <div>
           <img
             src="/images/shapes/stacked-ellipse.png"
@@ -31,7 +31,7 @@ const HowToGet = () => {
           />
         </div>
         <div className="absolute flex flex-row  items-center justify-between w-full z-10 max-w-screen-lg mx-auto left-16 pt-16 mobile:flex mobile:flex-col mobile:items-center mobile:justify-center mobile:max-w-none mobile:w-full mobile:h-full mobile:p-0 mobile:left-0">
-          <div className="h-fit mid-screen:mr-5 mobile:mr-5">
+          <div className="h-fit large-screen:min-w-[70%]  mid-screen:mr-5 mobile:mr-5 ">
             <h1 className="text-white font-roboto text-4xl  mobile:text-xl">
               Collateralize, trade, lend, and self-custody
             </h1>
@@ -40,7 +40,7 @@ const HowToGet = () => {
             </p>
           </div>
           <div
-            className="pill-btn py-3 px-5 text-base  bg-white font-roboto tracking-wide font-500 text-blue-btn hover:ease-in duration-100 hover:scale-105"
+            className="pill-btn py-3 px-5 -mr-10 large-screen:-mr-16 text-base bg-white font-roboto tracking-wide font-500 text-blue-btn hover:ease-in duration-100 hover:scale-105"
             onClick={() => router.push("/gain-access")}
           >
             Acquire Real World Assets

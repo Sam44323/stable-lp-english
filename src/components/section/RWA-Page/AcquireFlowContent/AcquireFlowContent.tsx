@@ -10,7 +10,7 @@ const AcquireFlowContent = () => {
         src="/images/rwa-flow.png"
         className="max-w-screen-lg mx-auto mt-16 mobile:hidden -translate-y-48 mobile:translate-y-0"
         height={800}
-        width={1200}
+        width={9000}
         alt="redeem-flow"
       />
       <img
