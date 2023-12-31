@@ -11,9 +11,14 @@ const Hero = () => {
       <img
         src="/images/shapes/rwa-mesh-right.png"
         alt="solid-circle-blue"
-        className="absolute right-0 top-96 mobile:hidden"
+        className="absolute right-0 top-96 mobile:hidden large-screen:hidden"
       />
-      <div className="max-w-6xl mx-auto pt-48  mobile:text-center mobile:flex mobile:flex-col mobile:justify-center mobile:pt-20">
+      <div className="max-w-6xl mx-auto pt-48  large-screen:relative  mobile:text-center mobile:flex mobile:flex-col mobile:justify-center mobile:pt-20">
+        <img
+          src="/images/shapes/rwa-mesh-large-right.png"
+          alt="solid-circle-blue"
+          className="absolute -right-[400px]  mobile:hidden hidden large-screen:block"
+        />
         <h1 className="text-link-inactive text-[50px] max-w-3xl font-500 font-roboto leading-[1.4] m-0 mobile:text-lg mobile:text-center mobile:max-w-none mobile:mx-auto">
           Enter crypto with confidence and enjoy swift and secure tokenization
           of listed securities.
@@ -72,7 +77,7 @@ const Hero = () => {
           </div>
         ))}
       </div>
-      <div className="text-center max-w-[80%] mx-auto mt-36">
+      <div className="text-center max-w-[1195px] mx-auto mt-36">
         <h1 className="font-roboto text-3xl text-blue-text mobile:text-center mobile:text-xl">
           STABLEcoin Utilities
         </h1>
