@@ -2,7 +2,7 @@ import React from "react";
 
 const HaveMoreQuestions = () => {
   return (
-    <div className="gradient-blue-bg mb-36 2xl:max-w-screen-[1000px] max-w-[1150px] mx-auto rounded-3xl md:min-h-[250px] relative overflow-clip mobile:max-w-[1200px] mobile:mx-auto mobile:pb-10">
+    <div className="gradient-blue-bg mb-36  max-w-[1150px] large-screen::min-w-screen-[1250px] mx-auto rounded-3xl md:min-h-[250px] relative overflow-clip mobile:max-w-[1200px] mobile:mx-auto mobile:pb-10">
       <div>
         <img
           src="/images/shapes/stacked-ellipse.png"
